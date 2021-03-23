@@ -1,0 +1,162 @@
+﻿@model PortfolioVM
+<section id="breadcrumb">
+    <div class="page-name-wrapper" style="background-image: url(img/contact-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="page-name">
+                        <h1>Portfolio</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aside">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="d-flex justify-content-center">
+                        <li class="slash">
+                            <a href="">Ana səhifə</a>
+                        </li>
+                        <li>
+                            Portfolio
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio-page">
+    <div class="container">
+        @*<div class="row category-names">
+            <ul>
+                <li><a href="#" class="is-checked" data-filter="*">All</a></li>
+                <li><a href="#" data-filter=".category-1">Category 1</a></li>
+                <li><a href="#" data-filter=".category-2">Category 2</a></li>
+                <li><a href="#" data-filter=".category-3">Category 3</a></li>
+            </ul>
+        </div>*@
+        <div class="row category-names">
+            <ul>
+                <li><a href="#" class="is-checked" data-filter="*">All</a></li>
+                @foreach (var category in Model.projectCategories)
+                {
+                    <li><a href="#" data-filter=".category-@category.Id">@category.Name</a></li>
+                }
+            </ul>
+        </div>
+        <div class="row filtered-items">
+            @foreach (var project in Model.projects)
+            {
+                <div class="col-sm-6 col-lg-4 filter-item category-@project.PortfolioCategoryId" data-category="category-@project.PortfolioCategoryId">
+                    <div class="item">
+                        <a href="#">
+                            <div class="image-wrapper">
+                                <img src="img/@project.ImageUrl" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="text-wrapper">
+                                    <h1>@project.Name</h1>
+                                    <p>Daha ətraflı</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            }
+            @*<div class="col-sm-6 col-lg-4 filter-item category-1" data-category="category-1">
+            <div class="item">
+                <a href="#">
+                    <div class="image-wrapper">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <h1>Project name 1</h1>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 filter-item category-1" data-category="category-1">
+            <div class="item">
+                <a href="#">
+                    <div class="image-wrapper">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <h1>Project name 1</h1>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 filter-item category-2" data-category="category-2">
+            <div class="item">
+                <a href="#">
+                    <div class="image-wrapper">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <h1>Project name 2</h1>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 filter-item category-3" data-category="category-3">
+            <div class="item">
+                <a href="#">
+                    <div class="image-wrapper">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <h1>Project name 3</h1>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 filter-item category-3" data-category="category-3">
+            <div class="item">
+                <a href="#">
+                    <div class="image-wrapper">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <h1>Project name 3</h1>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 filter-item category-2" data-category="category-2">
+            <div class="item">
+                <a href="#">
+                    <div class="image-wrapper">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <h1>Project name 2</h1>
+                            <p>See more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>*@
+        </div>
+    </div>
+</section>

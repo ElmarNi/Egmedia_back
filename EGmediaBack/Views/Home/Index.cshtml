@@ -1,0 +1,309 @@
+﻿@model HomeVM
+<section id="slider">
+    <div class="two-side-wrapper">
+        <div class="slider-left-side-wrapper">
+            <div class="left-side">
+                <div class="owl-carousel owl-theme">
+                    @for (int i = 0; i < Model.sliders.Count(); i++)
+                    {
+                        <div class="slider-item" data-id="@(i+1)" style="background-image: url(img/@Model.sliders.ElementAt(i).ImageUrl);">
+                            <div class="content">
+                                <h1><span>@Model.sliders.ElementAt(i).Header_First_Word</span> @Model.sliders.ElementAt(i).Header_Second_Word</h1>
+                                <p>@Model.sliders.ElementAt(i).Content</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="slider-right-side-aside">
+            @for (int i = 0; i < Model.sliders.Count(); i++)
+            {
+                <div class="right-side-item" data-id="@(i+1)">
+                    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="">
+                    <p>@Model.sliders.ElementAt(i).Aside_Header</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section id="advantages">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <div class="item">
+                    <div class="icon-wrapper orange">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>A focused team with a specialized skill</h4>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="item">
+                    <div class="icon-wrapper purple">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>A focused team with a specialized skill</h4>
+                </div>
+            </div>
+            <div class="col-6 mt-3 mt-md-0 col-md-3">
+                <div class="item">
+                    <div class="icon-wrapper midnight">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>A focused team with a specialized skill</h4>
+                </div>
+            </div>
+            <div class="col-6 mt-3 mt-md-0 col-md-3">
+                <div class="item">
+                    <div class="icon-wrapper pink">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>A focused team with a specialized skill</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <div class="row heading">
+            <div class="col-12 text-center">
+                <h1>Xidmətlərimiz</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="prev">
+                    <span>PREV</span>
+                </div>
+                <div class="next">
+                    <span>NEXT</span>
+                </div>
+                <div class="slide-wrapper">
+                    <div class="slide active" data-id="1" style="background-image: url(img/service-1.jpg);">
+                        <a href="#">
+                            <div class="content">
+                                <h1>Service 1</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide" data-id="2" style="background-image: url(img/service-1.jpg);">
+                        <a href="#">
+                            <div class="content">
+                                <h1>Service 2</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide" data-id="3" style="background-image: url(img/service-1.jpg);">
+                        <a href="#">
+                            <div class="content">
+                                <h1>Service 3</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide" data-id="4" style="background-image: url(img/service-1.jpg);">
+                        <a href="#">
+                            <div class="content">
+                                <h1>Service 4</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide" data-id="5" style="background-image: url(img/service-1.jpg);">
+                        <a href="#">
+                            <div class="content">
+                                <h1>Service 5</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pagination"
+                     style="transform: translate(-50%, -50%) rotate(0deg); transition: transform 1000ms ease 0s;">
+                    <div class="item active" data-id="1">
+                        <div class="dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="item" data-id="2">
+                        <div class="dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="item" data-id="3">
+                        <div class="dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="item" data-id="4">
+                        <div class="dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="item" data-id="5">
+                        <div class="dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <div class="row heading">
+            <div class="col-12 text-center">
+                <h1>Son işlərimiz</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row m-0">
+            <div class="col-sm-6 p-0">
+                <div class="row m-0">
+                    <div class="col-12 p-0">
+                        <a href="">
+                            <div class="large-item item">
+                                <div class="image-wrapper">
+                                    <img src="img/portfolio-big.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="name">
+                                        Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 p-0">
+                        <a href="">
+                            <div class="small-item item">
+                                <div class="image-wrapper">
+                                    <img src="img/work-2.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="name">
+                                        Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 p-0">
+                        <a href="">
+                            <div class="small-item item">
+                                <div class="image-wrapper">
+                                    <img src="img/work-4.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="name">
+                                        Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 p-0">
+                <div class="row m-0">
+                    <div class="col-6 p-0">
+                        <a href="">
+                            <div class="small-item item">
+                                <div class="image-wrapper">
+                                    <img src="img/work-5.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="name">
+                                        Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 p-0">
+                        <a href="">
+                            <div class="small-item item">
+                                <div class="image-wrapper">
+                                    <img src="img/work-3.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="name">
+                                        Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 p-0">
+                        <a href="">
+                            <div class="large-item item">
+                                <div class="image-wrapper">
+                                    <img src="img/work-6.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="name">
+                                        Lorem ipsum
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="get-price-offer">
+    <div class="container">
+        <div class="row heading">
+            <div class="col-12 text-center">
+                <h1>Qiymət təklifi al</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form action="post">
+                    <div class="col-md-4 mt-3 mt-md-0">
+                        <input type="text" placeholder="Adınız, Soyadınız">
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-0">
+                        <input type="text" placeholder="Əlaqə nömrəniz">
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-0">
+                        <input type="text" placeholder="E-mailiniz">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <textarea name="" id="" cols="30" rows="7" placeholder="Mesajınız"></textarea>
+                    </div>
+                    <div class="col-12 text-right mt-3">
+                        <input type="submit" value="Sorğu göndər">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
