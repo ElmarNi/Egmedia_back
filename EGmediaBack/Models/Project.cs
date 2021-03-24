@@ -22,6 +22,11 @@ namespace EGmediaBack.Models
         [NotMapped]
         public IFormFile Image { get; set; }
 
+        public string Home_ImageUrl { get; set; }
+
+        [NotMapped]
+        public IFormFile Home_Image { get; set; }
+
         [Required]
         public int PortfolioCategoryId { get; set; }
 

@@ -19,5 +19,7 @@ namespace EGmediaBack.DAL
 
         public DbSet<Slider> sliders { get; set; }
 
+        public DbSet<Advantage> advantages { get; set; }
+
     }
 }

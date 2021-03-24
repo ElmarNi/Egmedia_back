@@ -4,14 +4,16 @@ using EGmediaBack.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
-    partial class EGmediaDbModelSnapshot : ModelSnapshot
+    [Migration("20210324093913_projects added home page image")]
+    partial class projectsaddedhomepageimage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,23 +33,6 @@ namespace EGmediaBack.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("about");
-                });
-
-            modelBuilder.Entity("EGmediaBack.Models.Advantage", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Content")
-                        .IsRequired();
-
-                    b.Property<string>("Icon")
-                        .IsRequired();
-
-                    b.HasKey("Id");
-
-                    b.ToTable("advantages");
                 });
 
             modelBuilder.Entity("EGmediaBack.Models.Project", b =>

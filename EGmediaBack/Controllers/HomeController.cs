@@ -20,7 +20,9 @@ namespace EGmediaBack.Controllers
         {
             HomeVM homeVM = new HomeVM
             {
-                sliders = _context.sliders.OrderByDescending(s => s.Date).Take(3)
+                sliders = _context.sliders.OrderByDescending(s => s.Date).Take(3),
+                projects = _context.projects.OrderByDescending(p => p.Date).Take(6),
+                advantages = _context.advantages.Take(4)
             };
             return View(homeVM);
         }
