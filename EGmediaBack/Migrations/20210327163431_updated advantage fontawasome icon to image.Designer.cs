@@ -4,14 +4,16 @@ using EGmediaBack.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
-    partial class EGmediaDbModelSnapshot : ModelSnapshot
+    [Migration("20210327163431_updated advantage fontawasome icon to image")]
+    partial class updatedadvantagefontawasomeicontoimage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

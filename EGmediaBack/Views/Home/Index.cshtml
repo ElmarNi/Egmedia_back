@@ -36,7 +36,7 @@
                 <div class="col-6 @(i > 1 ? "mt-3 mt-md-0" : "") col-md-3">
                     <div class="item">
                         <div class="icon-wrapper @(i == 0 ? "orange" : "") @(i == 1 ? "purple" : "") @(i == 2 ? "midnight" : "") @(i == 3 ? "pink" : "")">
-                            <i class="fas fa-code"></i>
+                            <img src="~/img/@Model.advantages.ElementAt(i).IconUrl" />
                         </div>
                         <h4>@Model.advantages.ElementAt(i).Content</h4>
                     </div>
