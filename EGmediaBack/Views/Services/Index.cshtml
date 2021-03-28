@@ -1,4 +1,5 @@
-﻿<section id="breadcrumb">
+﻿@model ServiceVM
+<section id="breadcrumb">
     <div class="page-name-wrapper" style="background-image: url(img/contact-bg.jpg);">
         <div class="container">
             <div class="row">
@@ -32,166 +33,50 @@
     <div class="container position-relative service-container">
         <div class="row category-names">
             <ul>
-                <li><a href="#" class="is-checked" data-id="1">Category 1</a></li>
-                <li><a href="#" data-id="2">Category 2</a></li>
-                @*<li><a href="#" data-id="3">Category 3</a></li>*@
+                @for (int i = 0; i < Model.serviceCategories.Count(); i++)
+                {
+                    <li><a href="#" class="@((i==0)?"is-checked":null)" data-id="@Model.serviceCategories.ElementAt(i).Id">@Model.serviceCategories.ElementAt(i).Name</a></li>
+                }
             </ul>
         </div>
-        <div class="row category-content active" data-id="1">
-            <div class="col-lg-1 col-md-2 col-3 pr-lg-0">
-                <button class="previous control-button mb-2">
-                    <i class="fas fa-chevron-up"></i>
-                </button>
-                <div class="gallery-wrapper">
-                    <div class="gallery">
-                        <div class="gallery-item" data-id="0">
-                            <img src="img/services-1-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item active" data-id="1">
-                            <img src="img/services-2-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="2">
-                            <img src="img/services-3-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="3">
-                            <img src="img/services-4-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="4">
-                            <img src="img/services-5-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="5">
-                            <img src="img/services-6-565x401.jpg" alt="">
+        @for (int i = 0; i < Model.services.Count(); i++)
+        {
+            <div class="row category-content @((i==0)?"active":null)" data-id="@Model.services.ElementAt(i).ServiceCategoryId">
+                <div class="col-lg-1 col-md-2 col-3 pr-lg-0">
+                    <button class="previous control-button mb-2">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            @for (int z = 0; z < Model.services.ElementAt(i).Images.Count(); z++)
+                            {
+                                <div class="gallery-item @((z==1)?"active":null)" data-id="@z">
+                                    <img src="img/@Model.services.ElementAt(i).Images.ElementAt(z).ImageUrl" alt="">
+                                </div>
+                            }
+
                         </div>
                     </div>
+                    <button class="next control-button mt-2 ">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
                 </div>
-                <button class="next control-button mt-2 ">
-                    <i class="fas fa-chevron-down"></i>
-                </button>
-            </div>
-            <div class="col-lg-6 col-md-10 col-9 pr-lg-0">
-                <div class="main-image">
-                    <img src="img/services-1-565x401.jpg" alt="">
-                    <img src="img/services-2-565x401.jpg" class="active" alt="">
-                    <img src="img/services-3-565x401.jpg" alt="">
-                    <img src="img/services-4-565x401.jpg" alt="">
-                    <img src="img/services-5-565x401.jpg" alt="">
-                    <img src="img/services-6-565x401.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 offset-lg-1 mt-3 mt-md-5 mt-lg-0">
-                <div class="content">
-                    <h1>Some Heading 1</h1>
-                    <p>
-                        Digital advertising services help media & entertainment companies address the profound evolution sweeping across the industry.
-                        We bring essential expertise, tools and services to help businesses transition to the new multimedia advertising model, while offering a complete suite of services across the spectrum of digital capabilities, in order to transform media.
-                    </p>
-                    <a href="">Lorem ipsum dolor sit</a>
-                </div>
-            </div>
-        </div>
-        <div class="row category-content" data-id="2">
-            <div class="col-lg-1 col-md-2 col-3 pr-lg-0">
-                <button class="previous control-button mb-2">
-                    <i class="fas fa-chevron-up"></i>
-                </button>
-                <div class="gallery-wrapper">
-                    <div class="gallery">
-                        <div class="gallery-item" data-id="0">
-                            <img src="img/services-1-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item active" data-id="1">
-                            <img src="img/services-2-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="2">
-                            <img src="img/services-3-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="3">
-                            <img src="img/services-4-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="4">
-                            <img src="img/services-5-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="5">
-                            <img src="img/services-6-565x401.jpg" alt="">
-                        </div>
+                <div class="col-lg-6 col-md-10 col-9 pr-lg-0">
+                    <div class="main-image">
+                        @for (int j = 0; j < Model.services.ElementAt(i).Images.Count(); j++)
+                        {
+                            <img src="img/@Model.services.ElementAt(i).Images.ElementAt(j).ImageUrl" class="@((j==1)?"active":null)" alt="">
+                        }
                     </div>
                 </div>
-                <button class="next control-button mt-2 ">
-                    <i class="fas fa-chevron-down"></i>
-                </button>
-            </div>
-            <div class="col-lg-6 col-md-10 col-9 pr-lg-0">
-                <div class="main-image">
-                    <img src="img/services-1-565x401.jpg" alt="">
-                    <img src="img/services-2-565x401.jpg" class="active" alt="">
-                    <img src="img/services-3-565x401.jpg" alt="">
-                    <img src="img/services-4-565x401.jpg" alt="">
-                    <img src="img/services-5-565x401.jpg" alt="">
-                    <img src="img/services-6-565x401.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 offset-lg-1 mt-3 mt-md-5 mt-lg-0">
-                <div class="content">
-                    <h1>Some Heading 2</h1>
-                    <p>
-                        Digital advertising services help media & entertainment companies address the profound evolution sweeping across the industry.
-                        We bring essential expertise, tools and services to help businesses transition to the new multimedia advertising model, while offering a complete suite of services across the spectrum of digital capabilities, in order to transform media.
-                    </p>
-                    <a href="">Lorem ipsum dolor sit</a>
-                </div>
-            </div>
-        </div>
-        @*<div class="row category-content" data-id="3">
-            <div class="col-lg-1 col-md-2 col-3 pr-lg-0">
-                <button class="previous control-button mb-2">
-                    <i class="fas fa-chevron-up"></i>
-                </button>
-                <div class="gallery-wrapper">
-                    <div class="gallery">
-                        <div class="gallery-item" data-id="0">
-                            <img src="img/services-1-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item active" data-id="1">
-                            <img src="img/services-2-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="2">
-                            <img src="img/services-3-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="3">
-                            <img src="img/services-4-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="4">
-                            <img src="img/services-5-565x401.jpg" alt="">
-                        </div>
-                        <div class="gallery-item" data-id="5">
-                            <img src="img/services-6-565x401.jpg" alt="">
-                        </div>
+                <div class="col-lg-4 col-12 offset-lg-1 mt-3 mt-md-5 mt-lg-0">
+                    <div class="content">
+                        <h1>@Model.services.ElementAt(i).Heading</h1>
+                        <p>@Model.services.ElementAt(i).Content</p>
+                        <a href="">Lorem ipsum dolor sit</a>
                     </div>
                 </div>
-                <button class="next control-button mt-2 ">
-                    <i class="fas fa-chevron-down"></i>
-                </button>
             </div>
-            <div class="col-lg-6 col-md-10 col-9 pr-lg-0">
-                <div class="main-image">
-                    <img src="img/services-1-565x401.jpg" alt="">
-                    <img src="img/services-2-565x401.jpg" class="active" alt="">
-                    <img src="img/services-3-565x401.jpg" alt="">
-                    <img src="img/services-4-565x401.jpg" alt="">
-                    <img src="img/services-5-565x401.jpg" alt="">
-                    <img src="img/services-6-565x401.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4 col-12 offset-lg-1 mt-3 mt-md-5 mt-lg-0">
-                <div class="content">
-                    <h1>Some Heading 3</h1>
-                    <p>
-                        Digital advertising services help media & entertainment companies address the profound evolution sweeping across the industry.
-                        We bring essential expertise, tools and services to help businesses transition to the new multimedia advertising model, while offering a complete suite of services across the spectrum of digital capabilities, in order to transform media.
-                    </p>
-                    <a href="">Lorem ipsum dolor sit</a>
-                </div>
-            </div>
-        </div>*@
+        }
     </div>
 </section>

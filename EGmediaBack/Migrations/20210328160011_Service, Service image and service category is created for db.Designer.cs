@@ -4,14 +4,16 @@ using EGmediaBack.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
-    partial class EGmediaDbModelSnapshot : ModelSnapshot
+    [Migration("20210328160011_Service, Service image and service category is created for db")]
+    partial class ServiceServiceimageandservicecategoryiscreatedfordb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -107,7 +109,7 @@ namespace EGmediaBack.Migrations
                     b.HasIndex("ServiceCategoryId")
                         .IsUnique();
 
-                    b.ToTable("services");
+                    b.ToTable("Services");
                 });
 
             modelBuilder.Entity("EGmediaBack.Models.ServiceCategory", b =>
@@ -121,7 +123,7 @@ namespace EGmediaBack.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("serviceCategories");
+                    b.ToTable("ServiceCategories");
                 });
 
             modelBuilder.Entity("EGmediaBack.Models.ServiceImage", b =>
@@ -138,7 +140,7 @@ namespace EGmediaBack.Migrations
 
                     b.HasIndex("ServiceId");
 
-                    b.ToTable("serviceImages");
+                    b.ToTable("ServiceImages");
                 });
 
             modelBuilder.Entity("EGmediaBack.Models.Slider", b =>

@@ -114,40 +114,30 @@ $(document).ready(function () {
         $( this ).addClass('is-checked');
     });
 
-    function SetServiceContainerHeight(isResized) {
+    function SetServiceContainerHeight() {
         if ($("#services-page .service-container .category-names").length != 0) {
-            let offset = 0
             if (window.innerWidth > 991) {
-                if (!isResized) {
-                    offset = 240
-                }
-                else{
-                    offset = -30
-                }
-                $("#services-page .service-container").height($("#services-page .service-container .category-names")[0].offsetHeight + $("#services-page .service-container .category-content.active")[0].offsetHeight - offset)
+                $("#services-page .service-container").height($("#services-page .service-container .category-content.active .main-image img").height() + 70)
             }
             else{
-                if (!isResized) {
-                    offset = 150
-                }
-                else{
-                    offset = -30
-                }
-                $("#services-page .service-container").height($("#services-page .service-container .category-names")[0].offsetHeight + $("#services-page .service-container .category-content.active")[0].offsetHeight - offset)
+                $("#services-page .service-container").height($("#services-page .service-container .category-content.active .col-lg-4 .content").height() + $("#services-page .service-container .category-content.active .main-image img").height() + 70)
             }
         }
     }
-    SetServiceContainerHeight(false)
+    SetServiceContainerHeight()
     $(window).resize(function () { 
         SetServiceContainerHeight(true)
     });
+
     let image_height = $("#services-page .active .gallery-item img").outerHeight()
 
     $(window).resize(function () { 
         image_height = $("#services-page .active .gallery-item img").outerHeight()
     });
+
     function Services_Page() {
         let gallery_wrappers = document.querySelectorAll('#services-page .gallery-wrapper')
+        let last_image_data_id = parseInt($("#services-page .row.active .gallery-wrapper .gallery-item").last().attr("data-id"))
         $("#services-page .row.active .gallery-wrapper .gallery-item").click(function () {
             //get clicked image src 
             let src = $(this).find("img").attr("src")
@@ -160,7 +150,7 @@ $(document).ready(function () {
 
             let data_id = parseInt($(this).attr("data-id"))
 
-            if (data_id != 5) {
+            if (data_id != last_image_data_id) {
                 $(gallery).css("transform", `translate3d(0px, -${(data_id-1) * image_height}px, 0px)`)
             }
             if (data_id == 0) {
@@ -169,7 +159,7 @@ $(document).ready(function () {
             else{
                 $("#services-page .row.active .previous.active").removeClass("active")
             }
-            if (data_id == 5) {
+            if (data_id == last_image_data_id) {
                 $("#services-page .row.active .next").addClass("active")
             }
             else{
@@ -212,18 +202,19 @@ $(document).ready(function () {
 
         Services_Page()
     })
-
+    
     $("#services-page .next").click(function(){
         $("#services-page .row.active .previous.active").removeClass("active")
+        let last_image_data_id = parseInt($("#services-page .row.active .gallery-wrapper .gallery-item").last().attr("data-id"))
         let data_id = parseInt($("#services-page .row.active .gallery-wrapper .gallery-item.active").attr("data-id"))
-        if (data_id < 4) {
+        if (data_id < last_image_data_id - 1) {
             $('#services-page .row.active .gallery-wrapper .gallery').css("transform", `translate3d(0px, -${(data_id) * image_height}px, 0px)`)
         }
-        if (data_id < 5) {
+        if (data_id < last_image_data_id) {
             $("#services-page .row.active .gallery-wrapper .gallery-item.active").removeClass("active").next().addClass("active")
             $(`#services-page .row.active .main-image img.active`).removeClass("active").next().addClass("active")
         }
-        if (data_id == 4) {
+        if (data_id == last_image_data_id - 1) {
             $(this).addClass("active")
         }
 

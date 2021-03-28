@@ -226,7 +226,7 @@ WriteAttributeValue(" ", 1669, i == 3 ? "pink" : "", 1670, 23, false);
             WriteLiteral(">\n                            ");
             EndContext();
             BeginContext(1724, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b12ead8327804a60b2f3de08e88f8739", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7b4f63ad761f4b17887c3e0e51417cfd", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -523,7 +523,7 @@ WriteAttributeValue("", 7507, Model.projects.ElementAt(i).Home_ImageUrl, 7507, 4
                 ");
             EndContext();
             BeginContext(8568, 841, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03e4c4bbb3f54159bc7795b6deeb54b5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21ea4c7f8f92464598a607aae2c283a4", async() => {
                 BeginContext(8588, 814, true);
                 WriteLiteral(@"
                     <div class=""col-md-4 mt-3 mt-md-0"">
