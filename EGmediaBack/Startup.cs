@@ -37,7 +37,7 @@ namespace EGmediaBack
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<EGmediaDb>(options =>
             {
-                options.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
+                options.UseSqlServer(_configuration["ConnectionStrings:Test"]);
             });
         }
 

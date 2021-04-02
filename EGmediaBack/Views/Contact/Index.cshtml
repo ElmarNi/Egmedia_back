@@ -1,4 +1,5 @@
-﻿<section id="breadcrumb">
+﻿@model ContactVM
+<section id="breadcrumb">
     <div class="page-name-wrapper" style="background-image: url(img/contact-bg.jpg);">
         <div class="container">
             <div class="row">
@@ -37,23 +38,31 @@
                         <h1>Mesajınızı gözləyirik</h1>
                     </div>
                 </div>
-                <form action="">
+                <form method="POST">
                     <div class="row">
+                        <div class="col-12 message @ViewBag.color">
+                            @ViewBag.message
+                        </div>
                         <div class="col-6 col-lg-5">
                             <div class="row m-0">
+                                <div class="col-12" asp-validation-summary="ModelOnly"></div>
                                 <div class="col-12 p-0 mb-3">
-                                    <input type="text" placeholder="Adınız, Soyadınız">
+                                    <span asp-validation-for="form.Fullname" class="validation-span"></span>
+                                    <input asp-for="form.Fullname" placeholder="Adınız, Soyadınız">
                                 </div>
                                 <div class="col-12 p-0 mb-3">
-                                    <input type="text" placeholder="Əlaqə nömrəniz">
+                                    <span asp-validation-for="form.PhoneNumber" class="validation-span"></span>
+                                    <input asp-for="form.PhoneNumber" placeholder="Əlaqə nömrəniz">
                                 </div>
                                 <div class="col-12 p-0">
-                                    <input type="text" placeholder="E-mailiniz">
+                                    <span asp-validation-for="form.Email" class="validation-span"></span>
+                                    <input asp-for="form.Email" placeholder="E-mailiniz">
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-lg-7">
-                            <textarea placeholder="Mesajınız"></textarea>
+                            <span asp-validation-for="form.Message" class="validation-span"></span>
+                            <textarea asp-for="form.Message" placeholder="Mesajınız"></textarea>
                         </div>
                         <div class="col-12 mt-3">
                             <input type="submit" value="Göndər">
@@ -83,3 +92,7 @@
         </div>
     </div>
 </section>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

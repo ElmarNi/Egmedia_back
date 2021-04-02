@@ -27,5 +27,7 @@ namespace EGmediaBack.DAL
 
         public DbSet<ServiceImage> serviceImages { get; set; }
 
+        public DbSet<ContactMessage> contactMessages { get; set; }
+
     }
 }
