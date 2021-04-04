@@ -561,17 +561,20 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   cursor: pointer;
   overflow: hidden;
 }
+#slider .slider-right-side-aside .right-side-item:last-child{
+    margin: 0;
+}
 #slider .slider-right-side-aside .right-side-item p {
-  margin: 0;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  transition: transform 0.35s, -webkit-transform 0.35s;
-  -webkit-transform: scale3d(0.9, 0.9, 0.9);
-          transform: scale3d(0.9, 0.9, 0.9);
-  font-size: 36px;
-  font-weight: bold;
-  padding-left: 70px;
+    margin: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 70px;
 }
 #slider .slider-right-side-aside .right-side-item img {
   position: absolute;
@@ -1264,15 +1267,15 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   padding-top: 60px;
 }
 #contact-page form input, #contact-page form textarea {
-  width: 100%;
-  outline: none;
-  padding: 14px 26px;
-  font-size: 14px;
-  color: #8491a5;
-  border-radius: 4px;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  border: 1px solid #ebebeb;
+    width: 100%;
+    outline: none;
+    padding: 9px 16px;
+    font-size: 14px;
+    color: #2c333d;
+    border-radius: 4px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: 1px solid #ebebeb;
 }
 #contact-page form input::-webkit-input-placeholder, #contact-page form textarea::-webkit-input-placeholder {
   color: #8491a5;
@@ -1366,6 +1369,10 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 }
 #contact-page .infos .info.mail a:last-child {
   margin-left: 56px;
+}
+#contact-page .message{
+    text-align: center;
+    font-weight: bold
 }
 
 #about-page {
@@ -1721,6 +1728,14 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 #services-page .category-content.active {
   opacity: 1;
   visibility: visible;
+}
+.validation-span {
+    color: #c52626;
+    font-size: 12px;
+    font-weight: bold;
+}
+#contact-page form textarea.input-validation-error {
+    height: calc(100% - 24px);
 }
 
 @media (max-width: 1229px) {

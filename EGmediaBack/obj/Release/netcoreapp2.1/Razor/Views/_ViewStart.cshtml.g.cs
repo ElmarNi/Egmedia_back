@@ -18,8 +18,18 @@ using EGmediaBack;
 
 #line default
 #line hidden
+#line 2 "C:\Users\User\Desktop\EGmediaBack\EGmediaBack\Views\_ViewImports.cshtml"
+using EGmediaBack.Models;
+
+#line default
+#line hidden
+#line 3 "C:\Users\User\Desktop\EGmediaBack\EGmediaBack\Views\_ViewImports.cshtml"
+using EGmediaBack.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"404b97bec2cda31a2576c18a10884146cb531587", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"36b4d0d1144ab4353627fe4dc794c8b22fe07b7f", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

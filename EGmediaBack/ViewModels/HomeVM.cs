@@ -13,5 +13,7 @@ namespace EGmediaBack.ViewModels
         public IEnumerable<Project> projects { get; set; }
 
         public IEnumerable<Advantage> advantages { get; set; }
+
+        public GetPriceOffer offer { get; set; }
     }
 }

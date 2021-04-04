@@ -29,5 +29,7 @@ namespace EGmediaBack.DAL
 
         public DbSet<ContactMessage> contactMessages { get; set; }
 
+        public DbSet<GetPriceOffer> offers { get; set; }
+
     }
 }

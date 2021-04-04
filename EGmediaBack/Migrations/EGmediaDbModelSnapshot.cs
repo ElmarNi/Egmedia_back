@@ -75,6 +75,33 @@ namespace EGmediaBack.Migrations
                     b.ToTable("contactMessages");
                 });
 
+            modelBuilder.Entity("EGmediaBack.Models.GetPriceOffer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Date");
+
+                    b.Property<string>("Email")
+                        .IsRequired();
+
+                    b.Property<string>("Fullname")
+                        .IsRequired();
+
+                    b.Property<bool>("IsResponsed");
+
+                    b.Property<string>("Message")
+                        .IsRequired();
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired();
+
+                    b.HasKey("Id");
+
+                    b.ToTable("offers");
+                });
+
             modelBuilder.Entity("EGmediaBack.Models.Project", b =>
                 {
                     b.Property<int>("Id")

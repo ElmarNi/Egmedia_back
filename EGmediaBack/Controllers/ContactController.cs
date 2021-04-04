@@ -53,7 +53,7 @@ namespace EGmediaBack.Controllers
             {
                 ViewBag.message = "Ooops! Nə isə yanlışdır. Zəhmət olmasa yenidən cəhd edin.";
                 ViewBag.color = "text-danger";
-                ModelState.AddModelError("form.PhoneNumber", "Nömrəniz düzgün deyil. Nömrəniz +944XXXXXXXXX formatında olmalıdır");
+                ModelState.AddModelError("form.PhoneNumber", "Nömrəniz düzgün daxil edilməmişdir. Nömrəniz +944XXXXXXXXX formatında olmalıdır");
                 return View(message);
             }
             if (message.form.Message == string.Empty || message.form.Message.Length == 0)
@@ -63,19 +63,7 @@ namespace EGmediaBack.Controllers
                 ModelState.AddModelError("form.Message", "Mesajınız düzgün deyil.");
                 return View(message);
             }
-            SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
-            {
-                EnableSsl = true,
-                UseDefaultCredentials = true,
-                Credentials = new NetworkCredential("egmedia0299@gmail.com", password)
-            };
-            MailMessage mail = new MailMessage("egmedia0299@gmail.com", "egmedia0299@gmail.com")
-            {
-                IsBodyHtml = true,
-                Subject = "Əlaqə formundan mesajınız var",
-                Body = $"<b>Ad, Soyad</b>: {message.form.Fullname} <hr> <b>Email</b>: <a href='mailto:{message.form.Email}'>{message.form.Email}</a> <hr> <b>Əlaqə nömrəsi</b>: <a href='tel:{message.form.PhoneNumber}'>{message.form.PhoneNumber}</a> <hr> <b>Mesaj</b>: {message.form.Message} <hr>  <b>Tarix</b>: {DateTime.Now}"
-            };
-            await client.SendMailAsync(mail);
+
             ContactMessage newMessage = new ContactMessage
             {
                 Date = DateTime.Now,

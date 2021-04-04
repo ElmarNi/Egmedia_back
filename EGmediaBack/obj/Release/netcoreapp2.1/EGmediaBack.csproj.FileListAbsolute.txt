@@ -33,3 +33,4 @@ C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaB
 C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.pdb
 C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.genruntimeconfig.cache
 C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.csproj.CopyComplete
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs

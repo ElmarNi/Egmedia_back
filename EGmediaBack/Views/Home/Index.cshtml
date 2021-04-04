@@ -6,24 +6,22 @@
                 <div class="owl-carousel owl-theme">
                     @for (int i = 0; i < Model.sliders.Count(); i++)
                     {
-                        <div class="slider-item" data-id="@(i+1)" style="background-image: url(img/@Model.sliders.ElementAt(i).ImageUrl);">
-                            <div class="content">
-                                <h1><span>@Model.sliders.ElementAt(i).Header_First_Word</span> @Model.sliders.ElementAt(i).Header_Second_Word</h1>
-                                <p>@Model.sliders.ElementAt(i).Content</p>
-                            </div>
-                        </div>
-                    }
+        <div class="slider-item" data-id="@(i+1)" style="background-image: url(img/@Model.sliders.ElementAt(i).ImageUrl);">
+            <div class="content">
+                <h1><span>@Model.sliders.ElementAt(i).Header_First_Word</span> @Model.sliders.ElementAt(i).Header_Second_Word</h1>
+                <p>@Model.sliders.ElementAt(i).Content</p>
+            </div>
+        </div>}
                 </div>
             </div>
         </div>
         <div class="slider-right-side-aside">
             @for (int i = 0; i < Model.sliders.Count(); i++)
             {
-                <div class="right-side-item" data-id="@(i+1)">
-                    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="">
-                    <p>@Model.sliders.ElementAt(i).Aside_Header</p>
-                </div>
-            }
+<div class="right-side-item" data-id="@(i+1)">
+    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="">
+    <p>@Model.sliders.ElementAt(i).Aside_Header</p>
+</div>            }
         </div>
     </div>
 </section>
@@ -33,15 +31,14 @@
         <div class="row">
             @for (int i = 0; i < Model.advantages.Count(); i++)
             {
-                <div class="col-6 @(i > 1 ? "mt-3 mt-md-0" : "") col-md-3">
-                    <div class="item">
-                        <div class="icon-wrapper @(i == 0 ? "orange" : "") @(i == 1 ? "purple" : "") @(i == 2 ? "midnight" : "") @(i == 3 ? "pink" : "")">
-                            <img src="~/img/@Model.advantages.ElementAt(i).IconUrl" />
-                        </div>
-                        <h4>@Model.advantages.ElementAt(i).Content</h4>
-                    </div>
-                </div>
-            }
+<div class="col-6 @(i > 1 ? "mt-3 mt-md-0" : "") col-md-3">
+    <div class="item">
+        <div class="icon-wrapper @(i == 0 ? "orange" : "") @(i == 1 ? "purple" : "") @(i == 2 ? "midnight" : "") @(i == 3 ? "pink" : "")">
+            <img src="~/img/@Model.advantages.ElementAt(i).IconUrl" />
+        </div>
+        <h4>@Model.advantages.ElementAt(i).Content</h4>
+    </div>
+</div>            }
         </div>
     </div>
 </section>
@@ -53,82 +50,214 @@
                 <h1>Xidmətlərimiz</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="prev">
-                    <span>PREV</span>
-                </div>
-                <div class="next">
-                    <span>NEXT</span>
-                </div>
-                <div class="slide-wrapper">
-                    <div class="slide active" data-id="1" style="background-image: url(img/service-1.jpg);">
-                        <a href="#">
-                            <div class="content">
-                                <h1>Service 1</h1>
+    </div>
+    <div class="circle--slider">
+        <div class="rotate--circle">
+            <ul class="circle--rotate" id="circle--rotate">
+                <li class="block">
+                    <div class="icon"><i class="fa fa-rocket"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-bolt"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-bell"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-cogs"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-desktop"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-paw"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-share-alt"></i><span> </span></div>
+                </li>
+                <li class="block">
+                    <div class="icon"><i class="fa fa-user"></i><span></span></div>
+                </li>
+            </ul>
+            <div class="animate-wrapper">
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1522307837370-cc113a36b784?ixlib=rb-0.3.5&amp;s=9a7336a358f84eccc3c50f9b754c4bae&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>Web Development</h4>
+                                </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="slide" data-id="2" style="background-image: url(img/service-1.jpg);">
-                        <a href="#">
-                            <div class="content">
-                                <h1>Service 2</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="slide" data-id="3" style="background-image: url(img/service-1.jpg);">
-                        <a href="#">
-                            <div class="content">
-                                <h1>Service 3</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="slide" data-id="4" style="background-image: url(img/service-1.jpg);">
-                        <a href="#">
-                            <div class="content">
-                                <h1>Service 4</h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="slide" data-id="5" style="background-image: url(img/service-1.jpg);">
-                        <a href="#">
-                            <div class="content">
-                                <h1>Service 5</h1>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
-                <div class="pagination"
-                     style="transform: translate(-50%, -50%) rotate(0deg); transition: transform 1000ms ease 0s;">
-                    <div class="item active" data-id="1">
-                        <div class="dot">
-                            <i class="fas fa-laptop-code"></i>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1513270291269-4d6aaa01438a?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=27becd681ba95716e4805189a42dfa40&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>Website desing</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item" data-id="2">
-                        <div class="dot">
-                            <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1523661149972-0becaca2016e?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=2e20e77ff6b4974f65605ad25ae34d92&amp;auto=format&amp;fit=crop&amp;w=614&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>PURE & SIMPLE</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item" data-id="3">
-                        <div class="dot">
-                            <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=d6cde8cc87fc2947163be362be137b3d&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>CROSS-BROWSER SUPPORT</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item" data-id="4">
-                        <div class="dot">
-                            <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1441123100240-f9f3f77ed41b?ixlib=rb-0.3.5&amp;s=f1b45a0ac914017737bf8c8de90e4e5e&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>HTML5 AND CSS3</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item" data-id="5">
-                        <div class="dot">
-                            <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1445404590072-16ef9c18bd83?ixlib=rb-0.3.5&amp;s=bb4dffe8becece98e5e9924c075b1344&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>E-commerce solutions</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1465145498025-928c7a71cab9?ixlib=rb-0.3.5&amp;s=d3021235201e8fcbd4f7ceafb043d572&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>VALID HTML & CSS</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate">
+                    <div class="animate-img">
+                        <div class="animate-img__in" data-image="https://images.unsplash.com/photo-1472663532343-11bf2c521ff9?ixlib=rb-0.3.5&amp;s=4e2ff4a11ae4b03f7736bc19fd7c16e4&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80">
+                            <div class="animate-more">
+                                <div class="animate-title">
+                                    <h4>Mobile Solutions</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="prev"><span>PREV</span></div>
+            <div class="next"><span>NEXT</span></div>
         </div>
     </div>
+
+
+
+    @*<div class="container">
+            <div class="row heading">
+                <div class="col-12 text-center">
+                    <h1>Xidmətlərimiz</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="prev">
+                        <span>PREV</span>
+                    </div>
+                    <div class="next">
+                        <span>NEXT</span>
+                    </div>
+                    <div class="slide-wrapper">
+                        <div class="slide active" data-id="1" style="background-image: url(img/service-1.jpg);">
+                            <a href="#">
+                                <div class="content">
+                                    <h1>Service 1</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide" data-id="2" style="background-image: url(img/service-1.jpg);">
+                            <a href="#">
+                                <div class="content">
+                                    <h1>Service 2</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide" data-id="3" style="background-image: url(img/service-1.jpg);">
+                            <a href="#">
+                                <div class="content">
+                                    <h1>Service 3</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide" data-id="4" style="background-image: url(img/service-1.jpg);">
+                            <a href="#">
+                                <div class="content">
+                                    <h1>Service 4</h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide" data-id="5" style="background-image: url(img/service-1.jpg);">
+                            <a href="#">
+                                <div class="content">
+                                    <h1>Service 5</h1>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pagination"
+                         style="transform: translate(-50%, -50%) rotate(0deg); transition: transform 1000ms ease 0s;">
+                        <div class="item active" data-id="1">
+                            <div class="dot">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="item" data-id="2">
+                            <div class="dot">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="item" data-id="3">
+                            <div class="dot">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="item" data-id="4">
+                            <div class="dot">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="item" data-id="5">
+                            <div class="dot">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
 </section>
 
 <section id="portfolio">
@@ -145,48 +274,46 @@
                 <div class="row m-0">
                     @for (int i = 0; i < 3; i++)
                     {
-                        <div class="@(i == 0 ? "col-12" : "col-6") p-0">
-                            <a href="">
-                                <div class="@(i == 0 ? "large-item" : "small-item") item">
-                                    <div class="image-wrapper">
-                                        <img src="img/@Model.projects.ElementAt(i).Home_ImageUrl" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-arrow-right"></i>
-                                        </div>
-                                        <div class="name">
-                                            @Model.projects.ElementAt(i).Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+        <div class="@(i == 0 ? "col-12" : "col-6") p-0">
+            <a href="">
+                <div class="@(i == 0 ? "large-item" : "small-item") item">
+                    <div class="image-wrapper">
+                        <img src="img/@Model.projects.ElementAt(i).Home_ImageUrl" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fas fa-arrow-right"></i>
                         </div>
-                    }
+                        <div class="name">
+                            @Model.projects.ElementAt(i).Name
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>}
                 </div>
             </div>
             <div class="col-sm-6 p-0">
                 <div class="row m-0">
                     @for (int i = 3; i < Model.projects.Count(); i++)
                     {
-                        <div class="@(i == Model.projects.Count()-1 ? "col-12" : "col-6") p-0">
-                            <a href="">
-                                <div class="@(i == Model.projects.Count()-1 ? "large-item" : "small-item") item">
-                                    <div class="image-wrapper">
-                                        <img src="img/@Model.projects.ElementAt(i).Home_ImageUrl" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <div class="icon">
-                                            <i class="fas fa-arrow-right"></i>
-                                        </div>
-                                        <div class="name">
-                                            @Model.projects.ElementAt(i).Name
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+        <div class="@(i == Model.projects.Count()-1 ? "col-12" : "col-6") p-0">
+            <a href="">
+                <div class="@(i == Model.projects.Count()-1 ? "large-item" : "small-item") item">
+                    <div class="image-wrapper">
+                        <img src="img/@Model.projects.ElementAt(i).Home_ImageUrl" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fas fa-arrow-right"></i>
                         </div>
-                    }
+                        <div class="name">
+                            @Model.projects.ElementAt(i).Name
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>}
                 </div>
             </div>
         </div>
@@ -203,21 +330,23 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <form action="post">
+                <form method="post">
+                    <div class="col-12 validation-div"></div>
                     <div class="col-md-4 mt-3 mt-md-0">
-                        <input type="text" placeholder="Adınız, Soyadınız">
+                        <input asp-for="offer.Fullname" placeholder="Adınız, Soyadınız">
                     </div>
                     <div class="col-md-4 mt-3 mt-md-0">
-                        <input type="text" placeholder="Əlaqə nömrəniz">
+                        <input asp-for="offer.PhoneNumber" placeholder="Əlaqə nömrəniz">
                     </div>
                     <div class="col-md-4 mt-3 mt-md-0">
-                        <input type="text" placeholder="E-mailiniz">
+                        <input asp-for="offer.Email" placeholder="E-mailiniz">
                     </div>
                     <div class="col-md-12 mt-3">
-                        <textarea name="" id="" cols="30" rows="7" placeholder="Mesajınız"></textarea>
+                        <textarea asp-for="offer.Message" placeholder="Mesajınız"></textarea>
                     </div>
                     <div class="col-12 text-right mt-3">
-                        <input type="submit" value="Sorğu göndər">
+                        @*<a href="" id="get-price-offer-submit">GONDER</a>*@
+                        <input type="submit" id="get-price-offer-submit" value="Sorğu göndər">
                     </div>
                 </form>
             </div>

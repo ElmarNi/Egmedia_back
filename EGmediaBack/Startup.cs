@@ -37,8 +37,12 @@ namespace EGmediaBack
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<EGmediaDb>(options =>
             {
-                options.UseSqlServer(_configuration["ConnectionStrings:Test"]);
+                options.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
             });
+            //services.AddDbContext<EGmediaDb>(options =>
+            //{
+            //    options.UseSqlServer(_configuration["ConnectionStrings:Test"]);
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

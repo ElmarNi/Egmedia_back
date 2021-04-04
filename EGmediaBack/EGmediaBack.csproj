@@ -10,6 +10,8 @@
     <Compile Remove="Migrations\20210323141423_Added Portfolio and Portfolio Categories.Designer.cs" />
     <Compile Remove="Migrations\20210328161122_services all 3 tables name changed.cs" />
     <Compile Remove="Migrations\20210328161122_services all 3 tables name changed.Designer.cs" />
+    <Compile Remove="Migrations\20210403100413_get price offer added.cs" />
+    <Compile Remove="Migrations\20210403100413_get price offer added.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
