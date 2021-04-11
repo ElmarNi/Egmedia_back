@@ -611,11 +611,11 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
 #services .row.heading h1 {
   margin-bottom: 70px;
 }
-#services .slide-wrapper {
+/*#services .slide-wrapper {
   position: relative;
   height: 400px;
-}
-#services .slide-wrapper .slide {
+}*/
+/*#services .slide-wrapper .slide {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -631,8 +631,8 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   opacity: 0;
   visibility: hidden;
   z-index: 1;
-}
-#services .slide-wrapper .slide::before {
+}*/
+/*#services .slide-wrapper .slide::before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -642,13 +642,13 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   background-color: #0000004d;
   border-radius: 100%;
   z-index: -1;
-}
-#services .slide-wrapper .slide a {
+}*/
+/*#services .slide-wrapper .slide a {
   display: block;
   width: 400px;
   height: 400px;
-}
-#services .slide-wrapper .slide a .content {
+}*/
+/*#services .slide-wrapper .slide a .content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -657,8 +657,8 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   width: 100%;
   -webkit-transition: all .5s .4s;
   transition: all .5s .4s;
-}
-#services .slide-wrapper .slide a .content h1 {
+}*/
+/*#services .slide-wrapper .slide a .content h1 {
   margin: 0;
   text-align: center;
   font-size: 50px;
@@ -679,7 +679,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
 #services .slide-wrapper .slide.active a .content {
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-}
+}*/
 #services .prev, #services .next {
   position: absolute;
   top: 0;
@@ -717,7 +717,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
 #services .next {
   right: 20px;
 }
-#services .pagination {
+/*#services .pagination {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -811,7 +811,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   opacity: 0.6;
   -webkit-transform: rotate(0);
           transform: rotate(0);
-}
+}*/
 
 #portfolio .item {
   overflow: hidden;
@@ -1797,11 +1797,14 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     margin: -5% auto;
     transition: all 500ms ease;
     box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle--rotate > li i {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 18px;
     margin: auto;
     cursor: pointer;
     width: 100%;
@@ -1816,6 +1819,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 
 .circle--rotate > li img {
     margin: auto;
+    width: 26px;
 }
 
 .circle--slider {
@@ -1829,7 +1833,11 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 .circle--slider .circle--rotate > li div {
     position: relative;
     overflow: visible;
-    background-color: #1F2845;
+    background-color: #7b1469;
+    transition: all .3s ease;
+}
+.circle--slider .circle--rotate > li div:hover {
+    background-color: #cb21ad;
 }
 
 .circle--slider .circle--rotate > li div span {
@@ -1840,7 +1848,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 
 .circle--slider .circle--rotate > li.active div {
     font-size: 20px;
-    background-color: #654BE4;
+    background-color: #cb21ad;
     transition: all 1s;
 }
 
@@ -2069,8 +2077,8 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 }
 
 .circle--slider .animate-wrapper {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
     position: absolute;
     top: 0;
     left: 0;
@@ -2090,12 +2098,19 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     border-radius: 50%;
     overflow: hidden;
 }
+.animate-img h4{
+    transition: all .3s ease;
+}
+.animate-img:hover h4 {
+    color: #f5874f
+}
 
 .circle--slider .animate-img .animate-img__in {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
+    visibility: hidden;
     right: 0;
     margin: auto;
     border-radius: 50%;
@@ -2108,7 +2123,9 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     opacity: 0;
     background-size: cover;
     box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.3);
-    }
+    background-color: #0000004d;
+    background-blend-mode: overlay;
+}
 
 .circle--slider .animate-more {
     opacity: 0;
@@ -2137,6 +2154,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 
 .circle--slider .animate.active .animate-img .animate-img__in {
     opacity: 1;
+    visibility: visible;
     transform: scale(1);
 }
 
@@ -2203,9 +2221,16 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   }
 }
 @media (max-width: 991px) {
-  #services-page .service-container {
+.circle--rotate > li img{
+    width: 20px
+}
+.circle--rotate > li .icon{
+    width: 11%;
+    height: 11%;
+}
+#services-page .service-container {
     height: 655px;
-  }
+}
 
   #services-page .category-content .content p {
     margin-top: 0;
@@ -2283,17 +2308,28 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     display: none;
   }
 
-  #services .prev, #services .next {
+  /*#services .prev, #services .next {
     display: none;
+  }*/
+
+  .circle--slider .animate-wrapper{
+      width: 50%;
+      height: 50%;
   }
-  #services .pagination {
+
+  .circle--rotate{
+      width: 73%;
+      height: 73%;
+  }
+
+ /* #services .pagination {
     height: 480px;
     width: 480px;
   }
   #services .slide-wrapper .slide a {
     width: 350px;
     height: 350px;
-  }
+  }*/
   #services .row.heading h1 {
     margin-bottom: 90px;
   }
@@ -2401,6 +2437,10 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   }
 }
 @media (max-width: 576px) {
+
+  #services .prev, #services .next {
+    display: none;
+  }
   #portfolio-page .item {
     margin-top: 15px;
   }
@@ -2472,8 +2512,23 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   }
 
   #services .row.heading h1 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
+
+  .circle--slider .animate-title h4{
+      margin: 0;
+      font-size: 18px;
+  }
+
+    .circle--slider .animate-more{
+        height: 45px;
+    }
+
+    .circle--rotate > li .icon {
+        width: 16%;
+        height: 16%;
+        margin: -8% auto;
+    }
 
   footer .top .menu ul li a {
     font-size: 13px;

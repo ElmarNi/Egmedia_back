@@ -15,5 +15,7 @@ namespace EGmediaBack.ViewModels
         public IEnumerable<Advantage> advantages { get; set; }
 
         public GetPriceOffer offer { get; set; }
+
+        public IEnumerable<ServiceCategory> serviceCategories { get; set; }
     }
 }

@@ -4,14 +4,16 @@ using EGmediaBack.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
-    partial class EGmediaDbModelSnapshot : ModelSnapshot
+    [Migration("20210411195347_Added image to service categories")]
+    partial class Addedimagetoservicecategories
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -167,8 +169,6 @@ namespace EGmediaBack.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("IconUrl");
 
                     b.Property<string>("ImageUrl");
 

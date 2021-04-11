@@ -22,7 +22,8 @@ namespace EGmediaBack.Controllers
             {
                 sliders = _context.sliders.OrderByDescending(s => s.Date).Take(3),
                 projects = _context.projects.OrderByDescending(p => p.Date).Take(6),
-                advantages = _context.advantages.Take(4)
+                advantages = _context.advantages.Take(4),
+                serviceCategories = _context.serviceCategories
             };
             return View(homeVM);
         }
