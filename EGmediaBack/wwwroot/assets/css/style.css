@@ -1268,7 +1268,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 #contact-page {
   padding-top: 60px;
 }
-#contact-page form input, #contact-page form textarea {
+#contact-page form input, #contact-page form textarea, #admin_login input {
     width: 100%;
     outline: none;
     padding: 9px 16px;
@@ -1279,35 +1279,41 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     transition: .3s ease-in-out;
     border: 1px solid #ebebeb;
 }
-#contact-page form input::-webkit-input-placeholder, #contact-page form textarea::-webkit-input-placeholder {
+#contact-page form input::-webkit-input-placeholder, #contact-page form textarea::-webkit-input-placeholder, #admin_login form input::-webkit-input-placeholder {
+    color: #8491a5;
+}
+#contact-page form input:-ms-input-placeholder, #contact-page form textarea:-ms-input-placeholder, #admin_login form input:-ms-input-placeholder {
+    color: #8491a5;
+}
+#contact-page form input::-ms-input-placeholder, #contact-page form textarea::-ms-input-placeholder, #admin_login input::-ms-input-placeholder {
   color: #8491a5;
 }
-#contact-page form input:-ms-input-placeholder, #contact-page form textarea:-ms-input-placeholder {
+#contact-page form input::placeholder, #contact-page form textarea::placeholder, #admin_login input::placeholder {
   color: #8491a5;
 }
-#contact-page form input::-ms-input-placeholder, #contact-page form textarea::-ms-input-placeholder {
-  color: #8491a5;
-}
-#contact-page form input::placeholder, #contact-page form textarea::placeholder {
-  color: #8491a5;
-}
-#contact-page form input:hover, #contact-page form textarea:hover {
+#contact-page form input:hover, #contact-page form textarea:hover, #admin_login input:hover {
   border-color: #a53692;
 }
-#contact-page form input:focus, #contact-page form textarea:focus {
+#contact-page form input:focus, #contact-page form textarea:focus, #admin_login input:focus {
   border-color: #a53692;
 }
 #contact-page form textarea {
   height: 100%;
 }
-#contact-page form input[type="submit"] {
+#contact-page form input[type="submit"], #admin_login input[type="submit"] {
   background-color: rgba(165, 54, 146, 0.85);
   color: white;
   border: none;
   cursor: pointer;
 }
-#contact-page form input[type="submit"]:hover {
-  background-color: #a53692;
+#contact-page form input[type="submit"]:hover, #admin_login form input[type="submit"]:hover {
+    background-color: #a53692;
+}
+#admin_login {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 #contact-page .heading h1 {
   font-size: 26px;
@@ -2215,6 +2221,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     padding-bottom: 0;
   }
 }
+
 @media (max-width: 1200px) {
   #contact-page .infos {
     left: 15px;

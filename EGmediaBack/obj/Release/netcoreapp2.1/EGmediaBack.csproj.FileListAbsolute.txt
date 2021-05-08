@@ -34,3 +34,9 @@ C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaB
 C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.genruntimeconfig.cache
 C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.csproj.CopyComplete
 C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Login\Index.cshtml.g.cs
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\_ViewStart.cshtml.g.cs

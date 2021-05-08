@@ -1,4 +1,5 @@
 ﻿using EGmediaBack.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EGmediaBack.DAL
 {
-    public class EGmediaDb : DbContext
+    public class EGmediaDb : IdentityDbContext
     {
         public EGmediaDb(DbContextOptions<EGmediaDb> options) : base(options) { }
 

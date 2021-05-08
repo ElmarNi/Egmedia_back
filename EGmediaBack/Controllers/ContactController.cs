@@ -16,12 +16,12 @@ namespace EGmediaBack.Controllers
     public class ContactController : Controller
     {
         private readonly EGmediaDb _context;
-        private readonly IConfiguration _configuration;
+        //private readonly IConfiguration _configuration;
 
-        public ContactController(EGmediaDb context, IConfiguration configuration)
+        public ContactController(EGmediaDb context)
         {
             _context = context;
-            _configuration = configuration;
+            //_configuration = configuration;
         }
         public IActionResult Index()
         {
@@ -34,7 +34,7 @@ namespace EGmediaBack.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(ContactVM message)
         {
-            var password = _configuration.GetValue<string>("Passwords:SenderEmailPassword");
+            //var password = _configuration.GetValue<string>("Passwords:SenderEmailPassword");
 
             if (message == null || !ModelState.IsValid)
             {
@@ -70,16 +70,17 @@ namespace EGmediaBack.Controllers
                 Fullname = message.form.Fullname,
                 PhoneNumber = message.form.PhoneNumber,
                 Email = message.form.Email,
-                Message = message.form.Message
+                Message = message.form.Message,
+                IsResponsed = false
             };
             await _context.contactMessages.AddAsync(newMessage);
             await _context.SaveChangesAsync();
             ViewBag.message = "Mesajınız göndərilmişdir. Ən qısa zamanda geri dönüş edəcəyimizdən əmin ola bilərisniz.";
             ViewBag.color = "text-success";
-            message.form.Fullname = "";
-            message.form.PhoneNumber = "";
-            message.form.Email = "";
-            message.form.Message = "";
+            //message.form.Fullname = "";
+            //message.form.PhoneNumber = "";
+            //message.form.Email = "";
+            //message.form.Message = "";
 
             return View(message);
         }

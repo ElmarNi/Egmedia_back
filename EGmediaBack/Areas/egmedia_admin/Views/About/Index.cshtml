@@ -1,0 +1,27 @@
+﻿@model About
+<section id="admin_about">
+    <div class="container pt-5 mt-5">
+        <div class="row">
+            <div class="col-12 text-success text-center">
+                <h3>@ViewBag.Success</h3>
+            </div>
+        </div>
+        <form method="post" class="row w-100">
+            <div class="col-12" asp-validation-summary="ModelOnly"></div>
+            <div class="col-12 mb-3">
+                <span asp-validation-for="Content" class="validation-span"></span>
+                <textarea asp-for="Content" id="editor"></textarea>
+            </div>
+            <div class="col-12">
+                <input type="submit" class="admin_btn" value="Yadda saxla" />
+            </div>
+        </form>
+    </div>
+
+</section>
+@section Scripts{
+    <script src="~/ckeditor_4.16.0_full/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace("editor")
+    </script>
+}

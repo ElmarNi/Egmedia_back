@@ -1,0 +1,66 @@
+﻿@model AdminLogin
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="~/lib/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/lib/css/owl.theme.default.min.css">
+
+    <!-- Font awasome -->
+    <script src="https://kit.fontawesome.com/73bdb97465.js" crossorigin="anonymous"></script>
+
+    <!-- TT Firs font -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,600&display=swap"
+          rel="stylesheet">
+
+    <!-- Mine css -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <title>Egmedia - Saytların hazırlanması</title>
+</head>
+
+<body class="h-100">
+    <section id="admin_login">
+        <div class="container">
+            <div class="row heading">
+                <div class="col-12 text-center">
+                    <h1>Salam Elmar, Gülşad, Rəşid !</h1>
+                </div>
+            </div>
+            <form method="POST">
+                <div class="row justify-content-center">
+                    <div class="col-12 validation-div" asp-validation-summary="ModelOnly"></div>
+                    <div class="col-7 mb-3 text-center">
+                        <span asp-validation-for="Username" class="validation-span"></span>
+                        <input asp-for="Username" placeholder="İstifadəçi adı">
+                    </div>
+                    <div class="col-7 mb-3 text-center">
+                        <span asp-validation-for="Password" class="validation-span"></span>
+                        <input asp-for="Password" placeholder="Şifrə">
+                    </div>
+                    <div class="col-7 mt-3">
+                        <input type="submit" value="Göndər">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <script src="~/lib/js/jquery-3.2.1.min.js"></script>
+    <script src="~/lib/js/popper.min.js"></script>
+    <script src="~/lib/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+</body>
+</html>

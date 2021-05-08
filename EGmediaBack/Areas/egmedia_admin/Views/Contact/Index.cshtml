@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ContactMessage>
+<section id="contact_admin">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tam adı</th>
+                                <th scope="col">Emaİl</th>
+                                <th scope="col">Telefon nömrəsİ</th>
+                                <th scope="col">Mesaj</th>
+                                <th scope="col">Tarİx</th>
+                                <th scope="col">Cavablandırlıbmı?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var message in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@message.Fullname</th>
+                                    <td>@message.Email</td>
+                                    <td>@message.PhoneNumber</td>
+                                    <td>@message.Message</td>
+                                    <td>@message.Date.ToString("dd/MM/yyyy")</td>
+                                    <td>@(@message.IsResponsed ? "Hə" : "Yox")</td>
+                                    <td class="text-right"><a class="btn bg-warning btn-warning text-white open-modal" data-toggle="modal" data-target="#exampleModalCenter" data-id="@message.Id"data-email="@message.Email">Cavabla</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="transform: translate(0, 0)" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="font-weight: bold" id="exampleModalLongTitle">Mesajınızı yazın</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span class="validation-span" style="font-size: 16px"></span>
+                    <textarea name="message" id="message" rows="10" class="w-100" style="outline: none"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Bağla</button>
+                    <button type="button" class="btn btn-primary" id="send_message_to_client">Göndər</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

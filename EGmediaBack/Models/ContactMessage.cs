@@ -23,5 +23,7 @@ namespace EGmediaBack.Models
         public string Message { get; set; }
 
         public DateTime Date { get; set; }
+
+        public bool IsResponsed { get; set; }
     }
 }
