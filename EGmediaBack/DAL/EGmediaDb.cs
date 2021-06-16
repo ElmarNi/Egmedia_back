@@ -22,8 +22,6 @@ namespace EGmediaBack.DAL
 
         public DbSet<Advantage> advantages { get; set; }
 
-        public DbSet<ServiceCategory> serviceCategories { get; set; }
-
         public DbSet<Service> services { get; set; }
 
         public DbSet<ServiceImage> serviceImages { get; set; }

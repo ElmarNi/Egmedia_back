@@ -53,24 +53,12 @@ namespace EGmediaBack.Controllers
                 await _userManager.CreateAsync(newuser);
                 await _userManager.AddToRoleAsync(newuser, "admin");
             }
-            //var encrypted_password = EncryptString(password, key);
-            //var user = _context.Users.Where(u => u.Username == username).FirstOrDefault();
-            //if (user == null)
-            //{
-            //    AppUser new_user = new AppUser
-            //    {
-            //        Username = username,
-            //        Password = encrypted_password
-            //    };
-            //    await _context.Users.AddAsync(new_user);
-            //    await _context.SaveChangesAsync();
-            //}
             HomeVM homeVM = new HomeVM
             {
                 sliders = _context.sliders.OrderByDescending(s => s.Date).Take(3),
-                projects = _context.projects.OrderByDescending(p => p.Date).Take(6),
+                projects = _context.projects.Where(p => p.Status && p.ProjectCategory.Status && p.ShowInHome).OrderByDescending(p => p.Date).Take(6),
                 advantages = _context.advantages.Take(4),
-                serviceCategories = _context.serviceCategories
+                services = _context.services.Where(s => s.Status)
             };
             return View(homeVM);
         }

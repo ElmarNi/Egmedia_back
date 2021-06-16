@@ -1,0 +1,28 @@
+﻿@model ProjectCategory
+<section id="p_category_create">
+    <div class="container mt-5">
+        <div class="row mb-3">
+            <div class="col-12">
+                <a class="btn d-block bg-secondary text-white" asp-action="categories">Kateqoriyalara qayıt</a>
+            </div>
+        </div>
+        <form method="post" class="row">
+            <div class="col-12 mb-3" asp-validation-summary="ModelOnly"></div>
+            <div class="col-6">
+                <label>Adı</label>
+                <input asp-for="Name" class="w-100" />
+                <span asp-validation-for="Name" class="validation-span"></span>
+            </div>
+            <div class="col-6 text-center">
+                <label>Status</label>
+                <input asp-for="Status" class="w-100" />
+            </div>
+            <div class="col-12 text-center mt-3">
+                <input type="submit" value="Yadda saxla" class="btn btn-success bg-success text-white" />
+            </div>
+        </form>
+    </div>
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

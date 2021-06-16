@@ -21,10 +21,10 @@ namespace EGmediaBack.Controllers
 
             ServiceVM vm = new ServiceVM
             {
-                serviceCategories = _context.serviceCategories.ToList(),
-                services = _context.services.Include(s => s.Images)
+                //serviceCategories = _context.serviceCategories.Where(c => c.Status).ToList(),
+                //services = _context.services.Include(s => s.Images).Where(s => s.ServiceCategory.Status)
             };
-            return View(vm);
+            return View(_context.services.Include(s => s.Images).Where(s => s.Status));
         }
     }
 }

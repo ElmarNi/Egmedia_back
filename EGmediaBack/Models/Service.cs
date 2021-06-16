@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,10 +19,23 @@ namespace EGmediaBack.Models
         public string Content { get; set; }
 
         [Required]
-        public int ServiceCategoryId { get; set; }
+        public string CategoryName { get; set; }
 
-        public virtual ServiceCategory ServiceCategory { get; set; }
+        public string CategoryImageUrl { get; set; }
 
-        public ICollection<ServiceImage> Images { get; set; }
+        [NotMapped]
+        public IFormFile CategoryImage { get; set; }
+
+        public string CategoryIconUrl { get; set; }
+
+        [NotMapped]
+        public IFormFile CategoryIcon { get; set; }
+
+        public virtual ICollection<ServiceImage> Images { get; set; }
+
+        [NotMapped]
+        public ICollection<IFormFile> DetailPhotos { get; set; }
+
+        public bool Status { get; set; }
     }
 }

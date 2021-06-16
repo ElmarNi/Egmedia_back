@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj": {}
+    "C:\\Users\\User\\Desktop\\Egmedia website\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj": {
+    "C:\\Users\\User\\Desktop\\Egmedia website\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Egmedia website\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj",
         "projectName": "EGmediaBack",
-        "projectPath": "C:\\Users\\User\\Desktop\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Egmedia website\\EGmediaBack\\EGmediaBack\\EGmediaBack.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\EGmediaBack\\EGmediaBack\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Egmedia website\\EGmediaBack\\EGmediaBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,6 +32,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +44,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -109,7 +112,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,6 +16,6 @@ namespace EGmediaBack.ViewModels
 
         public GetPriceOffer offer { get; set; }
 
-        public IEnumerable<ServiceCategory> serviceCategories { get; set; }
+        public IEnumerable<Service> services { get; set; }
     }
 }

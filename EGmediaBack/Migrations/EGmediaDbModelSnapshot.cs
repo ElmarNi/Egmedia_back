@@ -119,11 +119,15 @@ namespace EGmediaBack.Migrations
                     b.Property<string>("Name")
                         .IsRequired();
 
-                    b.Property<int>("PortfolioCategoryId");
+                    b.Property<int>("ProjectCategoryId");
+
+                    b.Property<bool>("ShowInHome");
+
+                    b.Property<bool>("Status");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PortfolioCategoryId");
+                    b.HasIndex("ProjectCategoryId");
 
                     b.ToTable("projects");
                 });
@@ -137,6 +141,8 @@ namespace EGmediaBack.Migrations
                     b.Property<string>("Name")
                         .IsRequired();
 
+                    b.Property<bool>("Status");
+
                     b.HasKey("Id");
 
                     b.ToTable("projectCategories");
@@ -148,38 +154,24 @@ namespace EGmediaBack.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("CategoryIconUrl");
+
+                    b.Property<string>("CategoryImageUrl");
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired();
+
                     b.Property<string>("Content")
                         .IsRequired();
 
                     b.Property<string>("Heading")
                         .IsRequired();
 
-                    b.Property<int>("ServiceCategoryId");
+                    b.Property<bool>("Status");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ServiceCategoryId")
-                        .IsUnique();
 
                     b.ToTable("services");
-                });
-
-            modelBuilder.Entity("EGmediaBack.Models.ServiceCategory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("IconUrl");
-
-                    b.Property<string>("ImageUrl");
-
-                    b.Property<string>("Name")
-                        .IsRequired();
-
-                    b.HasKey("Id");
-
-                    b.ToTable("serviceCategories");
                 });
 
             modelBuilder.Entity("EGmediaBack.Models.ServiceImage", b =>
@@ -391,17 +383,9 @@ namespace EGmediaBack.Migrations
 
             modelBuilder.Entity("EGmediaBack.Models.Project", b =>
                 {
-                    b.HasOne("EGmediaBack.Models.ProjectCategory", "PortfolioCategory")
-                        .WithMany("Porfolios")
-                        .HasForeignKey("PortfolioCategoryId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("EGmediaBack.Models.Service", b =>
-                {
-                    b.HasOne("EGmediaBack.Models.ServiceCategory", "ServiceCategory")
-                        .WithOne("Service")
-                        .HasForeignKey("EGmediaBack.Models.Service", "ServiceCategoryId")
+                    b.HasOne("EGmediaBack.Models.ProjectCategory", "ProjectCategory")
+                        .WithMany("Projects")
+                        .HasForeignKey("ProjectCategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

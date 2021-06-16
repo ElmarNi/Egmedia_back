@@ -12,7 +12,7 @@ namespace EGmediaBack.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Layihənin adını qeyd edin")]
         public string Name { get; set; }
 
         public DateTime Date { get; set; }
@@ -27,9 +27,12 @@ namespace EGmediaBack.Models
         [NotMapped]
         public IFormFile Home_Image { get; set; }
 
-        [Required]
-        public int PortfolioCategoryId { get; set; }
+        [Required(ErrorMessage = "Layihənin kateqoriyasını seçin")]
+        public int ProjectCategoryId { get; set; }
 
-        public virtual ProjectCategory PortfolioCategory { get; set; }
+        public virtual ProjectCategory ProjectCategory { get; set; }
+
+        public bool Status { get; set; }
+        public bool ShowInHome { get; set; }
     }
 }

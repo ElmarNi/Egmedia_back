@@ -25,6 +25,8 @@ namespace EGmediaBack.Models
         [NotMapped]
         public IFormFile Icon { get; set; }
 
+        public bool Status { get; set; }
+
         public virtual Service Service { get; set; }
     }
 }

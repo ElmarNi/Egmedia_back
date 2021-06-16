@@ -20,8 +20,8 @@ namespace EGmediaBack.Controllers
         {
             PortfolioVM portfolioVM = new PortfolioVM
             {
-                projectCategories = _context.projectCategories.ToList(),
-                projects = _context.projects.OrderByDescending(p => p.Date)
+                projectCategories = _context.projectCategories.Where(c => c.Status).ToList(),
+                projects = _context.projects.Where(p => p.ProjectCategory.Status && p.Status).OrderByDescending(p => p.Date)
             };
             return View(portfolioVM);
         }

@@ -1,0 +1,51 @@
+﻿@model Project
+<section id="project_update" class="project_crud">
+    <div class="container mt-5">
+        <div class="row mb-3">
+            <div class="col-12">
+                <a class="btn d-block bg-secondary text-white" asp-action="projects">Layihələrə qayıt</a>
+            </div>
+        </div>
+        <form method="post" class="row" enctype="multipart/form-data">
+            <div class="col-12 mb-3" asp-validation-summary="ModelOnly"></div>
+            <div class="col-3">
+                <label>Adı</label>
+                <input asp-for="Name" class="w-100" />
+                <span asp-validation-for="Name" class="validation-span"></span>
+            </div>
+            <div class="col-3">
+                <label>Kateqoriyası</label>
+                <select asp-for="ProjectCategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))" class="w-100" style="padding: 5px 0">
+                    <option value="0">Please select</option>
+                </select>
+                <span asp-validation-for="ProjectCategoryId" class="validation-span"></span>
+            </div>
+            <div class="col-3">
+                <label>Status</label>
+                <input asp-for="Status" class="w-100" />
+            </div>
+            <div class="col-3">
+                <label>Ana səhifədə görsənsinmi?</label>
+                <input asp-for="ShowInHome" class="w-100" />
+            </div>
+            <div class="col-6 mt-3">
+                <img id="main_image" class="img-fluid" />
+                <label>Əsas şəkil</label>
+                <input asp-for="Image" class="w-100" />
+                <span asp-validation-for="Image" class="validation-span"></span>
+            </div>
+            <div class="col-6 mt-3">
+                <img id="home_image" class="img-fluid" />
+                <label>Ana səhifə şəkil</label>
+                <input asp-for="Home_Image" class="w-100" />
+                <span asp-validation-for="Home_Image" class="validation-span"></span>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <input type="submit" value="Yadda saxla" class="btn btn-success bg-success text-white" />
+            </div>
+        </form>
+    </div>
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

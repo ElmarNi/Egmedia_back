@@ -1,4 +1,4 @@
-﻿@model ServiceVM
+﻿@model IEnumerable<Service>
 <section id="breadcrumb">
     <div class="page-name-wrapper" style="background-image: url(img/contact-bg.jpg);">
         <div class="container">
@@ -17,7 +17,7 @@
                 <div class="col-12">
                     <ul class="d-flex justify-content-center">
                         <li class="slash">
-                            <a href="">Ana səhifə</a>
+                            <a href="/">Ana səhifə</a>
                         </li>
                         <li>
                             Xidmətlər
@@ -33,25 +33,25 @@
     <div class="container position-relative service-container">
         <div class="row category-names">
             <ul>
-                @for (int i = 0; i < Model.serviceCategories.Count(); i++)
+                @for (int i = 0; i < Model.Count(); i++)
                 {
-                    <li><a href="#" class="@((i==0)?"is-checked":null)" data-id="@Model.serviceCategories.ElementAt(i).Id">@Model.serviceCategories.ElementAt(i).Name</a></li>
+                    <li><a href="#" class="@((i==0)?"is-checked":null)" data-id="@i">@Model.ElementAt(i).CategoryName</a></li>
                 }
             </ul>
         </div>
-        @for (int i = 0; i < Model.services.Count(); i++)
+        @for (int i = 0; i < Model.Count(); i++)
         {
-            <div class="row category-content @((i==0)?"active":null)" data-id="@Model.services.ElementAt(i).ServiceCategoryId">
+            <div class="row category-content @((i==0)?"active":null)" data-id="@i">
                 <div class="col-lg-1 col-md-2 col-3 pr-lg-0">
                     <button class="previous control-button mb-2">
                         <i class="fas fa-chevron-up"></i>
                     </button>
                     <div class="gallery-wrapper">
                         <div class="gallery">
-                            @for (int z = 0; z < Model.services.ElementAt(i).Images.Count(); z++)
+                            @for (int z = 0; z < Model.ElementAt(i).Images.Count(); z++)
                             {
                                 <div class="gallery-item @((z==1)?"active":null)" data-id="@z">
-                                    <img src="img/@Model.services.ElementAt(i).Images.ElementAt(z).ImageUrl" alt="">
+                                    <img src="img/@Model.ElementAt(i).Images.ElementAt(z).ImageUrl" alt="">
                                 </div>
                             }
 
@@ -63,16 +63,16 @@
                 </div>
                 <div class="col-lg-6 col-md-10 col-9 pr-lg-0">
                     <div class="main-image">
-                        @for (int j = 0; j < Model.services.ElementAt(i).Images.Count(); j++)
+                        @for (int j = 0; j < Model.ElementAt(i).Images.Count(); j++)
                         {
-                            <img src="img/@Model.services.ElementAt(i).Images.ElementAt(j).ImageUrl" class="@((j==1)?"active":null)" alt="">
+                            <img src="img/@Model.ElementAt(i).Images.ElementAt(j).ImageUrl" class="@((j==1)?"active":null)" alt="">
                         }
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 offset-lg-1 mt-3 mt-md-5 mt-lg-0">
                     <div class="content">
-                        <h1>@Model.services.ElementAt(i).Heading</h1>
-                        <p>@Model.services.ElementAt(i).Content</p>
+                        <h1>@Model.ElementAt(i).Heading</h1>
+                        <p>@Model.ElementAt(i).Content</p>
                         <a href="">Lorem ipsum dolor sit</a>
                     </div>
                 </div>

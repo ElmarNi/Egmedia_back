@@ -57,9 +57,14 @@
                             <p>Üstünlüklər</p>
                         </a>
                     </li>
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "services" ? "active" : "")">
+                        <a class="nav-link" asp-area="egmedia_admin" asp-controller="services" asp-action="index">
+                            <p>Xİdmətlər</p>
+                        </a>
+                    </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "portfolio" ? "active" : "")">
                         <a class="nav-link" asp-area="egmedia_admin" asp-controller="portfolio" asp-action="index">
-                            <p>Portfolio</p>
+                            <p>Portfolİo</p>
                         </a>
                     </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "contact" ? "active" : "")">
