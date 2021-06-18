@@ -26,7 +26,7 @@
         }
     })
 
-    $(".s_category_crud #Image").change(function () {
+    $(".service_crud #CategoryIcon").change(function () {
         let input = this;
         let url = $(this).val();
         let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
@@ -34,12 +34,12 @@
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $('.s_category_crud #main_image').attr('src', e.target.result);
+                $('.service_crud #icon').attr('src', e.target.result);
             }
             reader.readAsDataURL(input.files[0]);
         }
     })
-    $(".s_category_crud #Icon").change(function () {
+    $(".service_crud #CategoryImage").change(function () {
         let input = this;
         let url = $(this).val();
         let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
@@ -47,7 +47,7 @@
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $('.s_category_crud #icon_image').attr('src', e.target.result);
+                $('.service_crud #cat_image').attr('src', e.target.result);
             }
             reader.readAsDataURL(input.files[0]);
         }

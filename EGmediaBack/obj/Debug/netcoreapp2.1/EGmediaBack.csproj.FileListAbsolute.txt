@@ -85,9 +85,6 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcorea
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Portfolio\ProjectCreate.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Portfolio\Projects.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Portfolio\ProjectUpdate.cshtml.g.cs
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\ServiceAndCategories\Categories.cshtml.g.cs
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\ServiceAndCategories\CategoryUpdate.cshtml.g.cs
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\ServiceAndCategories\Index.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\_ViewImports.cshtml.g.cs
@@ -108,7 +105,6 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcorea
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.pdb
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.genruntimeconfig.cache
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.csproj.CopyComplete
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\ServiceAndCategories\CategoryCreate.cshtml.g.cs
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\ServiceAndCategories\Services.cshtml.g.cs
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\ServiceAndCategories\ServiceCreate.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Services\Index.cshtml.g.cs
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Services\Create.cshtml.g.cs
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Services\Update.cshtml.g.cs
