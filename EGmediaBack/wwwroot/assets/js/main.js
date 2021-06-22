@@ -409,7 +409,7 @@
                     return
                 }
                 if (res == "number_not_valid") {
-                    $(".validation-div").text("Nömrəniz düzgün daxil edilməmişdir. Nömrəniz + 944XXXXXXXXX formatında olmalıdır").removeClass("text-success")
+                    $(".validation-div").text("Nömrəniz düzgün daxil edilməmişdir.").removeClass("text-success")
                     return
                 }
                 if (res == "email_empty") {

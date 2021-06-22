@@ -1,17 +1,17 @@
 ﻿@model Service
-<section id="service_create" class="service_crud">
+<section id="service_create" class="service_crud admin_crud">
     <div class="container mt-5">
         <div class="row mb-3">
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <a class="btn d-block bg-secondary text-white" asp-action="projects">Xidmətlərə qayıt</a>
             </div>
             <div class="col-4">
-                <p>Kateqoriya ikonu</p>
-                <img src="~/img/@Model.CategoryIconUrl" class="bg-dark img-fluid" />
+                <p class="m-0">Kateqoriya ikonu</p>
+                <img src="~/img/@Model.CategoryIconUrl" id="icon" class="bg-dark p-2 border" />
             </div>
             <div class="col-8">
-                <p>Kateqoriya şəkli</p>
-                <img src="~/img/@Model.CategoryImageUrl"class="img-fluid" />
+                <p class="m-0">Kateqoriya şəkli</p>
+                <img src="~/img/@Model.CategoryImageUrl" height="350" width="100%" style="object-fit: contain" id="cat_image" class="p-2 border" />
             </div>
         </div>
         <form method="post" class="row" enctype="multipart/form-data">
@@ -31,12 +31,10 @@
                 <input asp-for="Status" class="w-100" />
             </div>
             <div class="col-4 mt-3">
-                <img id="icon" class="img-fluid bg-dark" />
                 <label>İkon</label>
                 <input asp-for="CategoryIcon" class="w-100" />
             </div>
             <div class="col-4 mt-3">
-                <img id="cat_image" class="img-fluid" />
                 <label>Kateqoriya şəkli</label>
                 <input asp-for="CategoryImage" class="w-100" />
             </div>

@@ -49,11 +49,11 @@ namespace EGmediaBack.Controllers
                 ModelState.AddModelError("form.Fullname", "Ad və Soyad düzgün deyil.");
                 return View(message);
             }
-            if (!Regex.Match(message.form.PhoneNumber, @"\+[9]{2}[4]{1}[0-9]{9}$").Success)
+            if (!Regex.Match(message.form.PhoneNumber, @"^[0-9]+$").Success)
             {
                 ViewBag.message = "Ooops! Nə isə yanlışdır. Zəhmət olmasa yenidən cəhd edin.";
                 ViewBag.color = "text-danger";
-                ModelState.AddModelError("form.PhoneNumber", "Nömrəniz düzgün daxil edilməmişdir. Nömrəniz +944XXXXXXXXX formatında olmalıdır");
+                ModelState.AddModelError("form.PhoneNumber", "Nömrəniz düzgün daxil edilməmişdir.");
                 return View(message);
             }
             if (message.form.Message == string.Empty || message.form.Message.Length == 0)
@@ -77,11 +77,6 @@ namespace EGmediaBack.Controllers
             await _context.SaveChangesAsync();
             ViewBag.message = "Mesajınız göndərilmişdir. Ən qısa zamanda geri dönüş edəcəyimizdən əmin ola bilərisniz.";
             ViewBag.color = "text-success";
-            //message.form.Fullname = "";
-            //message.form.PhoneNumber = "";
-            //message.form.Email = "";
-            //message.form.Message = "";
-
             return View(message);
         }
     }

@@ -12,13 +12,13 @@ namespace EGmediaBack.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Başlıq boş olmamalıdır.")]
         public string Heading { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Kontent boş olmamalıdır.")]
         public string Content { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Kateqoriya adı boş olmamalıdır.")]
         public string CategoryName { get; set; }
 
         public string CategoryImageUrl { get; set; }

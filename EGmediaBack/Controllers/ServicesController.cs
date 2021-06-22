@@ -18,12 +18,6 @@ namespace EGmediaBack.Controllers
         }
         public IActionResult Index()
         {
-
-            ServiceVM vm = new ServiceVM
-            {
-                //serviceCategories = _context.serviceCategories.Where(c => c.Status).ToList(),
-                //services = _context.services.Include(s => s.Images).Where(s => s.ServiceCategory.Status)
-            };
             return View(_context.services.Include(s => s.Images).Where(s => s.Status));
         }
     }

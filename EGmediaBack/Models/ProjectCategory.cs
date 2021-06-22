@@ -10,7 +10,7 @@ namespace EGmediaBack.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Adı daxil edin")]
+        [Required(ErrorMessage = "Ad boş olmamalıdır.")]
         public string Name { get; set; }
 
         public virtual ICollection<Project> Projects { get; set; }

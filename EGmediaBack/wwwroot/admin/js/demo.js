@@ -1,57 +1,29 @@
 ﻿$().ready(function () {
-    $(".project_crud #Image").change(function () {
-        let input = this;
-        let url = $(this).val();
-        let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
-        if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) {
-            var reader = new FileReader();
+    function change_img(input, image) {
+        $(input).change(function () {
+            let input = this;
+            let url = $(this).val();
+            let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
+            if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) {
+                var reader = new FileReader();
 
-            reader.onload = function (e) {
-                $('.project_crud #main_image').attr('src', e.target.result);
+                reader.onload = function (e) {
+                    $(image).attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
             }
-            reader.readAsDataURL(input.files[0]);
-        }
-    })
-    $(".project_crud #Home_Image").change(function () {
-        let input = this;
-        let url = $(this).val();
-        let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
-        if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) {
-            var reader = new FileReader();
+        })
+    }
+    change_img(".project_crud #Image", ".project_crud #main_image");
+    change_img(".project_crud #Home_Image", ".project_crud #home_image");
 
-            reader.onload = function (e) {
-                $('.project_crud #home_image').attr('src', e.target.result);
-            }
-            reader.readAsDataURL(input.files[0]);
-        }
-    })
+    change_img(".service_crud #CategoryIcon", ".service_crud #icon");
+    change_img(".service_crud #CategoryImage", ".service_crud #cat_image");
 
-    $(".service_crud #CategoryIcon").change(function () {
-        let input = this;
-        let url = $(this).val();
-        let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
-        if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) {
-            var reader = new FileReader();
+    change_img("#slider_update #Image", "#slider_update #main_image");
+    change_img("#slider_update #Aside_Image", "#slider_update #second_image");
 
-            reader.onload = function (e) {
-                $('.service_crud #icon').attr('src', e.target.result);
-            }
-            reader.readAsDataURL(input.files[0]);
-        }
-    })
-    $(".service_crud #CategoryImage").change(function () {
-        let input = this;
-        let url = $(this).val();
-        let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
-        if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) {
-            var reader = new FileReader();
-
-            reader.onload = function (e) {
-                $('.service_crud #cat_image').attr('src', e.target.result);
-            }
-            reader.readAsDataURL(input.files[0]);
-        }
-    })
+    change_img("#admin_advantage #Icon", "#admin_advantage #main_image")
 
     $sidebar = $('.sidebar');
     $sidebar_img_container = $sidebar.find('.sidebar-background');

@@ -36,7 +36,7 @@ namespace EGmediaBack.Controllers
             {
                 return "number_empty";
             }
-            else if (!Regex.Match(number, @"\+[9]{2}[4]{1}[0-9]{9}$").Success)
+            else if (!Regex.Match(number, @"^[0-9]+$").Success)
             {
                 return "number_not_valid";
             }

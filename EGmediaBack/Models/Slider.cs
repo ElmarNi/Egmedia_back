@@ -12,13 +12,13 @@ namespace EGmediaBack.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Başlığın birinci sözü boş olmamalıdır.")]
         public string Header_First_Word { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Başlığın ikinci sözü boş olmamalıdır.")]
         public string Header_Second_Word { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Kontent boş olmamalıdır.")]
         public string Content { get; set; }
 
         public string ImageUrl { get; set; }
@@ -26,7 +26,7 @@ namespace EGmediaBack.Models
         [NotMapped]
         public IFormFile Image { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "İkinci başlıq boş olmamalıdır.")]
         public string Aside_Header { get; set; }
 
         public string Aside_ImageUrl { get; set; }

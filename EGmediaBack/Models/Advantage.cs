@@ -12,10 +12,9 @@ namespace EGmediaBack.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Kontent boş olmamalıdır.")]
         public string Content { get; set; }
 
-        [Required]
         public string IconUrl { get; set; }
 
         [NotMapped]

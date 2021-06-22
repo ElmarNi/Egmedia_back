@@ -62,7 +62,6 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\bin\Debug\netcorea
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\bin\Debug\netcoreapp2.1\EGmediaBack.pdb
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\bin\Debug\netcoreapp2.1\EGmediaBack.Views.dll
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\bin\Debug\netcoreapp2.1\EGmediaBack.Views.pdb
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.csprojAssemblyReference.cache
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.AssemblyInfo.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.csproj.CoreCompileInputs.cache
@@ -108,3 +107,6 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcorea
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Services\Index.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Services\Create.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Services\Update.cshtml.g.cs
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Slider\Index.cshtml.g.cs
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Slider\Update.cshtml.g.cs

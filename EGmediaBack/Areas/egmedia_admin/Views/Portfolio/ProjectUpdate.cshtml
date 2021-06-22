@@ -1,5 +1,5 @@
 ﻿@model Project
-<section id="project_update" class="project_crud">
+<section id="project_update" class="project_crud admin_crud">
     <div class="container mt-5">
         <div class="row mb-3">
             <div class="col-12">
@@ -7,6 +7,14 @@
             </div>
         </div>
         <form method="post" class="row" enctype="multipart/form-data">
+            <div class="col-6 mb-3">
+                <p class="m-0">Əsas şəkil</p>
+                <img src="~/img/@Model.ImageUrl" id="home_image" height="300" class="p-2 border" />
+            </div>
+            <div class="col-6 mb-3">
+                <p class="m-0">Ana səhifə şəkil</p>
+                <img src="~/img/@Model.Home_ImageUrl" id="main_image" height="300" class="p-2 border" />
+            </div>
             <div class="col-12 mb-3" asp-validation-summary="ModelOnly"></div>
             <div class="col-3">
                 <label>Adı</label>
@@ -29,13 +37,11 @@
                 <input asp-for="ShowInHome" class="w-100" />
             </div>
             <div class="col-6 mt-3">
-                <img id="main_image" class="img-fluid" />
                 <label>Əsas şəkil</label>
                 <input asp-for="Image" class="w-100" />
                 <span asp-validation-for="Image" class="validation-span"></span>
             </div>
             <div class="col-6 mt-3">
-                <img id="home_image" class="img-fluid" />
                 <label>Ana səhifə şəkil</label>
                 <input asp-for="Home_Image" class="w-100" />
                 <span asp-validation-for="Home_Image" class="validation-span"></span>

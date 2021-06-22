@@ -12,7 +12,7 @@ namespace EGmediaBack.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Layihənin adını qeyd edin")]
+        [Required(ErrorMessage = "Ad boş olmamalıdır.")]
         public string Name { get; set; }
 
         public DateTime Date { get; set; }

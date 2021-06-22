@@ -47,6 +47,11 @@
                             <p>Ana səhİfə</p>
                         </a>
                     </li>
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "slider" ? "active" : "")">
+                        <a class="nav-link" asp-area="egmedia_admin" asp-controller="slider" asp-action="index">
+                            <p>Slayder</p>
+                        </a>
+                    </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "about" ? "active" : "")">
                         <a class="nav-link" asp-area="egmedia_admin" asp-controller="about" asp-action="index">
                             <p>Haqqımızda</p>

@@ -1,5 +1,5 @@
 ﻿@model Service
-<section id="service_create" class="service_crud">
+<section id="service_create" class="service_crud admin_crud">
     <div class="container mt-5">
         <div class="row mb-3">
             <div class="col-12">
@@ -7,6 +7,12 @@
             </div>
         </div>
         <form method="post" class="row" enctype="multipart/form-data">
+            <div class="col-6 mb-3">
+                <img id="icon" class="p-2 bg-dark border img-fluid" style="width: auto" />
+            </div>
+            <div class="col-6 mb-3">
+                <img id="cat_image" height="300" class="p-2 border" />
+            </div>
             <div class="col-12 mb-3" asp-validation-summary="ModelOnly"></div>
             <div class="col-4">
                 <label>Başlığı</label>
@@ -23,12 +29,10 @@
                 <input asp-for="Status" class="w-100" />
             </div>
             <div class="col-4 mt-3">
-                <img id="icon" class="img-fluid bg-dark" />
                 <label>İkon</label>
                 <input asp-for="CategoryIcon" class="w-100" />
             </div>
             <div class="col-4 mt-3">
-                <img id="cat_image" class="img-fluid" />
                 <label>Kateqoriya şəkli</label>
                 <input asp-for="CategoryImage" class="w-100" />
             </div>

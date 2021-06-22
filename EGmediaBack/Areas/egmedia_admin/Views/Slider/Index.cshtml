@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Slider>
+<section id="sldier_admin">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Başlığın birinci sözü</th>
+                                <th scope="col">Başlığın ikinci sözü</th>
+                                <th scope="col">Kontent</th>
+                                <th scope="col">Əsas şəkil</th>
+                                <th scope="col">İkinci başlıq</th>
+                                <th scope="col">İkinci şəkil</th>
+                                <th scope="col">Tarix</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var slider in Model)
+                            {
+                            <tr>
+                                <th scope="row">@slider.Id</th>
+                                <td>@slider.Header_First_Word</td>
+                                <td>@slider.Header_Second_Word</td>
+                                <td>@Html.Raw(slider.Content)</td>
+                                <td><img src="~/img/@slider.ImageUrl" width="150" class="img-fluid"/></td>
+                                <td>@slider.Aside_Header</td>
+                                <td><img src="~/img/@slider.Aside_ImageUrl" width="150" class="img-fluid"/></td>
+                                <td>@slider.Date.ToString("dd/MM/yyyy")</td>
+                                <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="update" asp-route-id="@slider.Id">Redaktə et</a></td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
