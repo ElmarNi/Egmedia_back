@@ -147,6 +147,11 @@
         e.preventDefault();
         $("#exampleModalCenter").attr("data-id", $(this).attr("data-id")).attr("data-email", $(this).attr("data-email")).find("textarea").val("")
     })
+    $("#x_btn.disabled").click(function () {
+        console.log("disabled")
+        return;
+    })
+
     $("#send_message_to_client").click(function (e) {
         e.preventDefault();
         let message = $("#exampleModalCenter").find("textarea").val()
@@ -169,9 +174,13 @@
             },
             beforeSend: function () {
                 $("#send_message_to_client").text("Gözləyin...").addClass("disabled")
+                $("#x_btn").addClass("disabled").attr("data-dismiss", "");
+                $("#close_btn").addClass("disabled").attr("data-dismiss", "")
             },
             success: function (res) {
                 $("#send_message_to_client").text("Göndər").removeClass("disabled")
+                $("#x_btn").removeClass("disabled").attr("data-dismiss", "modal");
+                $("#close_btn").removeClass("disabled").attr("data-dismiss", "modal")
                 if (res == "empty") {
                     $("#exampleModalCenter").find(".validation-span").addClass("text-danger").text("Mesaj boş ola bilməz")
                     return

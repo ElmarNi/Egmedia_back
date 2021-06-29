@@ -110,3 +110,4 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcorea
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\EGmediaBack.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Slider\Index.cshtml.g.cs
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Slider\Update.cshtml.g.cs
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Debug\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Offers\Index.cshtml.g.cs
