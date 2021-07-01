@@ -1,6 +1,9 @@
 ﻿@model Slider
 <section id="slider_update" class="admin_crud">
     <div class="container mt-5">
+        <div class="col-12 mb-3">
+            <a class="btn d-block bg-secondary text-white" asp-action="index">Slayderlərə qayıt</a>
+        </div>
         <form method="post" class="row" enctype="multipart/form-data">
             <div class="col-6 text-center mb-3">
                 <img src="~/img/@Model.ImageUrl" height="300" class="p-2 border" id="main_image" />

@@ -25,6 +25,8 @@
 
     change_img("#admin_advantage #Icon", "#admin_advantage #main_image")
 
+    change_img("#banner_update #Image", "#banner_update #second_image")
+
     $sidebar = $('.sidebar');
     $sidebar_img_container = $sidebar.find('.sidebar-background');
 

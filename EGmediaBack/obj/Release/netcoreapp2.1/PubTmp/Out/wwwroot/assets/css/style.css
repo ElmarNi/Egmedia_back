@@ -2221,6 +2221,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     padding-bottom: 0;
   }
 }
+
 @media (max-width: 1200px) {
   #contact-page .infos {
     left: 15px;

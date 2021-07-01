@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Banner>
+<section id="banner_admin">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Şəkli</th>
+                                <th scope="col">Nə üçün?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var banner in Model)
+                             {
+                                <tr>
+                                    <th scope="row">@banner.Id</th>
+                                    <td><img src="~/img/@banner.ImageUrl" width="150" class="img-fluid" /></td>
+                                    <td>@banner.WhatFor</td>
+                                    <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="update" asp-route-id="@banner.Id">Redaktə et</a></td>
+                                </tr>
+                             }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

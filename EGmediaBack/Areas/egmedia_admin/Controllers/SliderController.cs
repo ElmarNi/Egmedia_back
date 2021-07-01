@@ -36,7 +36,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id == null || await _context.sliders.FindAsync(id) == null)
+                if (id == null || !_context.sliders.Any(s => s.Id == id))
                 {
                     return NotFound();
                 }

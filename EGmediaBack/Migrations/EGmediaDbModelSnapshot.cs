@@ -42,12 +42,27 @@ namespace EGmediaBack.Migrations
                     b.Property<string>("Content")
                         .IsRequired();
 
-                    b.Property<string>("IconUrl")
-                        .IsRequired();
+                    b.Property<string>("IconUrl");
 
                     b.HasKey("Id");
 
                     b.ToTable("advantages");
+                });
+
+            modelBuilder.Entity("EGmediaBack.Models.Banner", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ImageUrl");
+
+                    b.Property<string>("WhatFor")
+                        .IsRequired();
+
+                    b.HasKey("Id");
+
+                    b.ToTable("banners");
                 });
 
             modelBuilder.Entity("EGmediaBack.Models.ContactMessage", b =>

@@ -30,5 +30,7 @@ namespace EGmediaBack.DAL
 
         public DbSet<GetPriceOffer> offers { get; set; }
 
+        public DbSet<Banner> banners { get; set; }
+
     }
 }

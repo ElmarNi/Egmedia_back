@@ -1389,6 +1389,9 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   margin: 0 auto;
   text-align: justify;
 }
+#about-page p{
+    margin: 0;
+}
 
 #portfolio-page {
   padding-top: 40px;

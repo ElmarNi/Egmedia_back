@@ -23,6 +23,8 @@ namespace EGmediaBack.Controllers
                 projectCategories = _context.projectCategories.Where(c => c.Status).ToList(),
                 projects = _context.projects.Where(p => p.ProjectCategory.Status && p.Status).OrderByDescending(p => p.Date)
             };
+            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Portfolio").FirstOrDefault().ImageUrl;
+
             return View(portfolioVM);
         }
     }

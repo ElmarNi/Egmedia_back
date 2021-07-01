@@ -16,17 +16,17 @@ namespace EGmediaBack.Controllers
     public class ContactController : Controller
     {
         private readonly EGmediaDb _context;
-        //private readonly IConfiguration _configuration;
 
         public ContactController(EGmediaDb context)
         {
             _context = context;
-            //_configuration = configuration;
         }
         public IActionResult Index()
         {
             ViewBag.message = "";
             ViewBag.color = "";
+            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
             return View();
         }
 
@@ -34,18 +34,21 @@ namespace EGmediaBack.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(ContactVM message)
         {
-            //var password = _configuration.GetValue<string>("Passwords:SenderEmailPassword");
 
             if (message == null || !ModelState.IsValid)
             {
                 ViewBag.message = "Ooops! Nə isə yanlışdır. Zəhmət olmasa yenidən cəhd edin.";
                 ViewBag.color = "text-danger";
+                ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
                 return View(message);
             }
             if (message.form.Fullname.Length < 4 || message.form.Fullname.Length == 0 || message.form.Fullname == string.Empty)
             {
                 ViewBag.message = "Ooops! Nə isə yanlışdır. Zəhmət olmasa yenidən cəhd edin.";
                 ViewBag.color = "text-danger";
+                ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
                 ModelState.AddModelError("form.Fullname", "Ad və Soyad düzgün deyil.");
                 return View(message);
             }
@@ -53,6 +56,8 @@ namespace EGmediaBack.Controllers
             {
                 ViewBag.message = "Ooops! Nə isə yanlışdır. Zəhmət olmasa yenidən cəhd edin.";
                 ViewBag.color = "text-danger";
+                ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
                 ModelState.AddModelError("form.PhoneNumber", "Nömrəniz düzgün daxil edilməmişdir.");
                 return View(message);
             }
@@ -60,6 +65,8 @@ namespace EGmediaBack.Controllers
             {
                 ViewBag.message = "Ooops! Nə isə yanlışdır. Zəhmət olmasa yenidən cəhd edin.";
                 ViewBag.color = "text-danger";
+                ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
                 ModelState.AddModelError("form.Message", "Mesajınız düzgün deyil.");
                 return View(message);
             }
@@ -77,6 +84,8 @@ namespace EGmediaBack.Controllers
             await _context.SaveChangesAsync();
             ViewBag.message = "Mesajınız göndərilmişdir. Ən qısa zamanda geri dönüş edəcəyimizdən əmin ola bilərisniz.";
             ViewBag.color = "text-success";
+            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
             return View(message);
         }
     }

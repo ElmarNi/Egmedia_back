@@ -16,6 +16,7 @@ namespace EGmediaBack.Controllers
         }
         public IActionResult Index()
         {
+            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Haqqımızda").FirstOrDefault().ImageUrl;
             return View(_context.about.FirstOrDefault());
         }
     }

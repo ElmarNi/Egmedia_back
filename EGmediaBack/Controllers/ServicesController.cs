@@ -18,6 +18,8 @@ namespace EGmediaBack.Controllers
         }
         public IActionResult Index()
         {
+            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Xidmətlər").FirstOrDefault().ImageUrl;
+
             return View(_context.services.Include(s => s.Images).Where(s => s.Status));
         }
     }
