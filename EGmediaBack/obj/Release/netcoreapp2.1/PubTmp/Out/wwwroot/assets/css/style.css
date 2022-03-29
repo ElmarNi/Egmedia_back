@@ -518,7 +518,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
           transform: translateY(-50%);
 }
 #slider .slider-left-side-wrapper .left-side .slider-item .content h1 {
-  font-size: 70px;
+  font-size: 57px;
   font-weight: bold;
 }
 #slider .slider-left-side-wrapper .left-side .slider-item .content h1 span {
@@ -535,7 +535,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   z-index: -1;
 }
 #slider .slider-left-side-wrapper .left-side .slider-item .content p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
 }
 #slider .slider-right-side-aside {
@@ -574,7 +574,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
     transform: scale3d(0.9, 0.9, 0.9);
     font-size: 36px;
     font-weight: bold;
-    padding-left: 70px;
+    padding-left: 30px;
 }
 #slider .slider-right-side-aside .right-side-item img {
   position: absolute;
@@ -957,8 +957,11 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
 }
 #advantages .item h4 {
   margin: 0;
-  font-size: 18px;
+  font-size: 17px;
   color: #404854bd;
+}
+#advantages .item .icon-wrapper img{
+    width: 47px;
 }
 #advantages .item .icon-wrapper.orange {
   background-color: #f5874f;
@@ -1388,6 +1391,9 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   max-width: 800px;
   margin: 0 auto;
   text-align: justify;
+}
+#about-page p{
+    margin: 0;
 }
 
 #portfolio-page {

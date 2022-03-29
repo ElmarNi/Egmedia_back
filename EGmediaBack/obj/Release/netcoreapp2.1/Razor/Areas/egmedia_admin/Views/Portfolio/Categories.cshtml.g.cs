@@ -62,7 +62,7 @@ using EGmediaBack.ViewModels;
             WriteLiteral("<section id=\"categories_admin\">\r\n    <div class=\"container mt-5\">\r\n        <div class=\"row\">\r\n            <div class=\"col-12\">\r\n                ");
             EndContext();
             BeginContext(181, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b48672c10a614609a5289f24ec55739b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf93406e7375418abb0f4065d812613d", async() => {
                 BeginContext(275, 19, true);
                 WriteLiteral("Kateqoriya əlavə et");
                 EndContext();
@@ -135,7 +135,7 @@ using EGmediaBack.ViewModels;
             WriteLiteral("</td>\r\n                                    <td class=\"text-right\">");
             EndContext();
             BeginContext(1184, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e89f595dccf34103bb7f867eae4dd30f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c20798d50a12404ba09da6051fb2c6bc", async() => {
                 BeginContext(1289, 10, true);
                 WriteLiteral("Redaktə et");
                 EndContext();

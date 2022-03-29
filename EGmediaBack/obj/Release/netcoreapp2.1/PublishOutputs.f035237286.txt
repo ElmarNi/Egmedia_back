@@ -532,14 +532,20 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcor
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\ckeditor_4.16.0_full\ckeditor\skins\moono-lisa\readme.md
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\ckeditor_4.16.0_full\ckeditor\styles.js
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\ckeditor_4.16.0_full\ckeditor\vendor\promise.js
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\1357e28c-3c1b-4c96-8097-7f5fdeb5118dc031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\favicon.ico
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\261c11b7-fb38-424b-865d-24c9872dfe4ecoding.png
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\3274c726-782a-4f62-9561-f6f65908bab7c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\51cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\58b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).png
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\6c70db60-6f71-4d9d-8a96-c847f114ddadcoding.png
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\7b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png
-C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\97de84e5-fa3f-4ed2-a6ef-4283a34b6543c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\c8e51f7c-3007-4718-89a4-8269c93dcdc1coding.png
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\e01c928c-d247-45f9-a8bd-f6a2d90bd647coding.png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\advantages\ed88a336-2ba2-4724-93c2-f65f42128230money-growth.png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\banners\46dfb6be-41c4-4daa-8bcd-5c02b0abbdd7logo.png
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\banners\63762f15-1d9e-47c9-8fda-40643b475d0acontact-bg.jpg
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\banners\647dab77-601e-4475-a953-0973b4ff3021contact-bg.jpg
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\banners\6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.jpg
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\banners\7c3daad1-821a-4657-8bbb-3400145fc666contact-bg.jpg
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\bg-decor-6.png
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\bg-decor-9.png
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\img\contact-bg.jpg

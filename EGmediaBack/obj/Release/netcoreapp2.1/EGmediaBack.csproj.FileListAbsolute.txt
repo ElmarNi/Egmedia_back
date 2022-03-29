@@ -98,3 +98,5 @@ C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcor
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.pdb
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.genruntimeconfig.cache
 C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\EGmediaBack.csproj.CopyComplete
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Banners\Index.cshtml.g.cs
+C:\Users\User\Desktop\Egmedia website\EGmediaBack\EGmediaBack\obj\Release\netcoreapp2.1\Razor\Areas\egmedia_admin\Views\Banners\Update.cshtml.g.cs

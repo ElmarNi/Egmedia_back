@@ -409,7 +409,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
-  padding: 12px 10px 12px;
+  padding: 12px 10px 0;
   border-radius: 4px;
 }
 #breadcrumb .aside ul li {
@@ -518,7 +518,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
           transform: translateY(-50%);
 }
 #slider .slider-left-side-wrapper .left-side .slider-item .content h1 {
-  font-size: 70px;
+  font-size: 57px;
   font-weight: bold;
 }
 #slider .slider-left-side-wrapper .left-side .slider-item .content h1 span {
@@ -535,7 +535,7 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
   z-index: -1;
 }
 #slider .slider-left-side-wrapper .left-side .slider-item .content p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
 }
 #slider .slider-right-side-aside {
@@ -572,9 +572,9 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
     transition: transform 0.35s, -webkit-transform 0.35s;
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
-    padding-left: 70px;
+    padding-left: 30px;
 }
 #slider .slider-right-side-aside .right-side-item img {
   position: absolute;
@@ -957,8 +957,11 @@ header.active .menu-bar span:first-child, header.active .menu-bar span:last-chil
 }
 #advantages .item h4 {
   margin: 0;
-  font-size: 18px;
+  font-size: 17px;
   color: #404854bd;
+}
+#advantages .item .icon-wrapper img{
+    width: 47px;
 }
 #advantages .item .icon-wrapper.orange {
   background-color: #f5874f;
@@ -1241,32 +1244,28 @@ footer .bottom .contact-infos ul li:first-child::before {
   content: '';
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 48%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 1px;
   height: 32px;
   background: #ececee;
 }
-footer .bottom .contact-infos ul li:first-child a {
-  color: black;
-}
-footer .bottom .contact-infos ul li:first-child a:hover {
-  color: #f5874f;
-}
+
+
 footer .bottom .contact-infos ul li:last-child {
   margin: 0;
   padding: 0;
 }
-footer .bottom .contact-infos ul li:last-child a {
+footer .bottom .contact-infos ul li a {
   color: #f5874f;
 }
-footer .bottom .contact-infos ul li:last-child a:hover {
+footer .bottom .contact-infos ul li a:hover {
   color: black;
 }
 
 #contact-page {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 #contact-page form input, #contact-page form textarea, #admin_login input {
     width: 100%;
@@ -1384,7 +1383,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 }
 
 #about-page {
-  padding-top: 60px;
+  padding-top: 40px;
   max-width: 800px;
   margin: 0 auto;
   text-align: justify;
@@ -2207,10 +2206,11 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     font-size: 53px;
   }
   #slider .slider-left-side-wrapper .left-side .slider-item .content h1 {
-    font-size: 53px;
+    font-size: 40px;
   }
   #slider .slider-left-side-wrapper .left-side .slider-item .content h1 span::before {
-    bottom: 9px;
+    bottom: 6px;
+    height: 7px;
   }
   #slider .slider-left-side-wrapper .left-side .slider-item .content p {
     font-size: 16px;
@@ -2257,7 +2257,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     height: 400px;
   }
   #slider .slider-left-side-wrapper .left-side .slider-item .content h1 {
-    font-size: 42px;
+    font-size: 29px;
   }
   #slider .slider-left-side-wrapper .left-side .slider-item .content p {
     font-size: 13px;
@@ -2268,7 +2268,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   }
   #slider .slider-right-side-aside .right-side-item p {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #services .next {
@@ -2312,7 +2312,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
             transform: skew(0deg);
   }
   #slider .slider-left-side-wrapper .left-side .slider-item .content p {
-    font-size: 12px;
+    font-size: 11px;
   }
   #slider .slider-right-side-aside {
     display: none;
@@ -2458,8 +2458,9 @@ footer .bottom .contact-infos ul li:last-child a:hover {
         width: 350px;
     }
     header nav.menu ul li a .nav-desc:before {
-        background-size: 16px;
-        top: -2px;
+        background-size: 12px;
+        top: -0.8px;
+        left: 2px
     }
 
   header nav.menu {
@@ -2500,6 +2501,7 @@ footer .bottom .contact-infos ul li:last-child a:hover {
 
   #services {
     padding: 40px 0;
+    padding-top: 20px;
   }
   #services .slide-wrapper {
     height: 340px;
@@ -2520,7 +2522,6 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     width: 20%;
     height: 20%;
   }
-
   #services .row.heading h1 {
     margin-bottom: 40px;
   }
@@ -2541,7 +2542,13 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     }
 
   footer .top .menu ul li a {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  #advantages {
+    padding-top: 30px;
+  }
+  footer .top{
+      padding-bottom: 20px;
   }
   footer .bottom .contact-infos ul li {
     font-size: 13px;
@@ -2557,7 +2564,10 @@ footer .bottom .contact-infos ul li:last-child a:hover {
     font-size: 18px;
   }
   #advantages .item h4 {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  #advantages .item .icon-wrapper img{
+      width: 32px;
   }
 
   #contact-page .infos .info {
@@ -2626,4 +2636,17 @@ footer .bottom .contact-infos ul li:last-child a:hover {
   #services-page .service-container {
     height: 523px;
   }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    #advantages .item .icon-wrapper{
+        width: 70px;
+        height: 70px;
+    }
+    #advantages .item .icon-wrapper img{
+        width: 32px;
+    }
+    #advantages .item h4{
+        font-size: 12px;
+    }
 }

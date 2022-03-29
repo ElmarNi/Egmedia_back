@@ -82,6 +82,7 @@ namespace EGmediaBack.Controllers
             {
                 return "empty";
             }
+
             MailMessage mailMessage = new System.Net.Mail.MailMessage("info@egmedia.az", email)
             {
                 Subject = "EGmedia - Veb saytların hazırlanması."
@@ -94,9 +95,12 @@ namespace EGmediaBack.Controllers
                 Credentials = new System.Net.NetworkCredential("info@egmedia.az", _configuration["AdminEmail:password"]),
                 EnableSsl = true
             };
+
             mailMessage.IsBodyHtml = true;
-            mailMessage.Body = $"<p style='margin:0; margin-bottom:20px'>{message}</p> <p style='margin:0; margin-bottom:5px'>Veb-saytımız: <a href='https://egmedia.az/' target='_blank'>https://egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Bizi instagramda izləyin: <a href='https://www.instagram.com/egmedia.az/' target='_blank'>https://www.instagram.com/egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Sizə bir zəng qədər yaxınıq: <a href='tel:+994775202012'>+994775202012</a></p> <p style='margin:0; margin-bottom:5px'><a href='https://egmedia.az/' target='_blank'><img src='https://lh3.google.com/u/0/d/1__04R2PG7vUcyZw3IXmOc2KAzjd4M5oJ=w1920-h902-iv1' width='400' height='120' /></a></p>";
+            mailMessage.Body = $"<p style='margin:0; margin-bottom:20px'>{message}</p> <p style='margin:0; margin-bottom:5px'>Veb-saytımız: <a href='https://egmedia.az/' target='_blank'>https://egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Bizi instagramda izləyin: <a href='https://www.instagram.com/egmedia.az/' target='_blank'>https://www.instagram.com/egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Sizə bir zəng qədər yaxınıq: <a href='tel:+994775202012'>+994775202012</a></p> <p style='margin:0; margin-bottom:5px'><a href='https://egmedia.az/' target='_blank'><img src='https://egmedia.az/img/logo.png' width='400' height='120' /></a></p>";
+
             await smtp.SendMailAsync(mailMessage);
+
             if (_context.offers.Any(o => o.Id == id))
             {
                 var offer = await _context.offers.FindAsync(id);

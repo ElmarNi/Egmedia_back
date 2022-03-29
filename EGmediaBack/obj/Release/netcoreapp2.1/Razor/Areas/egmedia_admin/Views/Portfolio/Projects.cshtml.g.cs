@@ -64,7 +64,7 @@ using EGmediaBack.ViewModels;
             WriteLiteral("<section id=\"categories_admin\">\r\n    <div class=\"container mt-5\">\r\n        <div class=\"row\">\r\n            <div class=\"col-12\">\r\n                ");
             EndContext();
             BeginContext(173, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2630735a9aaf4bdea735eb4b5a19b967", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "759a8a78ec1a4a21acf213ceb87097f3", async() => {
                 BeginContext(266, 15, true);
                 WriteLiteral("Layihə əlavə et");
                 EndContext();
@@ -132,7 +132,7 @@ using EGmediaBack.ViewModels;
             WriteLiteral("</td>\r\n                                    <td>");
             EndContext();
             BeginContext(1390, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "73e79f5ef2d44ae197853f566fce7114", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "54dc5e91b9a64bfaabb1fecab939b6a0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -178,7 +178,7 @@ AddHtmlAttributeValue("", 1406, project.ImageUrl, 1406, 17, false);
             WriteLiteral("</td>\r\n                                    <td>");
             EndContext();
             BeginContext(1646, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ad176fe75b2247f489aa91143560d6ce", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "cce9875428ff4eadab76eb03c75ea28e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -224,7 +224,7 @@ AddHtmlAttributeValue("", 1662, project.Home_ImageUrl, 1662, 22, false);
             WriteLiteral("</td>\r\n                                    <td class=\"text-right\">");
             EndContext();
             BeginContext(1936, 117, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ee839e9759640c695f04583bb97d712", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b517f9fb94ff42469bf9a0ea510aea0d", async() => {
                 BeginContext(2039, 10, true);
                 WriteLiteral("Redaktə et");
                 EndContext();
