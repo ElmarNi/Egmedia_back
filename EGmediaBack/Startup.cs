@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace EGmediaBack
 {
@@ -34,16 +35,13 @@ namespace EGmediaBack
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<EGmediaDb>(options =>
             {
                 options.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
             });
-            //services.AddDbContext<EGmediaDb>(options =>
-            //{
-            //    options.UseSqlServer(_configuration["ConnectionStrings:Test"]);
-            //});
+
+            services.AddControllers();
+            services.AddControllersWithViews();
             services.AddIdentity<IdentityUser, IdentityRole>()
               .AddEntityFrameworkStores<EGmediaDb>()
               .AddDefaultTokenProviders();
@@ -58,7 +56,7 @@ namespace EGmediaBack
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -75,15 +73,20 @@ namespace EGmediaBack
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc(routes =>
+            app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseCors();
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
+                endpoints.MapControllerRoute(
                     name: "areas",
-                    template: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+                    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
                 );
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                     name: "default",
+                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
