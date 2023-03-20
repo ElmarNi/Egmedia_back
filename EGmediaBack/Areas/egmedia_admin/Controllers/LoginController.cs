@@ -35,13 +35,13 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
             IdentityUser logedUser = await _userManager.FindByNameAsync(login.Username);
             if (logedUser == null)
             {
-                ModelState.AddModelError("", "İstifadəçı adı və ya şifrə yanlışdır. Ağıllı ol! Sən ki özümüzküsən");
+                ModelState.AddModelError("", "İstifadəçı adı və ya şifrə yanlışdır.");
                 return View();
             }
             Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(logedUser, login.Password, false, true);
             if (!result.Succeeded)
             {
-                ModelState.AddModelError("", "İstifadəçi adı və ya şifrə yanlışdır. Ağıllı ol! Sən ki özümüzküsən");
+                ModelState.AddModelError("", "İstifadəçi adı və ya şifrə yanlışdır.");
                 return View();
             }
             if (await _userManager.IsInRoleAsync(logedUser, "admin"))

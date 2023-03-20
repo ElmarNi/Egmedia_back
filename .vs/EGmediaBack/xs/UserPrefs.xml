@@ -1,28 +1,29 @@
 ﻿<Properties StartupConfiguration="{D56F5A15-D5D3-4D4F-B9CD-D1229C4BF222}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/Program.cs">
     <Files>
-      <File FileName="EGmediaBack/appsettings.Development.json" Line="2" Column="1" />
-      <File FileName="EGmediaBack/appsettings.json" Line="13" Column="29" />
-      <File FileName="EGmediaBack/EGmediaBack.csproj" Line="22" Column="19" />
+      <File FileName="EGmediaBack/Program.cs" Line="24" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EGmediaBack" expanded="True">
             <Node name="EGmediaBack" expanded="True">
-              <Node name="Dependencies" selected="True" />
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="egmedia_admin" expanded="True">
+                  <Node name="Views" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
