@@ -15,8 +15,8 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
     public class BannersController : Controller
     {
         private readonly EGmediaDb _context;
-        private readonly IHostingEnvironment _env;
-        public BannersController(EGmediaDb context, IHostingEnvironment env)
+        private readonly IWebHostEnvironment _env;
+        public BannersController(EGmediaDb context, IWebHostEnvironment env)
         {
             _context = context;
             _env = env;

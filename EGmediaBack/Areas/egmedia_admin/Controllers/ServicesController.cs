@@ -14,9 +14,9 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
     public class ServicesController : Controller
     {
         private readonly EGmediaDb _context;
-        private readonly IHostingEnvironment _env;
+        private readonly IWebHostEnvironment _env;
 
-        public ServicesController(EGmediaDb context, IHostingEnvironment env)
+        public ServicesController(EGmediaDb context, IWebHostEnvironment env)
         {
             _context = context;
             _env = env;

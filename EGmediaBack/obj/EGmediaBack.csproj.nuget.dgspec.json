@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ibrahimlien/Desktop/BackEnd/EGmedia/EGmediaBack/EGmediaBack.csproj": {}
+    "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj": {}
   },
   "projects": {
-    "/Users/ibrahimlien/Desktop/BackEnd/EGmedia/EGmediaBack/EGmediaBack.csproj": {
+    "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ibrahimlien/Desktop/BackEnd/EGmedia/EGmediaBack/EGmediaBack.csproj",
+        "projectUniqueName": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj",
         "projectName": "EGmediaBack",
-        "projectPath": "/Users/ibrahimlien/Desktop/BackEnd/EGmedia/EGmediaBack/EGmediaBack.csproj",
+        "projectPath": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj",
         "packagesPath": "/Users/ibrahimlien/.nuget/packages/",
-        "outputPath": "/Users/ibrahimlien/Desktop/BackEnd/EGmedia/EGmediaBack/obj/",
+        "outputPath": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ibrahimlien/.nuget/NuGet/NuGet.Config"
@@ -38,54 +38,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[3.1.32, )"
             },
-            "Microsoft.AspNetCore.Mvc": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.StaticFiles": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[3.1.32, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.VisualStudio.Web.BrowserLink": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.32, )"
             }
           },
           "imports": [

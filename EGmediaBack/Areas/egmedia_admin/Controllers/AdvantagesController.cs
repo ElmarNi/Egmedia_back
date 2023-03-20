@@ -14,9 +14,9 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
     public class AdvantagesController : Controller
     {
         private readonly EGmediaDb _context;
-        private readonly IHostingEnvironment _env;
+        private readonly IWebHostEnvironment _env;
 
-        public AdvantagesController(EGmediaDb context, IHostingEnvironment env)
+        public AdvantagesController(EGmediaDb context, IWebHostEnvironment env)
         {
             _context = context;
             _env = env;
