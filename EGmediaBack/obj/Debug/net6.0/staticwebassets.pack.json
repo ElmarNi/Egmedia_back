@@ -1,0 +1,2621 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/admin/css/demo.css",
+      "PackagePath": "staticwebassets/admin/css/demo.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/admin/css/light-bootstrap-dashboard.css",
+      "PackagePath": "staticwebassets/admin/css/light-bootstrap-dashboard.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/admin/js/demo.js",
+      "PackagePath": "staticwebassets/admin/js/demo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/admin/js/light-bootstrap-dashboard.js",
+      "PackagePath": "staticwebassets/admin/js/light-bootstrap-dashboard.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/assets/css/style.css",
+      "PackagePath": "staticwebassets/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/assets/js/main.js",
+      "PackagePath": "staticwebassets/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/CHANGES.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/CHANGES.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/LICENSE.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/README.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/README.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/adapters/jquery.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/adapters/jquery.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/build-config.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/build-config.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/ckeditor.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/ckeditor.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/config.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/config.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/contents.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/contents.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/af.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/af.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ar.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ar.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/az.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/az.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/bg.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/bg.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/bn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/bn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/bs.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/bs.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/cs.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/cs.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/cy.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/cy.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/da.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/da.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/de-ch.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/de-ch.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/de.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/de.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/el.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/el.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/en-au.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/en-au.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/en-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/en-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/en-gb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/en-gb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/en.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/en.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/eo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/eo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/es-mx.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/es-mx.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/es.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/es.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/et.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/et.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/eu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/eu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/fa.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/fa.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/fi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/fi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/fo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/fo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/fr-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/fr-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/fr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/fr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/gl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/gl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/gu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/gu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/he.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/he.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/hi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/hi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/hr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/hr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/hu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/hu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/id.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/id.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/is.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/is.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/it.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/it.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ja.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ja.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ka.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ka.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/km.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/km.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ko.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ko.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ku.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ku.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/lt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/lt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/lv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/lv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/mk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/mk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/mn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/mn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ms.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ms.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/nb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/nb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/nl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/nl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/no.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/no.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/oc.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/oc.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/pl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/pl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/pt-br.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/pt-br.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/pt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/pt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ro.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ro.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ru.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ru.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/si.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/si.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/sk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/sk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/sl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/sl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/sq.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/sq.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/sr-latn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/sr-latn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/sr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/sr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/sv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/sv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/th.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/th.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/tr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/tr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/tt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/tt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/ug.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/ug.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/uk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/uk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/vi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/vi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/zh-cn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/zh-cn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/lang/zh.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/lang/zh.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/af.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/af.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/az.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/az.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/da.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/da.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/de.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/de.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/el.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/el.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/en.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/en.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/es.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/es.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/et.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/et.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/he.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/he.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/id.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/id.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/it.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/it.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/km.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/km.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/no.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/no.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/si.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/si.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/th.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/th.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/about/dialogs/about.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/about/dialogs/about.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/about/dialogs/logo_ckeditor.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/about/dialogs/logo_ckeditor.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/clipboard/dialogs/paste.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/clipboard/dialogs/paste.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/colordialog/dialogs/colordialog.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/colordialog/dialogs/colordialog.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/colordialog/dialogs/colordialog.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/colordialog/dialogs/colordialog.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/copyformatting/cursors/cursor.svg",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/copyformatting/cursors/cursor.svg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/copyformatting/styles/copyformatting.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/copyformatting/styles/copyformatting.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/dialog/dialogDefinition.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/dialog/dialogDefinition.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/dialog/styles/dialog.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/dialog/styles/dialog.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/div/dialogs/div.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/div/dialogs/div.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/CHANGELOG.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/CHANGELOG.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/LICENSE.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/README.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/README.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/plugindefinition.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/plugindefinition.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/_helpers/tools.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/_helpers/tools.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/authentication.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/authentication.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/exportpdf.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/exportpdf.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/configfilename.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/configfilename.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/configfilename.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/configfilename.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/emptyeditor.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/emptyeditor.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/emptyeditor.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/emptyeditor.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integration.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integration.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integration.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integration.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integrations/easyimage.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integrations/easyimage.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integrations/easyimage.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/integrations/easyimage.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notifications.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notifications.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notifications.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notifications.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notificationsasync.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notificationsasync.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notificationsasync.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/notificationsasync.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/paperformat.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/paperformat.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/paperformat.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/paperformat.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/readonly.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/readonly.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/readonly.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/readonly.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/stylesheets.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/stylesheets.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/stylesheets.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/stylesheets.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenfetching.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenfetching.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenfetching.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenfetching.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorscorrect.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorscorrect.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorscorrect.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorscorrect.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorswrong.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorswrong.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorswrong.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokentwoeditorswrong.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenwithouturl.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenwithouturl.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenwithouturl.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/tokenwithouturl.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/wrongendpoint.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/wrongendpoint.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/wrongendpoint.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/manual/wrongendpoint.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/notification.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/notification.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/resourcespaths.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/resourcespaths.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/statistics.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/statistics.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/stylesheets.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/exportpdf/tests/stylesheets.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/find/dialogs/find.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/find/dialogs/find.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/flash/dialogs/flash.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/flash/dialogs/flash.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/flash/images/placeholder.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/flash/images/placeholder.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/button.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/button.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/checkbox.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/checkbox.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/form.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/form.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/hiddenfield.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/hiddenfield.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/radio.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/radio.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/select.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/select.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/textarea.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/textarea.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/textfield.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/dialogs/textfield.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/forms/images/hiddenfield.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/forms/images/hiddenfield.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/icons.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/icons.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/icons_hidpi.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/icons_hidpi.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/iframe/dialogs/iframe.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/iframe/dialogs/iframe.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/iframe/images/placeholder.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/iframe/images/placeholder.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/image/dialogs/image.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/image/dialogs/image.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/image/images/noimage.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/image/images/noimage.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/link/dialogs/anchor.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/link/dialogs/anchor.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/link/dialogs/link.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/link/dialogs/link.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/link/images/anchor.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/link/images/anchor.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/link/images/hidpi/anchor.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/link/images/hidpi/anchor.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/liststyle/dialogs/liststyle.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/liststyle/dialogs/liststyle.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/hidpi/icon.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/hidpi/icon.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/icon-rtl.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/icon-rtl.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/icon.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/magicline/images/icon.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/pagebreak/images/pagebreak.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/pagebreak/images/pagebreak.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/pastefromgdocs/filter/default.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/pastefromgdocs/filter/default.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/pastefromlibreoffice/filter/default.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/pastefromlibreoffice/filter/default.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/pastefromword/filter/default.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/pastefromword/filter/default.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/pastetools/filter/common.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/pastetools/filter/common.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/pastetools/filter/image.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/pastetools/filter/image.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/preview/images/pagebreak.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/preview/images/pagebreak.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/preview/preview.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/preview/preview.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/preview/styles/screen.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/preview/styles/screen.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/CHANGELOG.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/CHANGELOG.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/LICENSE.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/README.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/README.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/dialogs/dialog.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/dialogs/dialog.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/dialogs/options.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/dialogs/options.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/dialogs/toolbar.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/dialogs/toolbar.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_address.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_address.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_blockquote.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_blockquote.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_div.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_div.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h1.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h1.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h2.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h2.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h3.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h3.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h4.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h4.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h5.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h5.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h6.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_h6.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_p.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_p.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_pre.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/showblocks/images/block_pre.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/dialogs/smiley.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/dialogs/smiley.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angel_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angel_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angel_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angel_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angry_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angry_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angry_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/angry_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/broken_heart.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/broken_heart.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/broken_heart.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/broken_heart.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/confused_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/confused_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/confused_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/confused_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/cry_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/cry_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/cry_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/cry_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/devil_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/devil_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/devil_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/devil_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/embaressed_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/embaressed_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/embarrassed_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/embarrassed_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/embarrassed_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/embarrassed_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/envelope.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/envelope.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/envelope.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/envelope.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/heart.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/heart.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/heart.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/heart.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/kiss.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/kiss.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/kiss.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/kiss.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/lightbulb.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/lightbulb.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/lightbulb.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/lightbulb.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/omg_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/omg_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/omg_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/omg_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/regular_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/regular_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/regular_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/regular_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/sad_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/sad_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/sad_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/sad_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/shades_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/shades_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/shades_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/shades_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/teeth_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/teeth_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/teeth_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/teeth_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_down.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_down.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_down.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_down.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_up.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_up.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_up.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/thumbs_up.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/tongue_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/tongue_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/tongue_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/tongue_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/tounge_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/tounge_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/wink_smile.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/wink_smile.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/wink_smile.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/smiley/images/wink_smile.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/af.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/af.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ar.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ar.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/az.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/az.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/bg.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/bg.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/cs.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/cs.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/cy.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/cy.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/da.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/da.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/de.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/de.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/el.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/el.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en-au.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en-au.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/en.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/eo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/eo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/es.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/es.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/et.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/et.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/eu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/eu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fa.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fa.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/fr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/gl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/gl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/he.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/he.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/hr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/hr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/hu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/hu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/id.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/id.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/it.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/it.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ja.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ja.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/km.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/km.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ko.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ko.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ku.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ku.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/lt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/lt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/lv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/lv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/nb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/nb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/nl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/nl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/no.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/no.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/oc.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/oc.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/pl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/pl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/pt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/pt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ro.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ro.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ru.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ru.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/si.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/si.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sq.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sq.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/sv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/th.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/th.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/tr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/tr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/tt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/tt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ug.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/ug.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/uk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/uk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/vi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/vi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/zh.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/lang/zh.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/specialchar.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/specialchar/dialogs/specialchar.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/table/dialogs/table.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/table/dialogs/table.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/tableselection/styles/tableselection.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/tableselection/styles/tableselection.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/tabletools/dialogs/tableCell.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/tabletools/dialogs/tableCell.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/templates/dialogs/templates.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/templates/dialogs/templates.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/templates/dialogs/templates.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/templates/dialogs/templates.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/default.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/default.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/images/template1.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/images/template1.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/images/template2.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/images/template2.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/images/template3.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/templates/templates/images/template3.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/widget/images/handle.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/widget/images/handle.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/LICENSE.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/README.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/README.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/ciframe.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/ciframe.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/tmpFrameset.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/tmpFrameset.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/wsc.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/wsc.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/wsc.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/wsc.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/wsc_ie.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/dialogs/wsc_ie.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/icons/hidpi/spellchecker.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/icons/hidpi/spellchecker.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/icons/spellchecker.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/icons/spellchecker.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/af.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/af.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ar.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ar.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/bg.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/bg.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/bn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/bn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/bs.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/bs.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/cs.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/cs.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/cy.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/cy.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/da.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/da.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/de.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/de.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/el.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/el.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en-au.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en-au.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en-gb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en-gb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/en.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/eo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/eo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/es.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/es.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/et.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/et.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/eu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/eu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fa.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fa.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fo.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fo.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fr-ca.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fr-ca.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/fr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/gl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/gl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/gu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/gu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/he.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/he.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/hi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/hi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/hr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/hr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/hu.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/hu.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/is.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/is.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/it.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/it.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ja.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ja.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ka.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ka.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/km.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/km.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ko.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ko.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ku.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ku.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/lt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/lt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/lv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/lv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/mk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/mk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/mn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/mn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ms.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ms.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/nb.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/nb.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/nl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/nl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/no.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/no.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/pl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/pl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/pt-br.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/pt-br.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/pt.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/pt.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ro.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ro.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ru.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ru.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sl.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sl.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sr-latn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sr-latn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sv.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/sv.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/th.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/th.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/tr.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/tr.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ug.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/ug.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/uk.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/uk.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/vi.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/vi.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/zh-cn.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/zh-cn.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/zh.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/lang/zh.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/plugin.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/plugin.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/css/samples.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/css/samples.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/img/github-top.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/img/github-top.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/img/header-bg.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/img/header-bg.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/img/header-separator.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/img/header-separator.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/img/logo.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/img/logo.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/img/logo.svg",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/img/logo.svg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/img/navigation-tip.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/img/navigation-tip.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/index.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/index.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/js/sample.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/js/sample.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/js/sf.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/js/sf.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/ajax.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/ajax.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/api.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/api.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/appendto.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/appendto.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/assets/inlineall/logo.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/assets/inlineall/logo.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/assets/posteddata.php",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/assets/posteddata.php"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/assets/sample.jpg",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/assets/sample.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/assets/uilanguages/languages.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/assets/uilanguages/languages.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/datafiltering.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/datafiltering.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/dialog/assets/my_dialog.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/dialog/assets/my_dialog.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/dialog/dialog.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/dialog/dialog.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/divreplace.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/divreplace.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/enterkey/enterkey.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/enterkey/enterkey.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/outputforflash.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/outputforflash.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/outputhtml.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/htmlwriter/outputhtml.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/index.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/index.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/inlineall.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/inlineall.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/inlinebycode.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/inlinebycode.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/inlinetextarea.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/inlinetextarea.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/jquery.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/jquery.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/magicline/magicline.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/magicline/magicline.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/readonly.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/readonly.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/replacebyclass.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/replacebyclass.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/replacebycode.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/replacebycode.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/sample.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/sample.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/sample.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/sample.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/sample_posteddata.php",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/sample_posteddata.php"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/tabindex.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/tabindex.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/toolbar/toolbar.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/toolbar/toolbar.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/uicolor.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/uicolor.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/uilanguages.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/uilanguages.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/wysiwygarea/fullpage.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/wysiwygarea/fullpage.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/old/xhtmlstyle.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/old/xhtmlstyle.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/css/fontello.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/css/fontello.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/config.json",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/config.json"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.eot",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.eot"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.svg",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.svg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.ttf",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.ttf"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.woff",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/font/fontello.woff"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/index.html",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/index.html"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog_ie.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog_ie.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog_ie8.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog_ie8.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog_iequirks.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/dialog_iequirks.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_gecko.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_gecko.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_ie.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_ie.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_ie8.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_ie8.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_iequirks.css",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/editor_iequirks.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/icons.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/icons.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/icons_hidpi.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/icons_hidpi.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/arrow.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/arrow.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/close.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/close.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/close.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/close.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/lock.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/lock.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/refresh.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/hidpi/refresh.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/lock-open.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/lock-open.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/lock.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/lock.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/refresh.png",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/refresh.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/spinner.gif",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/images/spinner.gif"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/readme.md",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/skins/moono-lisa/readme.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/styles.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/styles.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/ckeditor_4.16.0_full/ckeditor/vendor/promise.js",
+      "PackagePath": "staticwebassets/ckeditor_4.16.0_full/ckeditor/vendor/promise.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/261c11b7-fb38-424b-865d-24c9872dfe4ecoding.png",
+      "PackagePath": "staticwebassets/img/advantages/261c11b7-fb38-424b-865d-24c9872dfe4ecoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.png",
+      "PackagePath": "staticwebassets/img/advantages/429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/51cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).png",
+      "PackagePath": "staticwebassets/img/advantages/51cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/58b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).png",
+      "PackagePath": "staticwebassets/img/advantages/58b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/6c70db60-6f71-4d9d-8a96-c847f114ddadcoding.png",
+      "PackagePath": "staticwebassets/img/advantages/6c70db60-6f71-4d9d-8a96-c847f114ddadcoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/c8e51f7c-3007-4718-89a4-8269c93dcdc1coding.png",
+      "PackagePath": "staticwebassets/img/advantages/c8e51f7c-3007-4718-89a4-8269c93dcdc1coding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/e01c928c-d247-45f9-a8bd-f6a2d90bd647coding.png",
+      "PackagePath": "staticwebassets/img/advantages/e01c928c-d247-45f9-a8bd-f6a2d90bd647coding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/ed88a336-2ba2-4724-93c2-f65f42128230money-growth.png",
+      "PackagePath": "staticwebassets/img/advantages/ed88a336-2ba2-4724-93c2-f65f42128230money-growth.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/banners/46dfb6be-41c4-4daa-8bcd-5c02b0abbdd7logo.png",
+      "PackagePath": "staticwebassets/img/banners/46dfb6be-41c4-4daa-8bcd-5c02b0abbdd7logo.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/banners/63762f15-1d9e-47c9-8fda-40643b475d0acontact-bg.jpg",
+      "PackagePath": "staticwebassets/img/banners/63762f15-1d9e-47c9-8fda-40643b475d0acontact-bg.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/banners/647dab77-601e-4475-a953-0973b4ff3021contact-bg.jpg",
+      "PackagePath": "staticwebassets/img/banners/647dab77-601e-4475-a953-0973b4ff3021contact-bg.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/banners/6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.jpg",
+      "PackagePath": "staticwebassets/img/banners/6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/banners/7c3daad1-821a-4657-8bbb-3400145fc666contact-bg.jpg",
+      "PackagePath": "staticwebassets/img/banners/7c3daad1-821a-4657-8bbb-3400145fc666contact-bg.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/bg-decor-6.png",
+      "PackagePath": "staticwebassets/img/bg-decor-6.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/bg-decor-9.png",
+      "PackagePath": "staticwebassets/img/bg-decor-9.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/contact-bg.jpg",
+      "PackagePath": "staticwebassets/img/contact-bg.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/1492b8ad-5c48-4364-87fc-71b417da15b4portfolio-big.jpg",
+      "PackagePath": "staticwebassets/img/projects/1492b8ad-5c48-4364-87fc-71b417da15b4portfolio-big.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/15ded368-aaae-41c0-8148-889686663b43portfolio-big.jpg",
+      "PackagePath": "staticwebassets/img/projects/15ded368-aaae-41c0-8148-889686663b43portfolio-big.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/1b56a851-4618-4f22-b6ba-774f8854d3a7work-6.jpg",
+      "PackagePath": "staticwebassets/img/projects/1b56a851-4618-4f22-b6ba-774f8854d3a7work-6.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/1c44de12-eabb-4d47-b16f-b6092e545cfeProject-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/1c44de12-eabb-4d47-b16f-b6092e545cfeProject-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/1decf15d-fa28-4142-9dd6-91199b3c425fwork-6.jpg",
+      "PackagePath": "staticwebassets/img/projects/1decf15d-fa28-4142-9dd6-91199b3c425fwork-6.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/223e0710-1751-4ef1-8246-187263481148portfolio-big.jpg",
+      "PackagePath": "staticwebassets/img/projects/223e0710-1751-4ef1-8246-187263481148portfolio-big.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/3e925118-a263-48c6-a750-b0a6c8eacacbwork-3.jpg",
+      "PackagePath": "staticwebassets/img/projects/3e925118-a263-48c6-a750-b0a6c8eacacbwork-3.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/41e1a5a4-f1f1-41ea-8b75-03ec362059ebwork-3.jpg",
+      "PackagePath": "staticwebassets/img/projects/41e1a5a4-f1f1-41ea-8b75-03ec362059ebwork-3.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/46d4c36f-6b4e-4eb6-9636-389022b653a6Project-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/46d4c36f-6b4e-4eb6-9636-389022b653a6Project-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/56257279-f045-48ab-bc18-6437a7d855e2work-6.jpg",
+      "PackagePath": "staticwebassets/img/projects/56257279-f045-48ab-bc18-6437a7d855e2work-6.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png",
+      "PackagePath": "staticwebassets/img/projects/5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/61b28c2d-cae0-4a42-949f-31114ca285f6Project-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/61b28c2d-cae0-4a42-949f-31114ca285f6Project-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/69ed89ae-8a97-4b6f-a294-d997e832a737work-4.jpg",
+      "PackagePath": "staticwebassets/img/projects/69ed89ae-8a97-4b6f-a294-d997e832a737work-4.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/7825685d-16d6-484c-8725-edc466635872work-2.jpg",
+      "PackagePath": "staticwebassets/img/projects/7825685d-16d6-484c-8725-edc466635872work-2.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/80b73aa5-1f69-4a30-a300-8b4e92b267abportfolio-big.jpg",
+      "PackagePath": "staticwebassets/img/projects/80b73aa5-1f69-4a30-a300-8b4e92b267abportfolio-big.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/829d0192-80af-4ce8-a50e-5d9b7322a296work-2.jpg",
+      "PackagePath": "staticwebassets/img/projects/829d0192-80af-4ce8-a50e-5d9b7322a296work-2.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg",
+      "PackagePath": "staticwebassets/img/projects/b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg",
+      "PackagePath": "staticwebassets/img/projects/c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/ce965f4d-a0b3-4022-9d82-80e18b088714Project-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/ce965f4d-a0b3-4022-9d82-80e18b088714Project-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/cf07552d-e706-4e8d-b722-10d08dcabcefProject-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/cf07552d-e706-4e8d-b722-10d08dcabcefProject-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/d4c266f4-71dd-464b-b82b-d2955b7b9cafportfolio-big.jpg",
+      "PackagePath": "staticwebassets/img/projects/d4c266f4-71dd-464b-b82b-d2955b7b9cafportfolio-big.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/e2a9b6ca-d099-4639-9277-94fa58ad62a7work-2.jpg",
+      "PackagePath": "staticwebassets/img/projects/e2a9b6ca-d099-4639-9277-94fa58ad62a7work-2.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/e3741696-a8d2-4ba3-8fb6-77cb33226b01Project-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/e3741696-a8d2-4ba3-8fb6-77cb33226b01Project-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/edd5c035-7ec2-41c8-86b0-427b0808cd55Project-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/edd5c035-7ec2-41c8-86b0-427b0808cd55Project-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/fd0f52b3-da88-4e5c-95cf-e5a2b843a93cProject-Management-Mantenimiento-1.jpg",
+      "PackagePath": "staticwebassets/img/projects/fd0f52b3-da88-4e5c-95cf-e5a2b843a93cProject-Management-Mantenimiento-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/right-arrow.png",
+      "PackagePath": "staticwebassets/img/right-arrow.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/022d3e8b-8795-45ab-b693-b79fddb3fce3services-1-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/022d3e8b-8795-45ab-b693-b79fddb3fce3services-1-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/051b08a0-e543-45b1-a516-db9728eec2e8services-3-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/051b08a0-e543-45b1-a516-db9728eec2e8services-3-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/15a7892f-9f6b-4c1c-9602-1bfd5582b9acservices-3-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/15a7892f-9f6b-4c1c-9602-1bfd5582b9acservices-3-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/39c3f72f-b8e2-4243-b77d-639a27aa3736services-4-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/39c3f72f-b8e2-4243-b77d-639a27aa3736services-4-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/46e645bf-3b14-40b4-9256-192a540d8de4services-2-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/46e645bf-3b14-40b4-9256-192a540d8de4services-2-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/5f2bcb16-aba0-4a83-829a-a578ebf94e14services-5-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/5f2bcb16-aba0-4a83-829a-a578ebf94e14services-5-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/78b616c7-6367-453b-808b-642bb468363eservices-3-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/78b616c7-6367-453b-808b-642bb468363eservices-3-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/8f1ccb40-fb2a-4f8a-a00b-56b564dee8fdservices-4-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/8f1ccb40-fb2a-4f8a-a00b-56b564dee8fdservices-4-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/9c996317-18f6-429f-9dab-1b179f5ab442services-5-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/9c996317-18f6-429f-9dab-1b179f5ab442services-5-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/a372d751-d50a-4bb8-8e7f-c351eb7b59f9services-5-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/a372d751-d50a-4bb8-8e7f-c351eb7b59f9services-5-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/a5e1502d-468a-48b1-9bc5-9a52a2deaab6services-6-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/a5e1502d-468a-48b1-9bc5-9a52a2deaab6services-6-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/ae09ec2c-30ee-47ba-a620-2f18bcd21ca2services-2-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/ae09ec2c-30ee-47ba-a620-2f18bcd21ca2services-2-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/b1e45d76-a16e-48ff-b5b5-c52d4118ce460b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg",
+      "PackagePath": "staticwebassets/img/service/b1e45d76-a16e-48ff-b5b5-c52d4118ce460b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/d008ab22-5e2b-4d94-9e45-875511206850services-6-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/d008ab22-5e2b-4d94-9e45-875511206850services-6-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/d3b72493-43b7-4a10-acba-1dcd4688d596services-4-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/d3b72493-43b7-4a10-acba-1dcd4688d596services-4-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/d69670c6-cb3d-47f9-af66-40fcf17c999d0b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg",
+      "PackagePath": "staticwebassets/img/service/d69670c6-cb3d-47f9-af66-40fcf17c999d0b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/d7f6dcc5-a437-4eec-80ca-8c4f222c4432services-1-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/d7f6dcc5-a437-4eec-80ca-8c4f222c4432services-1-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/ec04600a-f3d1-40f7-a059-6cc72e141e21services-6-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/ec04600a-f3d1-40f7-a059-6cc72e141e21services-6-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/service/eca5e1d7-fd5a-437f-999f-6b6d84e73743services-2-565x401.jpg",
+      "PackagePath": "staticwebassets/img/service/eca5e1d7-fd5a-437f-999f-6b6d84e73743services-2-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/0b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg",
+      "PackagePath": "staticwebassets/img/serviceCategories/0b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/2db3e370-be0d-4a44-834b-f6e568a0466duntitled-1-1024x576.png",
+      "PackagePath": "staticwebassets/img/serviceCategories/2db3e370-be0d-4a44-834b-f6e568a0466duntitled-1-1024x576.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/4ce743be-4fc1-4312-b623-5961d6eff7cf21788.png",
+      "PackagePath": "staticwebassets/img/serviceCategories/4ce743be-4fc1-4312-b623-5961d6eff7cf21788.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/6980c032-b75f-47a4-9498-46956b32a6610b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg",
+      "PackagePath": "staticwebassets/img/serviceCategories/6980c032-b75f-47a4-9498-46956b32a6610b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/81e449d8-4449-4849-a984-dd88bc6e03a97b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png",
+      "PackagePath": "staticwebassets/img/serviceCategories/81e449d8-4449-4849-a984-dd88bc6e03a97b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/b1f5da50-c5de-4fd2-ac79-c79f1b583c750b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg",
+      "PackagePath": "staticwebassets/img/serviceCategories/b1f5da50-c5de-4fd2-ac79-c79f1b583c750b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/c318bf1b-23fb-4493-a1a8-940172e3ea2621788.png",
+      "PackagePath": "staticwebassets/img/serviceCategories/c318bf1b-23fb-4493-a1a8-940172e3ea2621788.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceCategories/d0b8b8d1-c665-4a9e-b91b-e673a682f833untitled-1-1024x576.png",
+      "PackagePath": "staticwebassets/img/serviceCategories/d0b8b8d1-c665-4a9e-b91b-e673a682f833untitled-1-1024x576.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/0919075a-a41a-445e-bbfe-75e27b19b4b921788.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/0919075a-a41a-445e-bbfe-75e27b19b4b921788.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/18935b1d-dad5-4184-8661-357bd03f6035c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/18935b1d-dad5-4184-8661-357bd03f6035c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/7e91ded8-5881-4d96-b960-60dd64ef95c57b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/7e91ded8-5881-4d96-b960-60dd64ef95c57b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/7f3ba671-ec14-4c71-9271-fefba5586149coding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/7f3ba671-ec14-4c71-9271-fefba5586149coding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/95ea4b2e-d32e-413d-8fe6-2dc93c227bb77b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/95ea4b2e-d32e-413d-8fe6-2dc93c227bb77b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/9dea27d9-fbbf-4fb8-9db8-27a735ac864dcoding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/9dea27d9-fbbf-4fb8-9db8-27a735ac864dcoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/serviceIcons/c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png",
+      "PackagePath": "staticwebassets/img/serviceIcons/c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/services-1-565x401.jpg",
+      "PackagePath": "staticwebassets/img/services-1-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/services-2-565x401.jpg",
+      "PackagePath": "staticwebassets/img/services-2-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/services-3-565x401.jpg",
+      "PackagePath": "staticwebassets/img/services-3-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/services-4-565x401.jpg",
+      "PackagePath": "staticwebassets/img/services-4-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/services-5-565x401.jpg",
+      "PackagePath": "staticwebassets/img/services-5-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/services-6-565x401.jpg",
+      "PackagePath": "staticwebassets/img/services-6-565x401.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/sidebar-5.jpg",
+      "PackagePath": "staticwebassets/img/sidebar-5.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/slider/6878d220-8dcb-4bc2-baf3-7b824e2a98b5a2a3a7e4-bdf6-449c-8903-7fcca0829aceslider1.jpg",
+      "PackagePath": "staticwebassets/img/slider/6878d220-8dcb-4bc2-baf3-7b824e2a98b5a2a3a7e4-bdf6-449c-8903-7fcca0829aceslider1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/slider/8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).png",
+      "PackagePath": "staticwebassets/img/slider/8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/slider/a2a3a7e4-bdf6-449c-8903-7fcca0829aceslider1.jpg",
+      "PackagePath": "staticwebassets/img/slider/a2a3a7e4-bdf6-449c-8903-7fcca0829aceslider1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/slider/b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).png",
+      "PackagePath": "staticwebassets/img/slider/b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/slider/c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).png",
+      "PackagePath": "staticwebassets/img/slider/c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/slider/c17de797-ce91-44d9-bf22-585f2d4cec3ba2a3a7e4-bdf6-449c-8903-7fcca0829aceslider1.jpg",
+      "PackagePath": "staticwebassets/img/slider/c17de797-ce91-44d9-bf22-585f2d4cec3ba2a3a7e4-bdf6-449c-8903-7fcca0829aceslider1.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/sprite.png",
+      "PackagePath": "staticwebassets/img/sprite.png"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/work-2.jpg",
+      "PackagePath": "staticwebassets/img/work-2.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/work-3.jpg",
+      "PackagePath": "staticwebassets/img/work-3.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/work-4.jpg",
+      "PackagePath": "staticwebassets/img/work-4.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/work-5.jpg",
+      "PackagePath": "staticwebassets/img/work-5.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/work-6.jpg",
+      "PackagePath": "staticwebassets/img/work-6.jpg"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/lib/css/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/lib/css/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/.bower.json"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation/.bower.json",
+      "PackagePath": "staticwebassets/lib/jquery-validation/.bower.json"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets/lib/js/isotope.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets/lib/js/jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/popper.min.js",
+      "PackagePath": "staticwebassets/lib/js/popper.min.js"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.EGmediaBack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.EGmediaBack.props",
+      "PackagePath": "build\\EGmediaBack.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.EGmediaBack.props",
+      "PackagePath": "buildMultiTargeting\\EGmediaBack.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.EGmediaBack.props",
+      "PackagePath": "buildTransitive\\EGmediaBack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
