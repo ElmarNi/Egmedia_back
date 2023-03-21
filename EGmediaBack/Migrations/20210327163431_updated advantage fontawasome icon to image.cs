@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class updatedadvantagefontawasomeicontoimage : Migration
+    public partial class updatedAdvantagefontawasomeicontoimage : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210324093913_projects added home page image")]
-    partial class projectsaddedhomepageimage
+    partial class projectsAddedHomepageImage
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

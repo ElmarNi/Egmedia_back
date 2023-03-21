@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class removedstatusfromservices : Migration
+    public partial class removedStatusfromservices : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

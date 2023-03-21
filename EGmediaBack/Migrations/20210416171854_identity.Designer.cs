@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210416171854_identity")]
-    partial class identity
+    partial class Identity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210327163431_updated advantage fontawasome icon to image")]
-    partial class updatedadvantagefontawasomeicontoimage
+    partial class updatedAdvantagefontawasomeicontoimage
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

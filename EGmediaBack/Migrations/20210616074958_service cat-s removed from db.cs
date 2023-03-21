@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EGmediaBack.Migrations
 {
-    public partial class servicecatsremovedfromdb : Migration
+    public partial class serviceCatsremovedfromdb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

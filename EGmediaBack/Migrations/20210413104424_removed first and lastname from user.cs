@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class removedfirstandlastnamefromuser : Migration
+    public partial class removedFirstandlastnamefromuser : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

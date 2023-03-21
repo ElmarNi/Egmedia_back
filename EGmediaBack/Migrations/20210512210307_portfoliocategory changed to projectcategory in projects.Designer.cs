@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210512210307_portfoliocategory changed to projectcategory in projects")]
-    partial class portfoliocategorychangedtoprojectcategoryinprojects
+    partial class portfolioCategorychangedtoprojectcategoryinprojects
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

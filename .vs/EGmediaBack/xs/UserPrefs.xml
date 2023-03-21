@@ -1,29 +1,27 @@
 ﻿<Properties StartupConfiguration="{D56F5A15-D5D3-4D4F-B9CD-D1229C4BF222}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/appsettings.json">
     <Files>
-      <File FileName="EGmediaBack/Program.cs" Line="24" Column="30" />
+      <File FileName="EGmediaBack/EGmediaBack.csproj" Line="397" Column="41" />
+      <File FileName="EGmediaBack/appsettings.json" Line="21" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EGmediaBack" expanded="True">
             <Node name="EGmediaBack" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="egmedia_admin" expanded="True">
-                  <Node name="Views" expanded="True" />
-                </Node>
-              </Node>
+              <Node name="Dependencies" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

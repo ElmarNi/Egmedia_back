@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210616074958_service cat-s removed from db")]
-    partial class servicecatsremovedfromdb
+    partial class serviceCatsremovedfromdb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

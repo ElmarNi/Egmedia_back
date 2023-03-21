@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210512221209_added showinhome and status to projects")]
-    partial class addedshowinhomeandstatustoprojects
+    partial class addedShowinhomeandstatustoprojects
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

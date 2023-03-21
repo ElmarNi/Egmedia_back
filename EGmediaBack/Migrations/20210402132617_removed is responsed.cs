@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class removedisresponsed : Migration
+    public partial class removedIsresponsed : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

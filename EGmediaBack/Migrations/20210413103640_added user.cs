@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EGmediaBack.Migrations
 {
-    public partial class addeduser : Migration
+    public partial class addedUser : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

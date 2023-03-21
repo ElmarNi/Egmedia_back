@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class servicecatsaddedtoservices : Migration
+    public partial class serviceCatsaddedtoservices : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class portfoliostoprojectsinpcats : Migration
+    public partial class portfoliosToprojectsinpcats : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

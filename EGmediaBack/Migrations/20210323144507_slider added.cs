@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EGmediaBack.Migrations
 {
-    public partial class slideradded : Migration
+    public partial class sliderAdded : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

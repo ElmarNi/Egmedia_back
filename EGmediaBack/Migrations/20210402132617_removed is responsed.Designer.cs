@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210402132617_removed is responsed")]
-    partial class removedisresponsed
+    partial class removedIsresponsed
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

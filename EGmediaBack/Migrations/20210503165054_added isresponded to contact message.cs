@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class addedisrespondedtocontactmessage : Migration
+    public partial class addedIsrespondedtocontactmessage : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210512210009_added status to pr cats")]
-    partial class addedstatustoprcats
+    partial class addedStatustoprcats
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

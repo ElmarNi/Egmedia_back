@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class addedshowinhomeandstatustoprojects : Migration
+    public partial class addedShowinhomeandstatustoprojects : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

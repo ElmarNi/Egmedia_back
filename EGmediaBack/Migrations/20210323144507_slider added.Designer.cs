@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210323144507_slider added")]
-    partial class slideradded
+    partial class sliderAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

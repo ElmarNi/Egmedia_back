@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210611062600_removed status from services")]
-    partial class removedstatusfromservices
+    partial class removedStatusfromservices
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

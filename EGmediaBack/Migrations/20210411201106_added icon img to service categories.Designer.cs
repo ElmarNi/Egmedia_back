@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210411201106_added icon img to service categories")]
-    partial class addediconimgtoservicecategories
+    partial class addedIconimgtoservicecategories
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

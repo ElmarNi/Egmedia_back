@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class addediconimgtoservicecategories : Migration
+    public partial class addedIconimgtoservicecategories : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

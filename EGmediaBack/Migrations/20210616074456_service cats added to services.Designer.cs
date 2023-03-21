@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210616074456_service cats added to services")]
-    partial class servicecatsaddedtoservices
+    partial class serviceCatsaddedtoservices
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

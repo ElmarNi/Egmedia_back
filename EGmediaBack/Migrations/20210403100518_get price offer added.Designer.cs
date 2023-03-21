@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210403100518_get price offer added")]
-    partial class getpriceofferadded
+    partial class getPriceofferadded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class addedstatuscolumntoservice : Migration
+    public partial class addedStatuscolumntoservice : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

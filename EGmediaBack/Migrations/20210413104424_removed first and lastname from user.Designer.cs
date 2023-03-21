@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210413104424_removed first and lastname from user")]
-    partial class removedfirstandlastnamefromuser
+    partial class removedFirstandlastnamefromuser
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

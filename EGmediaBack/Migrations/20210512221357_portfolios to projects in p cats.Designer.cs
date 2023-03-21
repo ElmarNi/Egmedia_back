@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210512221357_portfolios to projects in p cats")]
-    partial class portfoliostoprojectsinpcats
+    partial class portfoliosToprojectsinpcats
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

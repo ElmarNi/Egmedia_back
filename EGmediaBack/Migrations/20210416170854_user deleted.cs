@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EGmediaBack.Migrations
 {
-    public partial class userdeleted : Migration
+    public partial class userDeleted : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -2,7 +2,7 @@
 
 namespace EGmediaBack.Migrations
 {
-    public partial class offeradded : Migration
+    public partial class offerAdded : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210503165054_added isresponded to contact message")]
-    partial class addedisrespondedtocontactmessage
+    partial class addedIsrespondedtocontactmessage
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

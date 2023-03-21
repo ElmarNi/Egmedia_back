@@ -11,7 +11,7 @@ namespace EGmediaBack.Migrations
 {
     [DbContext(typeof(EGmediaDb))]
     [Migration("20210324095442_added advatages")]
-    partial class addedadvatages
+    partial class addAdadvatages
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

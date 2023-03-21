@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EGmediaBack.Migrations
 {
-    public partial class addedadvatages : Migration
+    public partial class addAdadvatages : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
