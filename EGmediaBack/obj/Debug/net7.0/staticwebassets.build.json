@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tePWG1xFJalS6lVziE1x0VnnaqZAXaBrfpEbTvt6nrg=",
+  "Hash": "QLcY2ay3wSpAVTdxxvo68yzEz6267PMNiCk7MEiH7uE=",
   "Source": "EGmediaBack",
   "BasePath": "_content/EGmediaBack",
   "Mode": "Default",
@@ -9690,6 +9690,23 @@
       "OriginalItemSpec": "wwwroot/img/projects/b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg"
     },
     {
+      "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png",
+      "SourceId": "EGmediaBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/",
+      "BasePath": "_content/EGmediaBack",
+      "RelativePath": "img/projects/be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/projects/be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png"
+    },
+    {
       "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg",
       "SourceId": "EGmediaBack",
       "SourceType": "Discovered",
@@ -10778,6 +10795,23 @@
       "OriginalItemSpec": "wwwroot/lib/css/bootstrap.min.css"
     },
     {
+      "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/fancybox.css",
+      "SourceId": "EGmediaBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/",
+      "BasePath": "_content/EGmediaBack",
+      "RelativePath": "lib/css/fancybox.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/css/fancybox.css"
+    },
+    {
       "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/owl.carousel.min.css",
       "SourceId": "EGmediaBack",
       "SourceType": "Discovered",
@@ -10997,6 +11031,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/js/bootstrap.min.js"
+    },
+    {
+      "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/fancybox.js",
+      "SourceId": "EGmediaBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/",
+      "BasePath": "_content/EGmediaBack",
+      "RelativePath": "lib/js/fancybox.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/js/fancybox.js"
     },
     {
       "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/isotope.pkgd.min.js",

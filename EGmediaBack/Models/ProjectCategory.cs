@@ -13,8 +13,10 @@ namespace EGmediaBack.Models
         [Required(ErrorMessage = "Ad boş olmamalıdır.")]
         public string Name { get; set; }
 
-        public virtual ICollection<Project> Projects { get; set; }
+        public bool IsImage { get; set; }
 
         public bool Status { get; set; }
+
+        public virtual ICollection<Project> Projects { get; set; }
     }
 }

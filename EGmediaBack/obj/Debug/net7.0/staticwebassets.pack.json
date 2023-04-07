@@ -2277,6 +2277,10 @@
       "PackagePath": "staticwebassets/img/projects/b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg"
     },
     {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png",
+      "PackagePath": "staticwebassets/img/projects/be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png"
+    },
+    {
       "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/projects/c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg",
       "PackagePath": "staticwebassets/img/projects/c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg"
     },
@@ -2533,6 +2537,10 @@
       "PackagePath": "staticwebassets/lib/css/bootstrap.min.css"
     },
     {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/fancybox.css",
+      "PackagePath": "staticwebassets/lib/css/fancybox.css"
+    },
+    {
       "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/css/owl.carousel.min.css",
       "PackagePath": "staticwebassets/lib/css/owl.carousel.min.css"
     },
@@ -2583,6 +2591,10 @@
     {
       "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/fancybox.js",
+      "PackagePath": "staticwebassets/lib/js/fancybox.js"
     },
     {
       "Id": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/lib/js/isotope.pkgd.min.js",

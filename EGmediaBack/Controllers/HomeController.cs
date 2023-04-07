@@ -11,6 +11,7 @@ using EGmediaBack.Models;
 using EGmediaBack.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using static EGmediaBack.Extensions.CustomHash;
 
@@ -34,7 +35,6 @@ namespace EGmediaBack.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            //var key = _configuration.GetValue<string>("CryptKey:Key");
             var password = _configuration.GetValue<string>("Admin:Password");
             var username = _configuration.GetValue<string>("Admin:Username");
             if (!await _role.RoleExistsAsync("admin"))
@@ -56,7 +56,7 @@ namespace EGmediaBack.Controllers
             HomeVM homeVM = new HomeVM
             {
                 sliders = _context.sliders.OrderByDescending(s => s.Date).Take(3),
-                projects = _context.projects.Where(p => p.Status && p.ProjectCategory.Status && p.ShowInHome).OrderByDescending(p => p.Date).Take(6),
+                projects = _context.projects.Where(p => p.Status && p.ProjectCategory.Status && p.ShowInHome).Include(p => p.ProjectCategory).OrderByDescending(p => p.Date).Take(6),
                 advantages = _context.advantages.Take(4),
                 services = _context.services.Where(s => s.Status)
             };

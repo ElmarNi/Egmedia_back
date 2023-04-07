@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{D56F5A15-D5D3-4D4F-B9CD-D1229C4BF222}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/appsettings.json">
+  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/Views/Contact/Index.cshtml">
     <Files>
-      <File FileName="EGmediaBack/EGmediaBack.csproj" Line="397" Column="41" />
-      <File FileName="EGmediaBack/appsettings.json" Line="21" Column="2" />
+      <File FileName="EGmediaBack/wwwroot/assets/js/main.js" Line="380" Column="34" />
+      <File FileName="EGmediaBack/wwwroot/assets/css/style.css" Line="2902" Column="24" />
+      <File FileName="EGmediaBack/Views/Shared/_Layout.cshtml" Line="144" Column="67" />
+      <File FileName="EGmediaBack/Views/Contact/Index.cshtml" Line="63" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +17,25 @@
           <Node name="EGmediaBack" expanded="True">
             <Node name="EGmediaBack" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
+              <Node name="Areas" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Contact" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="css" expanded="True" />
+                  <Node name="js" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

@@ -10,6 +10,7 @@
                             <tr>
                                 <th scope="col">Id</th>
                                 <th scope="col">Adı</th>
+                                <th scope="col">IsImage</th>
                                 <th scope="col">Status</th>
                             </tr>
                         </thead>
@@ -19,6 +20,7 @@
                                 <tr>
                                     <th scope="row">@category.Id</th>
                                     <td>@category.Name</td>
+                                    <td>@(category.IsImage ? "Aktiv" : "Deaktiv" )</td>
                                     <td>@(category.Status ? "Aktiv" : "Deaktiv" )</td>
                                     <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="CategoryUpdate" asp-route-id="@category.Id">Redaktə et</a></td>
                                 </tr>

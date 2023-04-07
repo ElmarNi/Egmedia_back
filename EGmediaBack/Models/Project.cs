@@ -30,9 +30,12 @@ namespace EGmediaBack.Models
         [Required(ErrorMessage = "Layihənin kateqoriyasını seçin")]
         public int ProjectCategoryId { get; set; }
 
-        public virtual ProjectCategory ProjectCategory { get; set; }
-
         public bool Status { get; set; }
+
         public bool ShowInHome { get; set; }
+
+        public string Url { get; set; }
+
+        public virtual ProjectCategory ProjectCategory { get; set; }
     }
 }

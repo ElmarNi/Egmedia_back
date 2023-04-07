@@ -385,4 +385,10 @@
             }
         }
     });
+    Fancybox.bind("#portfolio-page [data-fancybox='portfolioPagePortfolioGallery']", {
+
+    });
+    Fancybox.bind("#portfolio [data-fancybox='homePagePortfolioGallery']", {
+
+    });
 });

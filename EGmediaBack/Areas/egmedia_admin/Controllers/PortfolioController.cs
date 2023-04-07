@@ -108,6 +108,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 ProjectCategory cat_db = await _context.projectCategories.FindAsync(category.Id);
                 cat_db.Name = category.Name;
                 cat_db.Status = category.Status;
+                cat_db.IsImage = category.IsImage;
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Categories));
             }
@@ -155,9 +156,18 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
 
                     return View(project);
                 }
-                if (await _context.projectCategories.FindAsync(project.ProjectCategoryId) == null)
+                if (!_context.projectCategories.Any(category => category.Id == project.ProjectCategoryId))
                 {
                     ModelState.AddModelError("ProjectCategoryId", "Layihənin kateqoriyasını seçin");
+                    ViewBag.Categories = _context.projectCategories;
+
+                    return View(project);
+                }
+                ProjectCategory projectCategory = await _context.projectCategories.FindAsync(project.ProjectCategoryId);
+                if (!projectCategory.IsImage && string.IsNullOrEmpty(project.Url))
+                {
+                    
+                    ModelState.AddModelError("Url", "Url boş olmamalıdır");
                     ViewBag.Categories = _context.projectCategories;
 
                     return View(project);
@@ -242,7 +252,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
 
                     return View(project);
                 }
-                if (await _context.projectCategories.FindAsync(project.ProjectCategoryId) == null)
+                if (!_context.projectCategories.Any(category => category.Id == project.ProjectCategoryId))
                 {
                     ModelState.AddModelError("ProjectCategoryId", "Layihənin kateqoriyasını seçin");
                     ViewBag.Categories = _context.projectCategories;
@@ -250,6 +260,17 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     return View(project);
                 }
                 Project project_db = await _context.projects.FindAsync(project.Id);
+                ProjectCategory projectCategory = await _context.projectCategories.FindAsync(project.ProjectCategoryId);
+
+                if (!projectCategory.IsImage && string.IsNullOrEmpty(project.Url))
+                {
+
+                    ModelState.AddModelError("Url", "Url boş olmamalıdır");
+                    ViewBag.Categories = _context.projectCategories;
+
+                    return View(project);
+                }
+
                 if (project_db == null)
                 {
                     return NotFound();
@@ -282,6 +303,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 project_db.Status = project.Status;
                 project_db.ShowInHome = project.ShowInHome;
                 project_db.ProjectCategoryId = project.ProjectCategoryId;
+                project_db.Url = project.Url;
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Projects));
             }

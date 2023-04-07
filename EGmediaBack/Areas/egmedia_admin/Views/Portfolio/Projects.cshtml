@@ -12,6 +12,7 @@
                                 <th scope="col">Adı</th>
                                 <th scope="col">Şəkil</th>
                                 <th scope="col">Kateqoriya</th>
+                                <th scope="col">Url</th>
                                 <th scope="col">Ana Səhifədədirmi?</th>
                                 <th scope="col">Ana Səhifə şəkli</th>
                                 <th scope="col">Tarix</th>
@@ -26,6 +27,7 @@
                                     <td>@project.Name</td>
                                     <td><img src="~/img/@project.ImageUrl" width="150" /></td>
                                     <td>@project.ProjectCategory.Name</td>
+                                    <td>@project.Url</td>
                                     <td>@(project.ShowInHome ? "Hə" : "Yox" )</td>
                                     <td><img src="~/img/@project.Home_ImageUrl" width="150" /></td>
                                     <td>@project.Date.ToString("dd/MM/yyyy")</td>

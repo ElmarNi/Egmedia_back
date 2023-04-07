@@ -34,7 +34,7 @@
         <div class="row">
             <div class="order-2 order-md-1 col-md-6 col-lg-8">
                 <div class="row m-0 heading">
-                    <div class="col-12 p-0 text-left">
+                    <div class="col-12 p-0 text-center text-md-left">
                         <h1>Mesajınızı gözləyirik</h1>
                     </div>
                 </div>
@@ -43,24 +43,24 @@
                         <div class="col-12 message @ViewBag.color">
                             @ViewBag.message
                         </div>
-                        <div class="col-6 col-lg-5">
+                        <div class="col-12 col-lg-5">
                             <div class="row m-0">
                                 <div class="col-12" asp-validation-summary="ModelOnly"></div>
                                 <div class="col-12 p-0 mb-3">
                                     <span asp-validation-for="form.Fullname" class="validation-span"></span>
                                     <input asp-for="form.Fullname" placeholder="Adınız, Soyadınız">
                                 </div>
-                                <div class="col-12 p-0 mb-3">
+                                <div class="col-12 col-md-6 col-lg-12 p-0 pr-md-2 pr-lg-0 mb-3">
                                     <span asp-validation-for="form.PhoneNumber" class="validation-span"></span>
                                     <input asp-for="form.PhoneNumber" placeholder="Əlaqə nömrəniz">
                                 </div>
-                                <div class="col-12 p-0">
+                                <div class="col-12 col-md-6 col-lg-12 p-0 pl-md-2 pl-lg-0 mb-3 mb-lg-0">
                                     <span asp-validation-for="form.Email" class="validation-span"></span>
                                     <input asp-for="form.Email" placeholder="E-mailiniz">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-7">
+                        <div class="col-12 col-lg-7">
                             <span asp-validation-for="form.Message" class="validation-span"></span>
                             <textarea asp-for="form.Message" placeholder="Mesajınız"></textarea>
                         </div>
@@ -72,20 +72,24 @@
             </div>
             <div class="order-1 order-md-2 col-md-6 col-lg-4 pl-xl-5 mb-4 mb-md-0">
                 <div class="row m-0 heading">
-                    <div class="col-12 p-0 text-left">
+                    <div class="col-12 p-0 text-center text-md-left">
                         <h1>Əlaqə məlumatlarımız</h1>
                     </div>
                 </div>
                 <div class="infos">
                     <div class="info mb-md-3">
                         <i class="fas fa-phone-volume"></i>
-                        <a href="">(+99477) 520 20 12</a>,
-                        <a href="">(+99477) 520 20 12</a>
+                        <div>
+                            <a href="">(+99477) 520 20 12</a>
+                            <a href="">(+99477) 520 20 12</a>
+                        </div>
                     </div>
                     <div class="info mail">
                         <i class="fas fa-paper-plane"></i>
-                        <a href="mailto:info@egmedia.az">info@egmedia.az</a>,
-                        <a href="mailto:reklam@egmedia.az">reklam@egmedia.az</a>
+                        <div>
+                            <a href="mailto:info@egmedia.az">info@egmedia.az</a>
+                            <a href="mailto:reklam@egmedia.az">reklam@egmedia.az</a>
+                        </div>
                     </div>
                 </div>
             </div>

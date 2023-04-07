@@ -25,7 +25,7 @@ builder.Services.AddDbContext<EGmediaDb>(options =>
 });
 
 builder.Services.AddControllers();
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
   .AddEntityFrameworkStores<EGmediaDb>()
   .AddDefaultTokenProviders();
@@ -54,13 +54,11 @@ app.UseCookiePolicy();
 app.UseCors();
 
 app.MapControllerRoute(
+    name: "egmedia_admin",
+    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.MapAreaControllerRoute(
-    name: "egmedia_admin",
-    areaName: "egmedia_admin",
-    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
-);
 
 app.Run();

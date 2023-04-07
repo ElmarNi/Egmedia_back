@@ -8,14 +8,18 @@
         </div>
         <form method="post" class="row">
             <div class="col-12 mb-3" asp-validation-summary="ModelOnly"></div>
-            <div class="col-6">
+            <div class="col-4">
                 <label>Adı</label>
                 <input asp-for="Name" class="w-100" />
                 <span asp-validation-for="Name" class="validation-span"></span>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-4 text-center">
                 <label>Status</label>
                 <input asp-for="Status" checked class="w-100" />
+            </div>
+            <div class="col-4 text-center">
+                <label>IsImage</label>
+                <input asp-for="IsImage" class="w-100" />
             </div>
             <div class="col-12 text-center mt-3">
                 <input type="submit" value="Yadda saxla" class="btn btn-success bg-success text-white" />

@@ -101,7 +101,7 @@
                     @for (int i = 0; i < 3; i++)
                     {
                         <div class="@(i == 0 ? "col-12" : "col-6") p-0">
-                            <a href="">
+                            <a @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
                                 <div class="@(i == 0 ? "large-item" : "small-item") item">
                                     <div class="image-wrapper">
                                         <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="">
@@ -125,7 +125,7 @@
                     @for (int i = 3; i < Model.projects.Count(); i++)
                     {
                         <div class="@(i == Model.projects.Count()-1 ? "col-12" : "col-6") p-0">
-                            <a href="">
+                            <a @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
                                 <div class="@(i == Model.projects.Count()-1 ? "large-item" : "small-item") item">
                                     <div class="image-wrapper">
                                         <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="">
