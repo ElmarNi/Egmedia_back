@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
 
     (function (e) {
         e.fn.circle = function (t) {
@@ -100,7 +100,6 @@
         }
     }(jQuery));
 
-
     $(function () {
         //Background image
         $('div').each(function () {
@@ -134,7 +133,6 @@
         });
     });
 
-
     setTimeout(() => {
         $(".preloader").addClass("loaded")
     }, 1500);
@@ -148,7 +146,11 @@
         margin:0,
         nav:false,
         items: 1,
-        dots: true
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000
     })
 
     $("#slider .slider-right-side-aside .right-side-item").each(function(index, element){
@@ -195,17 +197,20 @@
 
     function SetServiceContainerHeight() {
         if ($("#services-page .service-container .category-names").length != 0) {
-            if (window.innerWidth > 991) {
-                $("#services-page .service-container").height($("#services-page .service-container .category-content.active .main-image img").height() + 70)
+            let imageHeight = $("#services-page .service-container .category-content.active .main-image img").height()
+            let textHeight = $("#services-page .service-container .category-content.active .content").height()
+            if (window.innerWidth > 991.98px) {
+                let height = imageHeight > textHeight ? imageHeight : textHeight
+                $("#services-page .service-container").height(height + 70)
             }
-            else{
-                $("#services-page .service-container").height($("#services-page .service-container .category-content.active .col-lg-4 .content").height() + $("#services-page .service-container .category-content.active .main-image img").height() + 70)
+            else {
+                $("#services-page .service-container").height(imageHeight + textHeight + 70)
             }
         }
     }
     SetServiceContainerHeight()
     $(window).resize(function () { 
-        SetServiceContainerHeight(true)
+        SetServiceContainerHeight()
     });
 
     let image_height = $("#services-page .active .gallery-item img").outerHeight()
@@ -280,6 +285,7 @@
         $(`#services-page .category-content[data-id="${data_id}"`).addClass("active")
 
         Services_Page()
+        SetServiceContainerHeight()
     })
     
     $("#services-page .next").click(function(){
@@ -385,6 +391,7 @@
             }
         }
     });
+    
     Fancybox.bind("#portfolio-page [data-fancybox='portfolioPagePortfolioGallery']", {
 
     });

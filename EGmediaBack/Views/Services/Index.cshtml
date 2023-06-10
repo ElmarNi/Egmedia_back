@@ -69,11 +69,10 @@
                         }
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 offset-lg-1 mt-3 mt-md-5 mt-lg-0">
+                <div class="col-lg-5 col-12 mt-3 mt-lg-0">
                     <div class="content">
                         <h1>@Model.ElementAt(i).Heading</h1>
-                        <p>@Html.Raw(Model.ElementAt(i).Content)</p>
-                        <a href="">Lorem ipsum dolor sit</a>
+                        @Html.Raw(Model.ElementAt(i).Content)
                     </div>
                 </div>
             </div>

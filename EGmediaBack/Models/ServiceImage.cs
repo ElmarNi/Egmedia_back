@@ -20,6 +20,7 @@ namespace EGmediaBack.Models
         [Required]
         public int ServiceId { get; set; }
 
+        [NotMapped]
         public virtual Service Service { get; set; }
     }
 }

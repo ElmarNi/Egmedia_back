@@ -6,22 +6,22 @@
                 <div class="owl-carousel owl-theme">
                     @for (int i = 0; i < Model.sliders.Count(); i++)
                     {
-        <div class="slider-item" data-id="@(i+1)" style="background-image: url(img/@Model.sliders.ElementAt(i).ImageUrl);">
-            <div class="content">
-                <h1><span>@Model.sliders.ElementAt(i).Header_First_Word</span> @Model.sliders.ElementAt(i).Header_Second_Word</h1>
-                @Html.Raw(Model.sliders.ElementAt(i).Content)
-            </div>
-        </div>}
+                        <div class="slider-item" data-id="@(i+1)" style="background-image: url(img/@Model.sliders.ElementAt(i).ImageUrl);">
+                            <div class="content">
+                                <h1><span>@Model.sliders.ElementAt(i).Header_First_Word</span> @Model.sliders.ElementAt(i).Header_Second_Word</h1>
+                                @Html.Raw(Model.sliders.ElementAt(i).Content)
+                            </div>
+                        </div>}
                 </div>
             </div>
         </div>
         <div class="slider-right-side-aside">
             @for (int i = 0; i < Model.sliders.Count(); i++)
             {
-<div class="right-side-item" data-id="@(i+1)">
-    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="">
-    <p>@Model.sliders.ElementAt(i).Aside_Header</p>
-</div>            }
+                <div class="right-side-item" data-id="@(i+1)">
+                    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="">
+                    <p>@Model.sliders.ElementAt(i).Aside_Header</p>
+                </div>      }
         </div>
     </div>
 </section>
@@ -38,7 +38,7 @@
                         </div>
                         <h4>@Model.advantages.ElementAt(i).Content</h4>
                     </div>
-                </div>            
+                </div>
             }
         </div>
     </div>
@@ -77,7 +77,7 @@
                         </a>
                     </div>
                 }
-                
+
             </div>
             <div class="prev"><span>PREV</span></div>
             <div class="next"><span>NEXT</span></div>
@@ -101,7 +101,7 @@
                     @for (int i = 0; i < 3; i++)
                     {
                         <div class="@(i == 0 ? "col-12" : "col-6") p-0">
-                            <a @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
+                            <a target="_blank" @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
                                 <div class="@(i == 0 ? "large-item" : "small-item") item">
                                     <div class="image-wrapper">
                                         <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="">
@@ -125,7 +125,7 @@
                     @for (int i = 3; i < Model.projects.Count(); i++)
                     {
                         <div class="@(i == Model.projects.Count()-1 ? "col-12" : "col-6") p-0">
-                            <a @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
+                            <a target="_blank" @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
                                 <div class="@(i == Model.projects.Count()-1 ? "large-item" : "small-item") item">
                                     <div class="image-wrapper">
                                         <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="">

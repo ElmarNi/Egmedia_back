@@ -91,11 +91,14 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     return View(service);
                 }
                 await _context.services.AddAsync(service);
+                await _context.SaveChangesAsync();
                 foreach (var image in service.DetailPhotos)
                 {
                     if (!image.ContentType.Contains("image/"))
                     {
                         ModelState.AddModelError("DetailPhotos", "Şəklin formatı düzgün deyil");
+                        _context.services.Remove(service);
+                        await _context.SaveChangesAsync();
                         return View(service);
                     }
                 }

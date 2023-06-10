@@ -45,7 +45,7 @@
             {
                 <div class="col-sm-6 col-lg-4 filter-item category-@project.ProjectCategoryId" data-category="category-@project.ProjectCategoryId">
                     <div class="item">
-                        <a @(project.ProjectCategory.IsImage ? $"href=img/{project.ImageUrl} data-fancybox=portfolioPagePortfolioGallery data-caption={project.Name}" : $"href={project.Url}")>
+                        <a target="_blank" @(project.ProjectCategory.IsImage ? $"href=img/{project.ImageUrl} data-fancybox=portfolioPagePortfolioGallery data-caption={project.Name}" : $"href={project.Url}")>
                             <div class="image-wrapper">
                                 <img src="img/@project.ImageUrl" alt="">
                             </div>

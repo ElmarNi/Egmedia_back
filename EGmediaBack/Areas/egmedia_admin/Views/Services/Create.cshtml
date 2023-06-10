@@ -31,14 +31,17 @@
             <div class="col-4 mt-3">
                 <label>İkon</label>
                 <input asp-for="CategoryIcon" class="w-100" />
+                <span asp-validation-for="CategoryIcon" class="validation-span"></span>
             </div>
             <div class="col-4 mt-3">
                 <label>Kateqoriya şəkli</label>
                 <input asp-for="CategoryImage" class="w-100" />
+                <span asp-validation-for="CategoryImage" class="validation-span"></span>
             </div>
             <div class="col-4 mt-3">
                 <label>Şəkillər</label>
                 <input asp-for="DetailPhotos" class="w-100" />
+                <span asp-validation-for="DetailPhotos" class="validation-span"></span>
             </div>
             <div class="col-12 mt-3">
                 <span asp-validation-for="Content" class="validation-span"></span>

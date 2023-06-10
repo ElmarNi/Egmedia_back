@@ -1,15 +1,12 @@
 ﻿<Properties StartupConfiguration="{D56F5A15-D5D3-4D4F-B9CD-D1229C4BF222}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/Views/Contact/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EGmediaBack/wwwroot/assets/js/main.js">
     <Files>
-      <File FileName="EGmediaBack/wwwroot/assets/js/main.js" Line="380" Column="34" />
-      <File FileName="EGmediaBack/wwwroot/assets/css/style.css" Line="2902" Column="24" />
-      <File FileName="EGmediaBack/Views/Shared/_Layout.cshtml" Line="144" Column="67" />
-      <File FileName="EGmediaBack/Views/Contact/Index.cshtml" Line="63" Column="22" />
+      <File FileName="EGmediaBack/appsettings.json" Line="13" Column="35" />
+      <File FileName="EGmediaBack/Views/Services/Index.cshtml" Line="68" Column="132" />
+      <File FileName="EGmediaBack/wwwroot/assets/css/style.css" Line="2618" Column="1" />
+      <File FileName="EGmediaBack/wwwroot/assets/js/main.js" Line="273" Column="6" />
+      <File FileName="EGmediaBack/Views/Shared/_Layout.cshtml" Line="125" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,17 +14,25 @@
           <Node name="EGmediaBack" expanded="True">
             <Node name="EGmediaBack" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Areas" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Contact" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="egmedia_admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True" />
                 </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Services" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="assets" expanded="True">
                   <Node name="css" expanded="True" />
-                  <Node name="js" expanded="True" />
+                  <Node name="js" expanded="True">
+                    <Node name="main.js" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -36,6 +41,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EGmediaBack PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
