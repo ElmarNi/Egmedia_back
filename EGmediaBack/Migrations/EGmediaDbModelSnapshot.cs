@@ -516,13 +516,11 @@ namespace EGmediaBack.Migrations
 
             modelBuilder.Entity("EGmediaBack.Models.ServiceImage", b =>
                 {
-                    b.HasOne("EGmediaBack.Models.Service", "Service")
+                    b.HasOne("EGmediaBack.Models.Service", null)
                         .WithMany("Images")
                         .HasForeignKey("ServiceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Service");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

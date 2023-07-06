@@ -1,27 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj": {}
+    "C:\\Users\\User\\Desktop\\New folder\\Egmedia_back\\EGmediaBack\\EGmediaBack.csproj": {}
   },
   "projects": {
-    "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj": {
+    "C:\\Users\\User\\Desktop\\New folder\\Egmedia_back\\EGmediaBack\\EGmediaBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\Egmedia_back\\EGmediaBack\\EGmediaBack.csproj",
         "projectName": "EGmediaBack",
-        "projectPath": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/EGmediaBack.csproj",
-        "packagesPath": "/Users/ibrahimlien/.nuget/packages/",
-        "outputPath": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/obj/",
+        "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Egmedia_back\\EGmediaBack\\EGmediaBack.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\New folder\\Egmedia_back\\EGmediaBack\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/ibrahimlien/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net7.0": {
@@ -60,6 +68,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -81,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
