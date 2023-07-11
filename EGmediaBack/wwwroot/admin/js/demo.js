@@ -4,7 +4,7 @@
             let input = this;
             let url = $(this).val();
             let ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
-            if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) {
+            if (input.files && input.files[0] && (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg" || ext == "webp")) {
                 var reader = new FileReader();
 
                 reader.onload = function (e) {
@@ -172,7 +172,8 @@
             data: {
                 "id": id,
                 "message": message,
-                "email": email
+                "email": email,
+                "isOffer": $(this).parent().parent().parent().parent().parent().attr("id") == "offer_admin"
             },
             beforeSend: function () {
                 $("#send_message_to_client").text("Gözləyin...").addClass("disabled")
@@ -187,10 +188,12 @@
                     $("#exampleModalCenter").find(".validation-span").addClass("text-danger").text("Mesaj boş ola bilməz")
                     return
                 }
-                if (res == "null") {
+                else if (res != "ok") {
                     $("#exampleModalCenter").find(".validation-span").addClass("text-danger").text("Mesajınız göndərilmədi yenidən cəhd edin")
+                    console.log(res)
                     return
                 }
+
                 if (res == "ok") {
                     $("#exampleModalCenter").find(".validation-span").addClass("text-success").text("Mesajınız göndərilmişdir.")
                     $(`.open-modal[data-id=${id}]`).parent().prev().text("Hə")

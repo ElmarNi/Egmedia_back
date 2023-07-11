@@ -1,4 +1,8 @@
 ﻿@model HomeVM
+@{
+    ViewBag.Title = "Saytların hazırlanması";
+    ViewBag.MetaDescription = "Veb agentliyimiz, sizi onlyan dünyada fərqləndirəcək gözəl veb dizayn və saytınların yaradılması xidmətləri təqdim edir. Rəqəmsal marketinq strategiyaları ilə birlikdə e-ticarət, SEO optimizasiyası, mobil tətbiqlərin hazırlanması və daha çoxunu təklif edirik. Bizimlə əlaqə saxlayın və dijital dünyada sürətli və uğurlu bir fəaliyyətə başlayın.";
+}
 <section id="slider">
     <div class="two-side-wrapper">
         <div class="slider-left-side-wrapper">
@@ -19,9 +23,9 @@
             @for (int i = 0; i < Model.sliders.Count(); i++)
             {
                 <div class="right-side-item" data-id="@(i+1)">
-                    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="">
+                    <img src="img/@Model.sliders.ElementAt(i).Aside_ImageUrl" alt="slider">
                     <p>@Model.sliders.ElementAt(i).Aside_Header</p>
-                </div>      }
+                </div>}
         </div>
     </div>
 </section>
@@ -34,7 +38,7 @@
                 <div class="col-6 @(i > 1 ? "mt-3 mt-md-0" : "") col-md-3">
                     <div class="item">
                         <div class="icon-wrapper @(i == 0 ? "orange" : "") @(i == 1 ? "purple" : "") @(i == 2 ? "midnight" : "") @(i == 3 ? "pink" : "")">
-                            <img src="~/img/@Model.advantages.ElementAt(i).IconUrl" />
+                            <img src="~/img/@Model.advantages.ElementAt(i).IconUrl" alt="icon" />
                         </div>
                         <h4>@Model.advantages.ElementAt(i).Content</h4>
                     </div>
@@ -58,7 +62,7 @@
                 @foreach (var service in Model.services)
                 {
                     <li class="block">
-                        <div class="icon"><img src="~/img/@service.CategoryIconUrl" /></div>
+                        <div class="icon"><img src="~/img/@service.CategoryIconUrl" alt="icon" /></div>
                     </li>
                 }
             </ul>
@@ -66,7 +70,7 @@
                 @foreach (var service in Model.services)
                 {
                     <div class="animate">
-                        <a asp-controller="Services" asp-action="Index" class="animate-img">
+                        <a asp-controller="services" asp-action="index" class="animate-img">
                             <div class="animate-img__in" data-image="img/@service.CategoryImageUrl">
                                 <div class="animate-more">
                                     <div class="animate-title">
@@ -104,7 +108,7 @@
                             <a target="_blank" @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
                                 <div class="@(i == 0 ? "large-item" : "small-item") item">
                                     <div class="image-wrapper">
-                                        <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="">
+                                        <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="image">
                                     </div>
                                     <div class="content">
                                         <div class="icon">
@@ -128,7 +132,7 @@
                             <a target="_blank" @(Model.projects.ElementAtOrDefault(i).ProjectCategory.IsImage ? $"href=img/{Model.projects.ElementAtOrDefault(i).Home_ImageUrl} data-fancybox=homePagePortfolioGallery data-caption={Model.projects.ElementAtOrDefault(i).Name}" : $"href={Model.projects.ElementAtOrDefault(i).Url}")>
                                 <div class="@(i == Model.projects.Count()-1 ? "large-item" : "small-item") item">
                                     <div class="image-wrapper">
-                                        <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="">
+                                        <img src="img/@Model.projects.ElementAtOrDefault(i).Home_ImageUrl" alt="image">
                                     </div>
                                     <div class="content">
                                         <div class="icon">

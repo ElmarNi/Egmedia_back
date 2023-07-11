@@ -1,4 +1,8 @@
 ﻿@model PortfolioVM
+@{
+    ViewBag.Title = "Portfolio";
+    ViewBag.MetaDescription = "Hansı işləri gördüyümüzə nəzər yetirin.";
+}
 <section id="breadcrumb">
     <div class="page-name-wrapper" style="background-image: url(img/@ViewBag.Banner);">
         <div class="container">
@@ -47,7 +51,7 @@
                     <div class="item">
                         <a target="_blank" @(project.ProjectCategory.IsImage ? $"href=img/{project.ImageUrl} data-fancybox=portfolioPagePortfolioGallery data-caption={project.Name}" : $"href={project.Url}")>
                             <div class="image-wrapper">
-                                <img src="img/@project.ImageUrl" alt="">
+                                <img src="img/@project.ImageUrl" alt="image">
                             </div>
                             <div class="content">
                                 <div class="text-wrapper">

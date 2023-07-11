@@ -25,9 +25,9 @@
                                 <td>@slider.Header_First_Word</td>
                                 <td>@slider.Header_Second_Word</td>
                                 <td>@Html.Raw(slider.Content)</td>
-                                <td><img src="~/img/@slider.ImageUrl" width="150" class="img-fluid"/></td>
+                                <td><img src="~/img/@slider.ImageUrl" width="150" class="img-fluid" alt="image" /></td>
                                 <td>@slider.Aside_Header</td>
-                                <td><img src="~/img/@slider.Aside_ImageUrl" width="150" class="img-fluid"/></td>
+                                <td><img src="~/img/@slider.Aside_ImageUrl" width="150" class="img-fluid" alt="image" /></td>
                                 <td>@slider.Date.ToString("dd/MM/yyyy")</td>
                                 <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="update" asp-route-id="@slider.Id">Redaktə et</a></td>
                             </tr>

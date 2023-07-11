@@ -23,8 +23,8 @@
                                     <th scope="row">@service.Id</th>
                                     <td>@service.Heading</td>
                                     <td>@service.CategoryName</td>
-                                    <td class="text-center"><img src="~/img/@service.CategoryIconUrl" /></td>
-                                    <td class="text-center"><img src="~/img/@service.CategoryImageUrl" width="150" /></td>
+                                    <td class="text-center"><img src="~/img/@service.CategoryIconUrl" alt="image" /></td>
+                                    <td class="text-center"><img src="~/img/@service.CategoryImageUrl" width="150" alt="image" /></td>
                                     <td>@(@service.Status ? "Aktiv" : "Deaktiv")</td>
                                     <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="Update" asp-route-id="@service.Id">Redaktə et</a></td>
                                 </tr>

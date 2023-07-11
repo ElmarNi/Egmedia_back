@@ -8624,6 +8624,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\.DS_Store))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\0962a645-e1d3-4e90-968c-f1eab0ef9ee151cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/advantages/0962a645-e1d3-4e90-968c-f1eab0ef9ee151cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\0962a645-e1d3-4e90-968c-f1eab0ef9ee151cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\261c11b7-fb38-424b-865d-24c9872dfe4ecoding.png))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -8640,12 +8656,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\261c11b7-fb38-424b-865d-24c9872dfe4ecoding.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\432eee59-16ac-48bb-8347-34c3e97839a4429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/advantages/429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.png</RelativePath>
+      <RelativePath>img/advantages/432eee59-16ac-48bb-8347-34c3e97839a4429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8654,14 +8670,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\432eee59-16ac-48bb-8347-34c3e97839a4429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\51cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\559f209a-8c93-40ca-b993-dd7e4466dab1ed88a336-2ba2-4724-93c2-f65f42128230money-growth.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/advantages/51cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).png</RelativePath>
+      <RelativePath>img/advantages/559f209a-8c93-40ca-b993-dd7e4466dab1ed88a336-2ba2-4724-93c2-f65f42128230money-growth.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8670,23 +8686,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\51cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\58b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/advantages/58b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\58b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\559f209a-8c93-40ca-b993-dd7e4466dab1ed88a336-2ba2-4724-93c2-f65f42128230money-growth.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\6c70db60-6f71-4d9d-8a96-c847f114ddadcoding.png))">
       <SourceType>Package</SourceType>
@@ -8703,6 +8703,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\6c70db60-6f71-4d9d-8a96-c847f114ddadcoding.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/advantages/9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\c8e51f7c-3007-4718-89a4-8269c93dcdc1coding.png))">
       <SourceType>Package</SourceType>
@@ -8736,22 +8752,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\e01c928c-d247-45f9-a8bd-f6a2d90bd647coding.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\ed88a336-2ba2-4724-93c2-f65f42128230money-growth.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/advantages/ed88a336-2ba2-4724-93c2-f65f42128230money-growth.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\ed88a336-2ba2-4724-93c2-f65f42128230money-growth.png))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\46dfb6be-41c4-4daa-8bcd-5c02b0abbdd7logo.png))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -8768,12 +8768,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\46dfb6be-41c4-4daa-8bcd-5c02b0abbdd7logo.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\63762f15-1d9e-47c9-8fda-40643b475d0acontact-bg.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\56bca3e3-b00f-4136-a7d5-3fea35a693b26f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/banners/63762f15-1d9e-47c9-8fda-40643b475d0acontact-bg.jpg</RelativePath>
+      <RelativePath>img/banners/56bca3e3-b00f-4136-a7d5-3fea35a693b26f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8782,14 +8782,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\63762f15-1d9e-47c9-8fda-40643b475d0acontact-bg.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\56bca3e3-b00f-4136-a7d5-3fea35a693b26f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\647dab77-601e-4475-a953-0973b4ff3021contact-bg.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\9d8b0340-ff92-4ddb-97d1-ddd6bb9b9c4b6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/banners/647dab77-601e-4475-a953-0973b4ff3021contact-bg.jpg</RelativePath>
+      <RelativePath>img/banners/9d8b0340-ff92-4ddb-97d1-ddd6bb9b9c4b6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8798,14 +8798,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\647dab77-601e-4475-a953-0973b4ff3021contact-bg.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\9d8b0340-ff92-4ddb-97d1-ddd6bb9b9c4b6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\a710e1ef-d904-4681-9e31-d9b49219d21a6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/banners/6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.jpg</RelativePath>
+      <RelativePath>img/banners/a710e1ef-d904-4681-9e31-d9b49219d21a6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8814,14 +8814,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\a710e1ef-d904-4681-9e31-d9b49219d21a6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\7c3daad1-821a-4657-8bbb-3400145fc666contact-bg.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\b8157c97-cc4e-43dc-a0ed-9efae141cdec6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/banners/7c3daad1-821a-4657-8bbb-3400145fc666contact-bg.jpg</RelativePath>
+      <RelativePath>img/banners/b8157c97-cc4e-43dc-a0ed-9efae141cdec6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8830,14 +8830,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\7c3daad1-821a-4657-8bbb-3400145fc666contact-bg.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\b8157c97-cc4e-43dc-a0ed-9efae141cdec6f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-6.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-6.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/bg-decor-6.png</RelativePath>
+      <RelativePath>img/bg-decor-6.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8846,14 +8846,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-6.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-6.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-9.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-9.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/bg-decor-9.png</RelativePath>
+      <RelativePath>img/bg-decor-9.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -8862,23 +8862,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-9.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\contact-bg.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/contact-bg.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\contact-bg.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg-decor-9.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))">
       <SourceType>Package</SourceType>
@@ -8895,6 +8879,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\0fa92e3c-05bc-4bd3-9651-91c0e31cd3abc30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/0fa92e3c-05bc-4bd3-9651-91c0e31cd3abc30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\0fa92e3c-05bc-4bd3-9651-91c0e31cd3abc30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\1492b8ad-5c48-4364-87fc-71b417da15b4portfolio-big.jpg))">
       <SourceType>Package</SourceType>
@@ -8928,38 +8928,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\15ded368-aaae-41c0-8148-889686663b43portfolio-big.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\1b56a851-4618-4f22-b6ba-774f8854d3a7work-6.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/1b56a851-4618-4f22-b6ba-774f8854d3a7work-6.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\1b56a851-4618-4f22-b6ba-774f8854d3a7work-6.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\1c44de12-eabb-4d47-b16f-b6092e545cfeProject-Management-Mantenimiento-1.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/1c44de12-eabb-4d47-b16f-b6092e545cfeProject-Management-Mantenimiento-1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\1c44de12-eabb-4d47-b16f-b6092e545cfeProject-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\1decf15d-fa28-4142-9dd6-91199b3c425fwork-6.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -8992,6 +8960,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\223e0710-1751-4ef1-8246-187263481148portfolio-big.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\38adfd04-f51f-49e3-a5d8-453468ca1b4ac30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/38adfd04-f51f-49e3-a5d8-453468ca1b4ac30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\38adfd04-f51f-49e3-a5d8-453468ca1b4ac30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\3e925118-a263-48c6-a750-b0a6c8eacacbwork-3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -9008,12 +8992,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\3e925118-a263-48c6-a750-b0a6c8eacacbwork-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\41e1a5a4-f1f1-41ea-8b75-03ec362059ebwork-3.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\4d0eb3d8-feb4-407f-bcf8-6f209fca54a1c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/41e1a5a4-f1f1-41ea-8b75-03ec362059ebwork-3.jpg</RelativePath>
+      <RelativePath>img/projects/4d0eb3d8-feb4-407f-bcf8-6f209fca54a1c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9022,55 +9006,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\41e1a5a4-f1f1-41ea-8b75-03ec362059ebwork-3.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\46d4c36f-6b4e-4eb6-9636-389022b653a6Project-Management-Mantenimiento-1.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/46d4c36f-6b4e-4eb6-9636-389022b653a6Project-Management-Mantenimiento-1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\46d4c36f-6b4e-4eb6-9636-389022b653a6Project-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\56257279-f045-48ab-bc18-6437a7d855e2work-6.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/56257279-f045-48ab-bc18-6437a7d855e2work-6.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\56257279-f045-48ab-bc18-6437a7d855e2work-6.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\4d0eb3d8-feb4-407f-bcf8-6f209fca54a1c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\61b28c2d-cae0-4a42-949f-31114ca285f6Project-Management-Mantenimiento-1.jpg))">
       <SourceType>Package</SourceType>
@@ -9087,6 +9023,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\61b28c2d-cae0-4a42-949f-31114ca285f6Project-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\62100028-ea17-424f-97fd-66be32197d165630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/62100028-ea17-424f-97fd-66be32197d165630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\62100028-ea17-424f-97fd-66be32197d165630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\69ed89ae-8a97-4b6f-a294-d997e832a737work-4.jpg))">
       <SourceType>Package</SourceType>
@@ -9152,12 +9104,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\829d0192-80af-4ce8-a50e-5d9b7322a296work-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\83d73901-49b7-42dc-850b-bb8d8cd9c106c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg</RelativePath>
+      <RelativePath>img/projects/83d73901-49b7-42dc-850b-bb8d8cd9c106c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9166,7 +9118,71 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\b3321a44-abc0-4b44-9586-ecb9db95ef91work-4.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\83d73901-49b7-42dc-850b-bb8d8cd9c106c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\868d762d-2f58-4298-8f92-eb14bd6820765630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/868d762d-2f58-4298-8f92-eb14bd6820765630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\868d762d-2f58-4298-8f92-eb14bd6820765630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\938d053c-2265-4073-b413-c0dacd24cc8a5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/938d053c-2265-4073-b413-c0dacd24cc8a5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\938d053c-2265-4073-b413-c0dacd24cc8a5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\9c4f89c7-7a8c-47cb-bdc0-abaa77d6f6df5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/9c4f89c7-7a8c-47cb-bdc0-abaa77d6f6df5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\9c4f89c7-7a8c-47cb-bdc0-abaa77d6f6df5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\b64541a4-fbff-4ac4-9e93-661fca52428dc30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/b64541a4-fbff-4ac4-9e93-661fca52428dc30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\b64541a4-fbff-4ac4-9e93-661fca52428dc30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png))">
       <SourceType>Package</SourceType>
@@ -9184,12 +9200,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\be8128c3-e0b7-4203-9586-fce25bc0b0785630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\c0ae861f-0190-4b86-abd2-66b4b324d3ae5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg</RelativePath>
+      <RelativePath>img/projects/c0ae861f-0190-4b86-abd2-66b4b324d3ae5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9198,23 +9214,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\ce965f4d-a0b3-4022-9d82-80e18b088714Project-Management-Mantenimiento-1.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/ce965f4d-a0b3-4022-9d82-80e18b088714Project-Management-Mantenimiento-1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\ce965f4d-a0b3-4022-9d82-80e18b088714Project-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\c0ae861f-0190-4b86-abd2-66b4b324d3ae5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\cf07552d-e706-4e8d-b722-10d08dcabcefProject-Management-Mantenimiento-1.jpg))">
       <SourceType>Package</SourceType>
@@ -9232,12 +9232,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\cf07552d-e706-4e8d-b722-10d08dcabcefProject-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\d4c266f4-71dd-464b-b82b-d2955b7b9cafportfolio-big.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\e2673a41-6162-423c-a0c2-49c431db0db1c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/d4c266f4-71dd-464b-b82b-d2955b7b9cafportfolio-big.jpg</RelativePath>
+      <RelativePath>img/projects/e2673a41-6162-423c-a0c2-49c431db0db1c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9246,23 +9246,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\d4c266f4-71dd-464b-b82b-d2955b7b9cafportfolio-big.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\e2a9b6ca-d099-4639-9277-94fa58ad62a7work-2.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/e2a9b6ca-d099-4639-9277-94fa58ad62a7work-2.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\e2a9b6ca-d099-4639-9277-94fa58ad62a7work-2.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\e2673a41-6162-423c-a0c2-49c431db0db1c30f67c5-6312-40c2-a7b8-e629dd683aa4work-5.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\e3741696-a8d2-4ba3-8fb6-77cb33226b01Project-Management-Mantenimiento-1.jpg))">
       <SourceType>Package</SourceType>
@@ -9280,22 +9264,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\e3741696-a8d2-4ba3-8fb6-77cb33226b01Project-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\edd5c035-7ec2-41c8-86b0-427b0808cd55Project-Management-Mantenimiento-1.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/projects/edd5c035-7ec2-41c8-86b0-427b0808cd55Project-Management-Mantenimiento-1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\edd5c035-7ec2-41c8-86b0-427b0808cd55Project-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\fd0f52b3-da88-4e5c-95cf-e5a2b843a93cProject-Management-Mantenimiento-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -9311,6 +9279,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\fd0f52b3-da88-4e5c-95cf-e5a2b843a93cProject-Management-Mantenimiento-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\fd408f0f-0866-4eb1-a23f-c1383bc3015e5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/projects/fd408f0f-0866-4eb1-a23f-c1383bc3015e5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\projects\fd408f0f-0866-4eb1-a23f-c1383bc3015e5630a55e-470e-4a09-8172-e7645e0a00fcuntitled-1-1024x576.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\right-arrow.png))">
       <SourceType>Package</SourceType>
@@ -9664,12 +9648,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\0b5587fb-31c6-4180-ad26-2c2ac9da6fadservice-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\186798f5-4c06-477a-a398-18d3dbbc2100typical-process-for-a-successful-mobile-development.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\0b6704ad-73bd-4a63-9b74-65811a1a2001572f69d0-7c4a-4051-8a0e-fa574584162eonas-2.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/serviceCategories/186798f5-4c06-477a-a398-18d3dbbc2100typical-process-for-a-successful-mobile-development.jpeg</RelativePath>
+      <RelativePath>img/serviceCategories/0b6704ad-73bd-4a63-9b74-65811a1a2001572f69d0-7c4a-4051-8a0e-fa574584162eonas-2.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9678,7 +9662,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\186798f5-4c06-477a-a398-18d3dbbc2100typical-process-for-a-successful-mobile-development.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\0b6704ad-73bd-4a63-9b74-65811a1a2001572f69d0-7c4a-4051-8a0e-fa574584162eonas-2.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\2db3e370-be0d-4a44-834b-f6e568a0466duntitled-1-1024x576.png))">
       <SourceType>Package</SourceType>
@@ -9695,6 +9679,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\2db3e370-be0d-4a44-834b-f6e568a0466duntitled-1-1024x576.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\2f529d53-0399-4204-9105-c1d5b649bbbc186798f5-4c06-477a-a398-18d3dbbc2100typical-process-for-a-successful-mobile-development.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/serviceCategories/2f529d53-0399-4204-9105-c1d5b649bbbc186798f5-4c06-477a-a398-18d3dbbc2100typical-process-for-a-successful-mobile-development.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\2f529d53-0399-4204-9105-c1d5b649bbbc186798f5-4c06-477a-a398-18d3dbbc2100typical-process-for-a-successful-mobile-development.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\4ce743be-4fc1-4312-b623-5961d6eff7cf21788.png))">
       <SourceType>Package</SourceType>
@@ -9727,22 +9727,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\56e70dc7-27ab-4661-84b2-49d128f5d9deonas-2.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\572f69d0-7c4a-4051-8a0e-fa574584162eonas-2.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/serviceCategories/572f69d0-7c4a-4051-8a0e-fa574584162eonas-2.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\572f69d0-7c4a-4051-8a0e-fa574584162eonas-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\79bc247e-0d2e-4e7b-bf6a-8ed4af103943onas-2.jpg))">
       <SourceType>Package</SourceType>
@@ -9808,12 +9792,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\d0b8b8d1-c665-4a9e-b91b-e673a682f833untitled-1-1024x576.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\f30a52da-823f-4098-ac25-4a1ab981e6d9best-20-web-development-blogs.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\f7317582-13cc-46ca-95d6-931a380a5d93f30a52da-823f-4098-ac25-4a1ab981e6d9best-20-web-development-blogs.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/serviceCategories/f30a52da-823f-4098-ac25-4a1ab981e6d9best-20-web-development-blogs.png</RelativePath>
+      <RelativePath>img/serviceCategories/f7317582-13cc-46ca-95d6-931a380a5d93f30a52da-823f-4098-ac25-4a1ab981e6d9best-20-web-development-blogs.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9822,7 +9806,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\f30a52da-823f-4098-ac25-4a1ab981e6d9best-20-web-development-blogs.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceCategories\f7317582-13cc-46ca-95d6-931a380a5d93f30a52da-823f-4098-ac25-4a1ab981e6d9best-20-web-development-blogs.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\0919075a-a41a-445e-bbfe-75e27b19b4b921788.png))">
       <SourceType>Package</SourceType>
@@ -9872,12 +9856,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\18935b1d-dad5-4184-8661-357bd03f6035c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\6018ecf7-1c42-4e08-b3b5-4e7d65a70ab5684aae4d-37cd-4577-b357-d26064c5f27cprint.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/serviceIcons/3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png</RelativePath>
+      <RelativePath>img/serviceIcons/6018ecf7-1c42-4e08-b3b5-4e7d65a70ab5684aae4d-37cd-4577-b357-d26064c5f27cprint.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9886,14 +9870,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\6018ecf7-1c42-4e08-b3b5-4e7d65a70ab5684aae4d-37cd-4577-b357-d26064c5f27cprint.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\684aae4d-37cd-4577-b357-d26064c5f27cprint.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\7c13d2e9-2284-4b9f-b051-6511684fdcb4fc2d768d-0e2e-4074-b10e-8542b065d636smartphone-call.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/serviceIcons/684aae4d-37cd-4577-b357-d26064c5f27cprint.png</RelativePath>
+      <RelativePath>img/serviceIcons/7c13d2e9-2284-4b9f-b051-6511684fdcb4fc2d768d-0e2e-4074-b10e-8542b065d636smartphone-call.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -9902,7 +9886,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\684aae4d-37cd-4577-b357-d26064c5f27cprint.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\7c13d2e9-2284-4b9f-b051-6511684fdcb4fc2d768d-0e2e-4074-b10e-8542b065d636smartphone-call.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\7e91ded8-5881-4d96-b960-60dd64ef95c57b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png))">
       <SourceType>Package</SourceType>
@@ -9984,6 +9968,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\effd64c0-02c3-4878-acd2-f495261cec1e3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/serviceIcons/effd64c0-02c3-4878-acd2-f495261cec1e3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\effd64c0-02c3-4878-acd2-f495261cec1e3fb0c891-4abd-4c62-bc85-9efbae0881167b71e55c-1271-4c5a-bfee-f535da7e4c87c031e04c-fb06-45f7-b34c-0c6ab409a8bccoding.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\f2b37b37-5298-4afd-b89f-6c81ce122358print.png))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -10000,12 +10000,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\f2b37b37-5298-4afd-b89f-6c81ce122358print.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\fc2d768d-0e2e-4074-b10e-8542b065d636smartphone-call.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\1323b75f-7aab-4aaf-966c-3fd35c9fc593d9e84ef5-96d3-46cc-8673-44263319e196Untitleddesign.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/serviceIcons/fc2d768d-0e2e-4074-b10e-8542b065d636smartphone-call.png</RelativePath>
+      <RelativePath>img/slider/1323b75f-7aab-4aaf-966c-3fd35c9fc593d9e84ef5-96d3-46cc-8673-44263319e196Untitleddesign.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10014,14 +10014,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\serviceIcons\fc2d768d-0e2e-4074-b10e-8542b065d636smartphone-call.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\1323b75f-7aab-4aaf-966c-3fd35c9fc593d9e84ef5-96d3-46cc-8673-44263319e196Untitleddesign.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-1-565x401.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\17e52154-46b2-4a7e-8e1a-d472022a87ac8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/services-1-565x401.jpg</RelativePath>
+      <RelativePath>img/slider/17e52154-46b2-4a7e-8e1a-d472022a87ac8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10030,14 +10030,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-1-565x401.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\17e52154-46b2-4a7e-8e1a-d472022a87ac8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-2-565x401.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\ec5bf535-c682-4c0c-b274-c5ebf21efff161bb16b1-6396-4015-b411-398daa1a27f2Home-5.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/services-2-565x401.jpg</RelativePath>
+      <RelativePath>img/slider/ec5bf535-c682-4c0c-b274-c5ebf21efff161bb16b1-6396-4015-b411-398daa1a27f2Home-5.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10046,14 +10046,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-2-565x401.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\ec5bf535-c682-4c0c-b274-c5ebf21efff161bb16b1-6396-4015-b411-398daa1a27f2Home-5.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-3-565x401.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\f2a6be30-f42b-4077-af19-86b7a988e1f4c6481ace-2c4f-4aae-acd7-89e1eba1632aUntitleddesign1.webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/services-3-565x401.jpg</RelativePath>
+      <RelativePath>img/slider/f2a6be30-f42b-4077-af19-86b7a988e1f4c6481ace-2c4f-4aae-acd7-89e1eba1632aUntitleddesign1.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10062,14 +10062,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-3-565x401.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\f2a6be30-f42b-4077-af19-86b7a988e1f4c6481ace-2c4f-4aae-acd7-89e1eba1632aUntitleddesign1.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-4-565x401.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\f5c1a489-ae00-43dc-9f9f-73827fb1ed91c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/services-4-565x401.jpg</RelativePath>
+      <RelativePath>img/slider/f5c1a489-ae00-43dc-9f9f-73827fb1ed91c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10078,14 +10078,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-4-565x401.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\f5c1a489-ae00-43dc-9f9f-73827fb1ed91c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-5-565x401.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\ff6d9cd9-9692-4e76-954b-b84baca135e6b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/services-5-565x401.jpg</RelativePath>
+      <RelativePath>img/slider/ff6d9cd9-9692-4e76-954b-b84baca135e6b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -10094,231 +10094,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-5-565x401.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-6-565x401.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/services-6-565x401.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\services-6-565x401.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\sidebar-5.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/sidebar-5.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\sidebar-5.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\61bb16b1-6396-4015-b411-398daa1a27f2Home-5.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/slider/61bb16b1-6396-4015-b411-398daa1a27f2Home-5.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\61bb16b1-6396-4015-b411-398daa1a27f2Home-5.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/slider/8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\8a92715e-0f19-48b6-a08e-3f1c0659d3e8Untitled design (3).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/slider/b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/slider/c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\c0d8f15c-4f52-4180-acd5-1a6f6cd33a30Untitled_design-removebg-preview (1).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\c6481ace-2c4f-4aae-acd7-89e1eba1632aUntitleddesign1.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/slider/c6481ace-2c4f-4aae-acd7-89e1eba1632aUntitleddesign1.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\c6481ace-2c4f-4aae-acd7-89e1eba1632aUntitleddesign1.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\d9e84ef5-96d3-46cc-8673-44263319e196Untitleddesign.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/slider/d9e84ef5-96d3-46cc-8673-44263319e196Untitleddesign.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\d9e84ef5-96d3-46cc-8673-44263319e196Untitleddesign.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\sprite.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/sprite.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\sprite.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-2.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/work-2.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-2.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-3.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/work-3.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-3.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-4.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/work-4.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-4.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-5.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/work-5.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-5.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-6.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/work-6.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\work-6.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\slider\ff6d9cd9-9692-4e76-954b-b84baca135e6b69f0d2b-0470-4479-bdb0-9a86ac5d7a2cUntitled design (2).webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\css\bootstrap.min.css))">
       <SourceType>Package</SourceType>

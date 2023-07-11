@@ -68,7 +68,7 @@ namespace EGmediaBack.Controllers
                 return "OK";
             }
         }
-        public async Task<string> send_message_to_client(int? id, string message, string email)
+        public async Task<string> send_message_to_client(int? id, string message, string email, bool isOffer)
         {
             if (id == null || email == "" || email == null)
             {
@@ -88,20 +88,36 @@ namespace EGmediaBack.Controllers
                 Subject = "EGmedia - Veb saytların hazırlanması."
             };
 
-            SmtpClient smtp = new SmtpClient
-            {
-                Host = "smtp.zoho.com",
-                Port = 587,
-                Credentials = new System.Net.NetworkCredential("info@egmedia.az", _configuration["AdminEmail:password"]),
-                EnableSsl = true
-            };
+            //SmtpClient smtp = new SmtpClient
+            //{
+            //    Host = "egmedia.az",
+            //    Port = 465,
+            //    Credentials = new System.Net.NetworkCredential("info@egmedia.az", _configuration["AdminEmail:password"]),
+            //    EnableSsl = true
+            //};
 
             mailMessage.IsBodyHtml = true;
             mailMessage.Body = $"<p style='margin:0; margin-bottom:20px'>{message}</p> <p style='margin:0; margin-bottom:5px'>Veb-saytımız: <a href='https://egmedia.az/' target='_blank'>https://egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Bizi instagramda izləyin: <a href='https://www.instagram.com/egmedia.az/' target='_blank'>https://www.instagram.com/egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Sizə bir zəng qədər yaxınıq: <a href='tel:+994775202012'>+994775202012</a></p> <p style='margin:0; margin-bottom:5px'><a href='https://egmedia.az/' target='_blank'><img src='https://egmedia.az/img/logo.png' width='400' height='120' /></a></p>";
 
-            await smtp.SendMailAsync(mailMessage);
+            //await smtp.SendMailAsync(mailMessage);
 
-            if (_context.offers.Any(o => o.Id == id))
+            using (var smtp = new SmtpClient())
+            {
+                smtp.Host = "egmedia.az";
+                smtp.Port = 465;
+                smtp.Credentials = new System.Net.NetworkCredential("info@egmedia.az", _configuration["AdminEmail:password"]);
+                smtp.EnableSsl = true;
+                try
+                {
+                    await smtp.SendMailAsync(mailMessage);
+                }
+                catch (Exception ex)
+                {
+                    return ex.ToString();
+                }
+            }
+
+            if (isOffer)
             {
                 var offer = await _context.offers.FindAsync(id);
                 offer.IsResponsed = true;

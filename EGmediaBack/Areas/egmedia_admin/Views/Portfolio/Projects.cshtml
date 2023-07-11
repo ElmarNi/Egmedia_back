@@ -25,11 +25,11 @@
                                 <tr>
                                     <th scope="row">@project.Id</th>
                                     <td>@project.Name</td>
-                                    <td><img src="~/img/@project.ImageUrl" width="150" /></td>
+                                    <td><img src="~/img/@project.ImageUrl" width="150" alt="image" /></td>
                                     <td>@project.ProjectCategory.Name</td>
                                     <td>@project.Url</td>
                                     <td>@(project.ShowInHome ? "Hə" : "Yox" )</td>
-                                    <td><img src="~/img/@project.Home_ImageUrl" width="150" /></td>
+                                    <td><img src="~/img/@project.Home_ImageUrl" width="150" alt="image" /></td>
                                     <td>@project.Date.ToString("dd/MM/yyyy")</td>
                                     <td>@(project.Status ? "Aktiv" : "Deaktiv" )</td>
                                     <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="ProjectUpdate" asp-route-id="@project.Id">Redaktə et</a></td>
