@@ -37,7 +37,7 @@
             {
                 <div class="col-6 @(i > 1 ? "mt-3 mt-md-0" : "") col-md-3">
                     <div class="item">
-                        <div class="icon-wrapper @(i == 0 ? "orange" : "") @(i == 1 ? "purple" : "") @(i == 2 ? "midnight" : "") @(i == 3 ? "pink" : "")">
+                        <div class="icon-wrapper @((i == 0 || i == 2) ? "orange" : "purple")">
                             <img src="~/img/@Model.advantages.ElementAt(i).IconUrl" alt="icon" />
                         </div>
                         <h4>@Model.advantages.ElementAt(i).Content</h4>
@@ -177,7 +177,7 @@
                         <textarea asp-for="offer.Message" placeholder="Mesajınız"></textarea>
                     </div>
                     <div class="col-12 text-right mt-3">
-                        @*<a href="" id="get-price-offer-submit">GONDER</a>*@
+                        @*<a href="#" id="get-price-offer-submit">GONDER</a>*@
                         <input type="submit" id="get-price-offer-submit" value="Sorğu göndər">
                     </div>
                 </form>
