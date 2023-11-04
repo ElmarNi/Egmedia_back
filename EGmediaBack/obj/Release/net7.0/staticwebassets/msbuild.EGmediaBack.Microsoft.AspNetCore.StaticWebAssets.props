@@ -8672,6 +8672,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\51803b09-5a03-4b97-a01b-eb333f305dde432eee59-16ac-48bb-8347-34c3e97839a4429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\5c76ad0b-3aa5-499b-aa82-81790944b6cfd14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>EGmediaBack</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EGmediaBack</BasePath>
+      <RelativePath>img/advantages/5c76ad0b-3aa5-499b-aa82-81790944b6cfd14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\5c76ad0b-3aa5-499b-aa82-81790944b6cfd14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\a029a60b-44bc-4114-855b-d1b71005e8b40962a645-e1d3-4e90-968c-f1eab0ef9ee151cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).webp))">
       <SourceType>Package</SourceType>
       <SourceId>EGmediaBack</SourceId>
@@ -8687,22 +8703,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\a029a60b-44bc-4114-855b-d1b71005e8b40962a645-e1d3-4e90-968c-f1eab0ef9ee151cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).webp))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\d14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp))">
-      <SourceType>Package</SourceType>
-      <SourceId>EGmediaBack</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EGmediaBack</BasePath>
-      <RelativePath>img/advantages/d14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\advantages\d14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\19c5e372-ae8c-407c-bb1a-152ff9c2c21a56bca3e3-b00f-4136-a7d5-3fea35a693b26f0a9b0e-8b82-4a5a-8026-5bd20f035d93contact-bg.webp))">
       <SourceType>Package</SourceType>

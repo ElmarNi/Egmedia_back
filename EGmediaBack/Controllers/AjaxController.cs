@@ -97,7 +97,7 @@ namespace EGmediaBack.Controllers
             //};
 
             mailMessage.IsBodyHtml = true;
-            mailMessage.Body = $"<p style='margin:0; margin-bottom:20px'>{message}</p> <p style='margin:0; margin-bottom:5px'>Veb-saytımız: <a href='https://egmedia.az/' target='_blank'>https://egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Bizi instagramda izləyin: <a href='https://www.instagram.com/egmedia.az/' target='_blank'>https://www.instagram.com/egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Sizə bir zəng qədər yaxınıq: <a href='tel:+994775202012'>+994775202012</a></p> <p style='margin:0; margin-bottom:5px'><a href='https://egmedia.az/' target='_blank'><img src='https://egmedia.az/img/logo.png' width='400' height='120' /></a></p>";
+            mailMessage.Body = $"<p style='margin:0; margin-bottom:20px'>{message}</p> <p style='margin:0; margin-bottom:5px'>Veb-saytımız: <a href='https://egmedia.az/' target='_blank'>https://egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Bizi instagramda izləyin: <a href='https://www.instagram.com/egmedia.az/' target='_blank'>https://www.instagram.com/egmedia.az/</a></p> <p style='margin:0; margin-bottom:5px'>Sizə bir zəng qədər yaxınıq: <a href='tel:+994558090669'>+994558090669</a></p> <p style='margin:0; margin-bottom:5px'><a href='https://egmedia.az/' target='_blank'><img src='https://egmedia.az/img/logo.png' width='400' height='120' /></a></p>";
 
             //await smtp.SendMailAsync(mailMessage);
 
@@ -111,7 +111,7 @@ namespace EGmediaBack.Controllers
                 {
                     await smtp.SendMailAsync(mailMessage);
                 }
-                catch (Exception ex)
+                catch (SmtpException ex)
                 {
                     return ex.ToString();
                 }

@@ -39,6 +39,8 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 if (id == null || await _context.advantages.FindAsync(id) == null)
                 {
                     return NotFound();
+                    _context.about.Select(b => b.Content == "a");
+                    //form.For(c => c.index)
                 }
                 return View(await _context.advantages.FindAsync(id));
             }
@@ -62,20 +64,27 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     ModelState.AddModelError("Content", "Qısa məlumat boş olmamalıdır");
                     return View(advantage);
                 }
-                Advantage db_advantage = await _context.advantages.FindAsync(advantage.Id);
-                if (advantage.Icon != null)
+                try
                 {
-                    if (!advantage.Icon.ContentType.Contains("image/"))
+                    Advantage db_advantage = await _context.advantages.FindAsync(advantage.Id);
+                    if (advantage.Icon != null)
                     {
-                        ModelState.AddModelError("Icon", "Şəkilin formatı düzgün deyil");
-                        return View(db_advantage);
+                        if (!advantage.Icon.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("Icon", "Şəkilin formatı düzgün deyil");
+                            return View(db_advantage);
+                        }
+                        RemovePhoto(_env.WebRootPath, db_advantage.IconUrl);
+                        db_advantage.IconUrl = await advantage.Icon.SavePhotoAsync(_env.WebRootPath, "advantages");
                     }
-                    RemovePhoto(_env.WebRootPath, db_advantage.IconUrl);
-                    db_advantage.IconUrl = await advantage.Icon.SavePhotoAsync(_env.WebRootPath, "advantages");
+                    db_advantage.Content = advantage.Content;
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                db_advantage.Content = advantage.Content;
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                catch(Exception ex)
+                {
+                    return Content(ex.ToString());
+                }
             }
             else
             {

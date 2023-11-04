@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace EGmediaBack.Controllers
 {
+    [Route("elaqe")]
     public class ContactController : Controller
     {
         private readonly EGmediaDb _context;
@@ -25,7 +26,9 @@ namespace EGmediaBack.Controllers
         {
             ViewBag.message = "";
             ViewBag.color = "";
-            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+
+            ViewData["imageUrl"] = _context.banners.Where(b => b.WhatFor == "Əlaqə").FirstOrDefault().ImageUrl;
+            ViewData["name"] = "Əlaqə";
 
             return View();
         }

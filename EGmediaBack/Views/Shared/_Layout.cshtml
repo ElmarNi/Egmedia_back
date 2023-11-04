@@ -43,7 +43,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-8 logo">
-                    <a href="/">
+                    <a asp-controller="home">
                         <img src="~/img/logo.png" alt="logo">
                     </a>
                 </div>
@@ -82,7 +82,7 @@
                                 </a>
                             </li>
                             <li class="top-right">
-                                <a asp-controller="services">
+                                <a asp-controller="services" asp-action="index">
                                     <small class="nav-desc">BİZ NƏLƏRİ EDİRİK ?</small>
                                     <span class="name">Xidmətlər</span>
                                     <span class="nav-line nav-line-1"></span>
@@ -146,7 +146,7 @@
         <div class="container">
             <div class="row top align-items-center">
                 <div class="col-6 col-lg-3 order-1 logo">
-                    <a href="/">
+                    <a asp-controller="home">
                         <img src="img/logo.png" alt="logo">
                     </a>
                 </div>

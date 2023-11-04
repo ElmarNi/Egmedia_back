@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EGmediaBack.Controllers
 {
+    [Route("haqqimizda")]
     public class AboutController : Controller
     {
         private readonly EGmediaDb _context;
@@ -16,7 +17,8 @@ namespace EGmediaBack.Controllers
         }
         public IActionResult Index()
         {
-            ViewBag.Banner = _context.banners.Where(b => b.WhatFor == "Haqqımızda").FirstOrDefault().ImageUrl;
+            ViewData["imageUrl"] = _context.banners.Where(b => b.WhatFor == "Haqqımızda").FirstOrDefault().ImageUrl;
+            ViewData["name"] = "Haqqımızda";
             return View(_context.about.FirstOrDefault());
         }
     }

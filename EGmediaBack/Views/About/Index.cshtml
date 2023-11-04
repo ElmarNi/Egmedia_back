@@ -3,35 +3,8 @@
     ViewBag.Title = "Haqqımızda";
     ViewBag.MetaDescription = "Biz kimik? Haqqımızda daha ətraflı məlumat.";
 }
-<section id="breadcrumb">
-    <div class="page-name-wrapper" style="background-image: url(img/@ViewBag.Banner);">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="page-name">
-                        <h1>Haqqımızda</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="aside">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="d-flex justify-content-center">
-                        <li class="slash">
-                            <a href="/">Ana səhifə</a>
-                        </li>
-                        <li>
-                            Haqqımızda
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+@await Html.PartialAsync("_BreadCrumbPartialView")
 
 <section id="about-page">
     <div class="container">

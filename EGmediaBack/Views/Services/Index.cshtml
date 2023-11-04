@@ -3,35 +3,8 @@
     ViewBag.Title = "Xidmətlər";
     ViewBag.MetaDescription = "Xidmətlərimizin arasından özünüzə lazım olanı rahatlıqla seçə bilərsiniz.";
 }
-<section id="breadcrumb">
-    <div class="page-name-wrapper" style="background-image: url(img/@ViewBag.Banner);">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="page-name">
-                        <h1>Xidmətlər</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="aside">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="d-flex justify-content-center">
-                        <li class="slash">
-                            <a href="/">Ana səhifə</a>
-                        </li>
-                        <li>
-                            Xidmətlər
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+@await Html.PartialAsync("_BreadCrumbPartialView")
 
 <section id="services-page">
     <div class="container position-relative service-container">

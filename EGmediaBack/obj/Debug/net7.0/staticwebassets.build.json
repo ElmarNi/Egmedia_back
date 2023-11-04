@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s63+ZIL4wuPwho+orIPkEO8EWxmHWYxMZKNT2qXgLkk=",
+  "Hash": "73b4W83Fd1gTKD2LieDOLvOsQLGipgqtwq0R7eGrG9A=",
   "Source": "EGmediaBack",
   "BasePath": "_content/EGmediaBack",
   "Mode": "Default",
@@ -9180,6 +9180,23 @@
       "OriginalItemSpec": "wwwroot/img/.DS_Store"
     },
     {
+      "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/.DS_Store",
+      "SourceId": "EGmediaBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/",
+      "BasePath": "_content/EGmediaBack",
+      "RelativePath": "img/advantages/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/advantages/.DS_Store"
+    },
+    {
       "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/1d2143e0-e7fa-42b0-ae21-ed8acf732329559f209a-8c93-40ca-b993-dd7e4466dab1ed88a336-2ba2-4724-93c2-f65f42128230money-growth.webp",
       "SourceId": "EGmediaBack",
       "SourceType": "Discovered",
@@ -9214,12 +9231,12 @@
       "OriginalItemSpec": "wwwroot/img/advantages/51803b09-5a03-4b97-a01b-eb333f305dde432eee59-16ac-48bb-8347-34c3e97839a4429d772c-7e76-4be6-bef5-3bfd08f8c3e9support.webp"
     },
     {
-      "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp",
+      "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/5c76ad0b-3aa5-499b-aa82-81790944b6cfd14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp",
       "SourceId": "EGmediaBack",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/",
       "BasePath": "_content/EGmediaBack",
-      "RelativePath": "img/advantages/63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp",
+      "RelativePath": "img/advantages/5c76ad0b-3aa5-499b-aa82-81790944b6cfd14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -9228,7 +9245,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/advantages/63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp"
+      "OriginalItemSpec": "wwwroot/img/advantages/5c76ad0b-3aa5-499b-aa82-81790944b6cfd14eb3db-3aeb-4b3d-8d05-4d95e1fd3bea63cda47a-b763-4b0d-8de5-45b7cc73aecd9efc8318-6af3-417a-86b8-e6882e23aff158b87c4a-d0e9-4212-9a53-95c4b7836a25diploma (2).webp"
     },
     {
       "Identity": "/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/wwwroot/img/advantages/a029a60b-44bc-4114-855b-d1b71005e8b40962a645-e1d3-4e90-968c-f1eab0ef9ee151cbd1ec-6064-4abf-8fb5-80e6d31f2d57support (1).webp",

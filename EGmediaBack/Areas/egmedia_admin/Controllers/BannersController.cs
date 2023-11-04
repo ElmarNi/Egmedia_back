@@ -54,20 +54,26 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-
-                if (banner.Image != null)
+                try
                 {
-                    if (!banner.Image.ContentType.Contains("image/"))
+                    if (banner.Image != null)
                     {
-                        ModelState.AddModelError("Image", "Şəklin formatı düzgün deyil");
-                        return View(banner);
+                        if (!banner.Image.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("Image", "Şəklin formatı düzgün deyil");
+                            return View(banner);
+                        }
+                        Banner banner_db = await _context.banners.FindAsync(banner.Id);
+                        RemovePhoto(_env.WebRootPath, banner_db.ImageUrl);
+                        banner_db.ImageUrl = await banner.Image.SavePhotoAsync(_env.WebRootPath, "banners");
                     }
-                    Banner banner_db = await _context.banners.FindAsync(banner.Id);
-                    RemovePhoto(_env.WebRootPath, banner_db.ImageUrl);
-                    banner_db.ImageUrl = await banner.Image.SavePhotoAsync(_env.WebRootPath, "banners");
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                catch (Exception ex)
+                {
+                    return Content(ex.ToString());
+                }
             }
             else
             {

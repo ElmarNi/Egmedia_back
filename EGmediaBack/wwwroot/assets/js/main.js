@@ -195,6 +195,34 @@ $(document).ready(function () {
         $( this ).addClass('is-checked');
     });
 
+    if ($("#services-page").length != 0) {
+        if (document.URL.includes("veb-saytlarin-hazirlanmasi")) {
+            $("#services-page .category-names a.is-checked").removeClass("is-checked")
+            $("#services-page .category-names li").first().find("a").addClass("is-checked")
+            $("#services-page .category-content.active").removeClass("active")
+            $("#services-page .category-content").first().addClass("active")
+
+        }
+        else if (document.URL.includes("mobil-tetbiqlerin-hazirlanmasi")) {
+            $("#services-page .category-names a.is-checked").removeClass("is-checked")
+            $("#services-page .category-names ul li:nth-child(2)").find("a").addClass("is-checked")
+            $("#services-page .category-content.active").removeClass("active")
+            $("#services-page .category-content:nth-child(3)").addClass("active")
+        }
+        else if (document.URL.includes("metbee")) {
+            $("#services-page .category-names a.is-checked").removeClass("is-checked")
+            $("#services-page .category-names ul li:nth-child(3)").find("a").addClass("is-checked")
+            $("#services-page .category-content.active").removeClass("active")
+            $("#services-page .category-content:nth-child(4)").addClass("active")
+        }
+    }
+
+    let image_height = $("#services-page .active .gallery-item img").outerHeight()
+
+    $(window).resize(function () {
+        image_height = $("#services-page .active .gallery-item img").outerHeight()
+    });
+
     function SetServiceContainerHeight() {
         if ($("#services-page .service-container .category-names").length != 0) {
             let imageHeight = $("#services-page .service-container .category-content.active .main-image img").height()
@@ -208,16 +236,6 @@ $(document).ready(function () {
             }
         }
     }
-    SetServiceContainerHeight()
-    $(window).resize(function () { 
-        SetServiceContainerHeight()
-    });
-
-    let image_height = $("#services-page .active .gallery-item img").outerHeight()
-
-    $(window).resize(function () { 
-        image_height = $("#services-page .active .gallery-item img").outerHeight()
-    });
 
     function Services_Page() {
         let gallery_wrappers = document.querySelectorAll('#services-page .gallery-wrapper')
@@ -235,18 +253,18 @@ $(document).ready(function () {
             let data_id = parseInt($(this).attr("data-id"))
 
             if (data_id != last_image_data_id) {
-                $(gallery).css("transform", `translate3d(0px, -${(data_id-1) * image_height}px, 0px)`)
+                $(gallery).css("transform", `translate3d(0px, -${(data_id - 1) * image_height}px, 0px)`)
             }
             if (data_id == 0) {
                 $("#services-page .row.active .previous").addClass("active")
             }
-            else{
+            else {
                 $("#services-page .row.active .previous.active").removeClass("active")
             }
             if (data_id == last_image_data_id) {
                 $("#services-page .row.active .next").addClass("active")
             }
-            else{
+            else {
                 $("#services-page .row.active .next.active").removeClass("active")
             }
             //remove active previous main image 
@@ -265,23 +283,35 @@ $(document).ready(function () {
         $(gallery_wrappers).each(function () {
             $(this).height(image_height * 3)
         })
-        $(window).resize(function () { 
+        $(window).resize(function () {
             $(gallery_wrappers).each(function () {
                 $(this).height(image_height * 3)
             })
         });
     }
 
+    Services_Page();
+    SetServiceContainerHeight()
+
+    $(window).resize(function () { 
+        SetServiceContainerHeight()
+    });
+    
     $("#services-page .category-names a").click(function (e) {
         e.preventDefault();
         let data_id = parseInt($(this).attr("data-id"))
+        let url = "veb-saytlarin-hazirlanmasi"
+        if (data_id == 1) {
+            url = "mobil-tetbiqlerin-hazirlanmasi"
+        }
+        if (data_id == 2) {
+            url = "metbee"
+        }
+        history.replaceState("", "Egmedia - Xidmətlər", `/xidmetler/${url}`);
 
         $("#services-page .category-names a.is-checked").removeClass("is-checked")
-
         $(this).addClass("is-checked")
-
         $("#services-page .category-content.active").removeClass("active")
-        
         $(`#services-page .category-content[data-id="${data_id}"`).addClass("active")
 
         Services_Page()
@@ -319,8 +349,6 @@ $(document).ready(function () {
             $(this).addClass("active")
         }
     })
-
-    Services_Page();
 
     $("#get-price-offer-submit").click(function (e) {
         e.preventDefault()

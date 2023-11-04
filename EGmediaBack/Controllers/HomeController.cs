@@ -17,6 +17,8 @@ using static EGmediaBack.Extensions.CustomHash;
 
 namespace EGmediaBack.Controllers
 {
+    [Route("veb-saytlarin-hazirlanmasi", Order = 1)]
+    [Route("", Order = 2)]
     public class HomeController : Controller
     {
         private readonly EGmediaDb _context;
@@ -35,6 +37,8 @@ namespace EGmediaBack.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            if (Request.Path.Value.Equals("/veb-saytlarin-hazirlanmasi", StringComparison.OrdinalIgnoreCase))
+                return Redirect("/");
             var password = _configuration.GetValue<string>("Admin:Password");
             var username = _configuration.GetValue<string>("Admin:Username");
             if (!await _role.RoleExistsAsync("admin"))

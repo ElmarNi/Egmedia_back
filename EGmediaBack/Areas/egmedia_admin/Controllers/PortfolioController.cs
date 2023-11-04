@@ -145,75 +145,82 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (!ModelState.IsValid)
+                try
                 {
-                    return NotFound();
-                }
-                if (project.Name == string.Empty || project.Name == "")
-                {
-                    ModelState.AddModelError("Name", "Ad boş olmamalıdır");
-                    ViewBag.Categories = _context.projectCategories;
-
-                    return View(project);
-                }
-                if (!_context.projectCategories.Any(category => category.Id == project.ProjectCategoryId))
-                {
-                    ModelState.AddModelError("ProjectCategoryId", "Layihənin kateqoriyasını seçin");
-                    ViewBag.Categories = _context.projectCategories;
-
-                    return View(project);
-                }
-                ProjectCategory projectCategory = await _context.projectCategories.FindAsync(project.ProjectCategoryId);
-                if (!projectCategory.IsImage && string.IsNullOrEmpty(project.Url))
-                {
-                    
-                    ModelState.AddModelError("Url", "Url boş olmamalıdır");
-                    ViewBag.Categories = _context.projectCategories;
-
-                    return View(project);
-                }
-
-                if (project.Image != null)
-                {
-                    if (!project.Image.ContentType.Contains("image/"))
+                    if (!ModelState.IsValid)
                     {
-                        ModelState.AddModelError("Image", "Şəkilin formatı düzgün deyil");
-                        ViewBag.Categories = _context.projectCategories;
-                        return View(project);
+                        return NotFound();
                     }
-                    project.ImageUrl = await project.Image.SavePhotoAsync(_env.WebRootPath, "projects");
-                }
-                else
-                {
-                    ModelState.AddModelError("Image", "Layihənin əsas şəklini seçin");
-                    ViewBag.Categories = _context.projectCategories;
-                    return View(project);
-                }
-                if (project.ShowInHome && project.Home_Image == null)
-                {
-                    ModelState.AddModelError("Home_Image", "Layihənin ana səhifə şəklini seçin");
-                    ViewBag.Categories = _context.projectCategories;
-                    return View(project);
-                }
-                if (project.Home_Image != null)
-                {
-                    if (!project.Home_Image.ContentType.Contains("image/"))
+                    if (project.Name == string.Empty || project.Name == "")
                     {
-                        ModelState.AddModelError("Home_Image", "Şəkilin formatı düzgün deyil");
+                        ModelState.AddModelError("Name", "Ad boş olmamalıdır");
                         ViewBag.Categories = _context.projectCategories;
 
                         return View(project);
                     }
-                    project.Home_ImageUrl = await project.Home_Image.SavePhotoAsync(_env.WebRootPath, "projects");
+                    if (!_context.projectCategories.Any(category => category.Id == project.ProjectCategoryId))
+                    {
+                        ModelState.AddModelError("ProjectCategoryId", "Layihənin kateqoriyasını seçin");
+                        ViewBag.Categories = _context.projectCategories;
+
+                        return View(project);
+                    }
+                    ProjectCategory projectCategory = await _context.projectCategories.FindAsync(project.ProjectCategoryId);
+                    if (!projectCategory.IsImage && string.IsNullOrEmpty(project.Url))
+                    {
+
+                        ModelState.AddModelError("Url", "Url boş olmamalıdır");
+                        ViewBag.Categories = _context.projectCategories;
+
+                        return View(project);
+                    }
+
+                    if (project.Image != null)
+                    {
+                        if (!project.Image.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("Image", "Şəkilin formatı düzgün deyil");
+                            ViewBag.Categories = _context.projectCategories;
+                            return View(project);
+                        }
+                        project.ImageUrl = await project.Image.SavePhotoAsync(_env.WebRootPath, "projects");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("Image", "Layihənin əsas şəklini seçin");
+                        ViewBag.Categories = _context.projectCategories;
+                        return View(project);
+                    }
+                    if (project.ShowInHome && project.Home_Image == null)
+                    {
+                        ModelState.AddModelError("Home_Image", "Layihənin ana səhifə şəklini seçin");
+                        ViewBag.Categories = _context.projectCategories;
+                        return View(project);
+                    }
+                    if (project.Home_Image != null)
+                    {
+                        if (!project.Home_Image.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("Home_Image", "Şəkilin formatı düzgün deyil");
+                            ViewBag.Categories = _context.projectCategories;
+
+                            return View(project);
+                        }
+                        project.Home_ImageUrl = await project.Home_Image.SavePhotoAsync(_env.WebRootPath, "projects");
+                    }
+                    else
+                    {
+                        project.Home_ImageUrl = "no_image.jpg";
+                    }
+                    project.Date = DateTime.Now;
+                    await _context.projects.AddAsync(project);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Projects));
                 }
-                else
+                catch(Exception ex)
                 {
-                    project.Home_ImageUrl = "no_image.jpg";
+                    return Content(ex.ToString());
                 }
-                project.Date = DateTime.Now;
-                await _context.projects.AddAsync(project);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Projects));
             }
             else
             {
@@ -241,71 +248,78 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (!ModelState.IsValid)
+                try
                 {
-                    return NotFound();
-                }
-                if (project.Name == string.Empty || project.Name == "")
-                {
-                    ModelState.AddModelError("Name", "Ad boş olmamalıdır");
-                    ViewBag.Categories = _context.projectCategories;
-
-                    return View(project);
-                }
-                if (!_context.projectCategories.Any(category => category.Id == project.ProjectCategoryId))
-                {
-                    ModelState.AddModelError("ProjectCategoryId", "Layihənin kateqoriyasını seçin");
-                    ViewBag.Categories = _context.projectCategories;
-
-                    return View(project);
-                }
-                Project project_db = await _context.projects.FindAsync(project.Id);
-                ProjectCategory projectCategory = await _context.projectCategories.FindAsync(project.ProjectCategoryId);
-
-                if (!projectCategory.IsImage && string.IsNullOrEmpty(project.Url))
-                {
-
-                    ModelState.AddModelError("Url", "Url boş olmamalıdır");
-                    ViewBag.Categories = _context.projectCategories;
-
-                    return View(project);
-                }
-
-                if (project_db == null)
-                {
-                    return NotFound();
-                }
-                if (project.Image != null)
-                {
-                    if (!project.Image.ContentType.Contains("image/"))
+                    if (!ModelState.IsValid)
                     {
-                        ModelState.AddModelError("Image", "Şəkilin formatı düzgün deyil");
-                        ViewBag.Categories = _context.projectCategories;
-                        return View(project_db);
+                        return NotFound();
                     }
-                    RemovePhoto(_env.WebRootPath, project_db.ImageUrl);
-                    project_db.ImageUrl = await project.Image.SavePhotoAsync(_env.WebRootPath, "projects");
-                }
-                if (project.Home_Image != null)
-                {
-                    if (!project.Home_Image.ContentType.Contains("image/"))
+                    if (project.Name == string.Empty || project.Name == "")
                     {
-                        ModelState.AddModelError("Home_Image", "Şəkilin formatı düzgün deyil");
+                        ModelState.AddModelError("Name", "Ad boş olmamalıdır");
                         ViewBag.Categories = _context.projectCategories;
 
-                        return View(project_db);
+                        return View(project);
                     }
-                    RemovePhoto(_env.WebRootPath, project_db.Home_ImageUrl);
-                    project_db.Home_ImageUrl = await project.Home_Image.SavePhotoAsync(_env.WebRootPath, "projects");
+                    if (!_context.projectCategories.Any(category => category.Id == project.ProjectCategoryId))
+                    {
+                        ModelState.AddModelError("ProjectCategoryId", "Layihənin kateqoriyasını seçin");
+                        ViewBag.Categories = _context.projectCategories;
+
+                        return View(project);
+                    }
+                    Project project_db = await _context.projects.FindAsync(project.Id);
+                    ProjectCategory projectCategory = await _context.projectCategories.FindAsync(project.ProjectCategoryId);
+
+                    if (!projectCategory.IsImage && string.IsNullOrEmpty(project.Url))
+                    {
+
+                        ModelState.AddModelError("Url", "Url boş olmamalıdır");
+                        ViewBag.Categories = _context.projectCategories;
+
+                        return View(project);
+                    }
+
+                    if (project_db == null)
+                    {
+                        return NotFound();
+                    }
+                    if (project.Image != null)
+                    {
+                        if (!project.Image.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("Image", "Şəkilin formatı düzgün deyil");
+                            ViewBag.Categories = _context.projectCategories;
+                            return View(project_db);
+                        }
+                        RemovePhoto(_env.WebRootPath, project_db.ImageUrl);
+                        project_db.ImageUrl = await project.Image.SavePhotoAsync(_env.WebRootPath, "projects");
+                    }
+                    if (project.Home_Image != null)
+                    {
+                        if (!project.Home_Image.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("Home_Image", "Şəkilin formatı düzgün deyil");
+                            ViewBag.Categories = _context.projectCategories;
+
+                            return View(project_db);
+                        }
+                        RemovePhoto(_env.WebRootPath, project_db.Home_ImageUrl);
+                        project_db.Home_ImageUrl = await project.Home_Image.SavePhotoAsync(_env.WebRootPath, "projects");
+                    }
+                    project_db.Date = DateTime.Now;
+                    project_db.Name = project.Name;
+                    project_db.Status = project.Status;
+                    project_db.ShowInHome = project.ShowInHome;
+                    project_db.ProjectCategoryId = project.ProjectCategoryId;
+                    project_db.Url = project.Url;
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Projects));
                 }
-                project_db.Date = DateTime.Now;
-                project_db.Name = project.Name;
-                project_db.Status = project.Status;
-                project_db.ShowInHome = project.ShowInHome;
-                project_db.ProjectCategoryId = project.ProjectCategoryId;
-                project_db.Url = project.Url;
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Projects));
+                catch(Exception ex)
+                {
+                    return Content(ex.ToString());
+                }
             }
             else
             {

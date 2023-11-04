@@ -805,3 +805,7 @@ C:/Users/User/Desktop/New folder/Egmedia_back/EGmediaBack/obj/Debug/net7.0/refin
 C:/Users/User/Desktop/New folder/Egmedia_back/EGmediaBack/obj/Debug/net7.0/EGmediaBack.pdb
 C:/Users/User/Desktop/New folder/Egmedia_back/EGmediaBack/obj/Debug/net7.0/EGmediaBack.genruntimeconfig.cache
 C:/Users/User/Desktop/New folder/Egmedia_back/EGmediaBack/obj/Debug/net7.0/ref/EGmediaBack.dll
+/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Core.dll
+/Users/ibrahimlien/Desktop/BackEnd/Egmedia_back/EGmediaBack/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Stores.dll

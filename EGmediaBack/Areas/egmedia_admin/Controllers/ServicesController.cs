@@ -51,72 +51,79 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (!ModelState.IsValid)
+                try
                 {
-                    return NotFound();
-                }
-                if (string.IsNullOrEmpty(service.Heading))
-                {
-                    ModelState.AddModelError("Heading", "Başlıq boş olmamalıdır");
-                    return View(service);
-                }
-                if (string.IsNullOrEmpty(service.CategoryName))
-                {
-                    ModelState.AddModelError("CategoryName", "Kateqoriya boş olmamalıdır");
-                    return View(service);
-                }
-                if (service.CategoryIcon == null)
-                {
-                    ModelState.AddModelError("CategoryIcon", "İkon boş olmamalıdır");
-                    return View(service);
-                }
-                if (!service.CategoryIcon.ContentType.Contains("image/"))
-                {
-                    ModelState.AddModelError("CategoryIcon", "Ikonun formatı düzgün deyil");
-                    return View(service);
-                }
-                if (service.CategoryImage == null)
-                {
-                    ModelState.AddModelError("CategoryImage", "Kateqoriya şəkli boş olmamalıdır");
-                    return View(service);
-                }
-                if (!service.CategoryImage.ContentType.Contains("image/"))
-                {
-                    ModelState.AddModelError("CategoryImage", "Kateqoriya şəklinin formatı düzgün deyil");
-                    return View(service);
-                }
-                if (service.DetailPhotos == null)
-                {
-                    ModelState.AddModelError("DetailPhotos", "Şəkillər boş olmamalıdır");
-                    return View(service);
-                }
-                await _context.services.AddAsync(service);
-                await _context.SaveChangesAsync();
-                foreach (var image in service.DetailPhotos)
-                {
-                    if (!image.ContentType.Contains("image/"))
+                    if (!ModelState.IsValid)
                     {
-                        ModelState.AddModelError("DetailPhotos", "Şəklin formatı düzgün deyil");
-                        _context.services.Remove(service);
-                        await _context.SaveChangesAsync();
+                        return NotFound();
+                    }
+                    if (string.IsNullOrEmpty(service.Heading))
+                    {
+                        ModelState.AddModelError("Heading", "Başlıq boş olmamalıdır");
                         return View(service);
                     }
-                }
-
-                service.CategoryIconUrl = await service.CategoryIcon.SavePhotoAsync(_env.WebRootPath, "serviceIcons");
-                service.CategoryImageUrl = await service.CategoryImage.SavePhotoAsync(_env.WebRootPath, "serviceCategories");
-
-                foreach (var image in service.DetailPhotos)
-                {
-                    ServiceImage serviceImage = new ServiceImage
+                    if (string.IsNullOrEmpty(service.CategoryName))
                     {
-                        ServiceId = service.Id,
-                        ImageUrl = await image.SavePhotoAsync(_env.WebRootPath, "service")
-                    };
-                    await _context.serviceImages.AddAsync(serviceImage);
+                        ModelState.AddModelError("CategoryName", "Kateqoriya boş olmamalıdır");
+                        return View(service);
+                    }
+                    if (service.CategoryIcon == null)
+                    {
+                        ModelState.AddModelError("CategoryIcon", "İkon boş olmamalıdır");
+                        return View(service);
+                    }
+                    if (!service.CategoryIcon.ContentType.Contains("image/"))
+                    {
+                        ModelState.AddModelError("CategoryIcon", "Ikonun formatı düzgün deyil");
+                        return View(service);
+                    }
+                    if (service.CategoryImage == null)
+                    {
+                        ModelState.AddModelError("CategoryImage", "Kateqoriya şəkli boş olmamalıdır");
+                        return View(service);
+                    }
+                    if (!service.CategoryImage.ContentType.Contains("image/"))
+                    {
+                        ModelState.AddModelError("CategoryImage", "Kateqoriya şəklinin formatı düzgün deyil");
+                        return View(service);
+                    }
+                    if (service.DetailPhotos == null)
+                    {
+                        ModelState.AddModelError("DetailPhotos", "Şəkillər boş olmamalıdır");
+                        return View(service);
+                    }
+                    await _context.services.AddAsync(service);
+                    await _context.SaveChangesAsync();
+                    foreach (var image in service.DetailPhotos)
+                    {
+                        if (!image.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("DetailPhotos", "Şəklin formatı düzgün deyil");
+                            _context.services.Remove(service);
+                            await _context.SaveChangesAsync();
+                            return View(service);
+                        }
+                    }
+
+                    service.CategoryIconUrl = await service.CategoryIcon.SavePhotoAsync(_env.WebRootPath, "serviceIcons");
+                    service.CategoryImageUrl = await service.CategoryImage.SavePhotoAsync(_env.WebRootPath, "serviceCategories");
+
+                    foreach (var image in service.DetailPhotos)
+                    {
+                        ServiceImage serviceImage = new ServiceImage
+                        {
+                            ServiceId = service.Id,
+                            ImageUrl = await image.SavePhotoAsync(_env.WebRootPath, "service")
+                        };
+                        await _context.serviceImages.AddAsync(serviceImage);
+                    }
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                catch(Exception ex)
+                {
+                    return Content(ex.ToString());
+                }
             }
             else
             {
@@ -147,78 +154,85 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (!ModelState.IsValid)
+                try
                 {
-                    return NotFound();
-                }
-                if (string.IsNullOrEmpty(service.Heading))
-                {
-                    ModelState.AddModelError("Heading", "Başlıq boş olmamalıdır");
-                    return View(service);
-                }
-                if (string.IsNullOrEmpty(service.CategoryName))
-                {
-                    ModelState.AddModelError("CategoryName", "Kateqoriya boş olmamalıdır");
-                    return View(service);
-                }
-                Service service_from_db = await _context.services.FindAsync(service.Id);
-                if (service.CategoryIcon != null)
-                {
-                    if (!service.CategoryIcon.ContentType.Contains("image/"))
+                    if (!ModelState.IsValid)
                     {
-                        ModelState.AddModelError("CategoryIcon", "Ikonun formatı düzgün deyil");
+                        return NotFound();
+                    }
+                    if (string.IsNullOrEmpty(service.Heading))
+                    {
+                        ModelState.AddModelError("Heading", "Başlıq boş olmamalıdır");
                         return View(service);
                     }
-                    else
+                    if (string.IsNullOrEmpty(service.CategoryName))
                     {
-                        RemovePhoto(_env.WebRootPath, service_from_db.CategoryIconUrl);
-                        service_from_db.CategoryIconUrl = await service.CategoryIcon.SavePhotoAsync(_env.WebRootPath, "serviceIcons");
-                    }
-                }
-                if (service.CategoryImage != null)
-                {
-                    if (!service.CategoryImage.ContentType.Contains("image/"))
-                    {
-                        ModelState.AddModelError("CategoryImage", "Kateqoriya şəklinin formatı düzgün deyil");
+                        ModelState.AddModelError("CategoryName", "Kateqoriya boş olmamalıdır");
                         return View(service);
                     }
-                    else
+                    Service service_from_db = await _context.services.FindAsync(service.Id);
+                    if (service.CategoryIcon != null)
                     {
-                        RemovePhoto(_env.WebRootPath, service_from_db.CategoryImageUrl);
-                        service_from_db.CategoryImageUrl = await service.CategoryImage.SavePhotoAsync(_env.WebRootPath, "serviceCategories");
-                    }
-                }
-                if (service.DetailPhotos != null)
-                {
-                    foreach (var image in service.DetailPhotos)
-                    {
-                        if (!image.ContentType.Contains("image/"))
+                        if (!service.CategoryIcon.ContentType.Contains("image/"))
                         {
-                            ModelState.AddModelError("DetailPhotos", "Şəklin formatı düzgün deyil");
+                            ModelState.AddModelError("CategoryIcon", "Ikonun formatı düzgün deyil");
                             return View(service);
                         }
-                    }
-                    foreach (var image in _context.serviceImages.Where(i => i.ServiceId == service.Id))
-                    {
-                        RemovePhoto(_env.WebRootPath, image.ImageUrl);
-                        _context.serviceImages.Remove(image);
-                    }
-                    foreach (var image in service.DetailPhotos)
-                    {
-                        ServiceImage serviceImage = new ServiceImage
+                        else
                         {
-                            ServiceId = service.Id,
-                            ImageUrl = await image.SavePhotoAsync(_env.WebRootPath, "service")
-                        };
-                        await _context.serviceImages.AddAsync(serviceImage);
+                            RemovePhoto(_env.WebRootPath, service_from_db.CategoryIconUrl);
+                            service_from_db.CategoryIconUrl = await service.CategoryIcon.SavePhotoAsync(_env.WebRootPath, "serviceIcons");
+                        }
                     }
+                    if (service.CategoryImage != null)
+                    {
+                        if (!service.CategoryImage.ContentType.Contains("image/"))
+                        {
+                            ModelState.AddModelError("CategoryImage", "Kateqoriya şəklinin formatı düzgün deyil");
+                            return View(service);
+                        }
+                        else
+                        {
+                            RemovePhoto(_env.WebRootPath, service_from_db.CategoryImageUrl);
+                            service_from_db.CategoryImageUrl = await service.CategoryImage.SavePhotoAsync(_env.WebRootPath, "serviceCategories");
+                        }
+                    }
+                    if (service.DetailPhotos != null)
+                    {
+                        foreach (var image in service.DetailPhotos)
+                        {
+                            if (!image.ContentType.Contains("image/"))
+                            {
+                                ModelState.AddModelError("DetailPhotos", "Şəklin formatı düzgün deyil");
+                                return View(service);
+                            }
+                        }
+                        foreach (var image in _context.serviceImages.Where(i => i.ServiceId == service.Id))
+                        {
+                            RemovePhoto(_env.WebRootPath, image.ImageUrl);
+                            _context.serviceImages.Remove(image);
+                        }
+                        foreach (var image in service.DetailPhotos)
+                        {
+                            ServiceImage serviceImage = new ServiceImage
+                            {
+                                ServiceId = service.Id,
+                                ImageUrl = await image.SavePhotoAsync(_env.WebRootPath, "service")
+                            };
+                            await _context.serviceImages.AddAsync(serviceImage);
+                        }
+                    }
+                    service_from_db.CategoryName = service.CategoryName;
+                    service_from_db.Heading = service.Heading;
+                    service_from_db.Content = service.Content;
+                    service_from_db.Status = service.Status;
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                service_from_db.CategoryName = service.CategoryName;
-                service_from_db.Heading = service.Heading;
-                service_from_db.Content = service.Content;
-                service_from_db.Status = service.Status;
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                catch(Exception ex)
+                {
+                    return Content(ex.ToString());
+                }
             }
             else
             {
