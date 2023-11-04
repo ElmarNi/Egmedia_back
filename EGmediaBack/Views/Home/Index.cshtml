@@ -70,7 +70,7 @@
                 @foreach (var service in Model.services)
                 {
                     <div class="animate">
-                        <a asp-controller="services" asp-action="index" class="animate-img">
+                        <a asp-controller="xidmetler" asp-action="@service.RouteName" class="animate-img">
                             <div class="animate-img__in" data-image="img/@service.CategoryImageUrl">
                                 <div class="animate-more">
                                     <div class="animate-title">

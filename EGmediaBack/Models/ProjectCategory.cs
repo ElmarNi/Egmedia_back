@@ -18,5 +18,8 @@ namespace EGmediaBack.Models
         public bool Status { get; set; }
 
         public virtual ICollection<Project> Projects { get; set; }
+
+        [Required(ErrorMessage = "URL boş olmamalıdır.")]
+        public string RouteName { get; set; }
     }
 }

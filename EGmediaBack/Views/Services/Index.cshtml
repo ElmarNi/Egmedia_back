@@ -12,13 +12,13 @@
             <ul>
                 @for (int i = 0; i < Model.Count(); i++)
                 {
-                    <li><a href="#" class="@((i==0)?"is-checked":null)" data-id="@i">@Model.ElementAt(i).CategoryName</a></li>
+                    <li><a href="#" class="@((i==0)?"is-checked":null)" data-id="@i" data-route-name="@Model.ElementAt(i).RouteName">@Model.ElementAt(i).CategoryName</a></li>
                 }
             </ul>
         </div>
         @for (int i = 0; i < Model.Count(); i++)
         {
-            <div class="row category-content @((i==0)?"active":null)" data-id="@i">
+            <div class="row category-content @((i==0)?"active":null)" data-id="@i" data-route-name="@Model.ElementAt(i).RouteName">
                 <div class="col-lg-1 col-md-2 col-3 pr-lg-0">
                     <button class="previous control-button mb-2">
                         <i class="fas fa-chevron-up"></i>

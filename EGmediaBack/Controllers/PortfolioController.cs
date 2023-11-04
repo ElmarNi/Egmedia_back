@@ -18,13 +18,14 @@ namespace EGmediaBack.Controllers
             _context = context;
         }
 
-        [Route("veb-saytlarin-hazirlanmasi", Order = 1)]
-        [Route("mobil-tetbiqlerin-hazirlanmasi", Order = 2)]
-        [Route("", Order = 3)]
+        [Route("{*route}")]
         public IActionResult Index()
         {
-            if (Request.Path.Value.Equals("/portfolio", StringComparison.OrdinalIgnoreCase))
-                return Redirect("/portfolio/veb-saytlarin-hazirlanmasi");
+            //if (Request.Path.Value.Equals("/portfolio", StringComparison.OrdinalIgnoreCase))
+            //{
+            //    string route = _context.projectCategories.FirstOrDefault().RouteName;
+            //    return Redirect($"/portfolio/{route}");
+            //}
 
             PortfolioVM portfolioVM = new PortfolioVM
             {

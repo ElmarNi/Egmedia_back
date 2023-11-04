@@ -37,5 +37,8 @@ namespace EGmediaBack.Models
         public ICollection<IFormFile> DetailPhotos { get; set; }
 
         public bool Status { get; set; }
+
+        [Required(ErrorMessage = "URL boş olmamalıdır.")]
+        public string RouteName { get; set; }
     }
 }

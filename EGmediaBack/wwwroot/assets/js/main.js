@@ -184,37 +184,43 @@ $(document).ready(function () {
         return name.match( /ium$/ );
         }
     };
+
     // bind filter button click
     $('#portfolio-page .category-names').on( 'click', 'a', function(e) {
         e.preventDefault()
-        var filterValue = $( this ).attr('data-filter');
+        let url = $(this).attr("data-route-name")
+        history.replaceState("", "Egmedia - Portfolio", `/portfolio/${url}`);
+
+        var filterValue = $(this).attr('data-filter');
         // use filterFn if matches value
         filterValue = filterFns[ filterValue ] || filterValue;
         $grid.isotope({ filter: filterValue });
         $('#portfolio-page .category-names a.is-checked').removeClass('is-checked');
-        $( this ).addClass('is-checked');
+        $(this).addClass('is-checked');
     });
 
-    if ($("#services-page").length != 0) {
-        if (document.URL.includes("veb-saytlarin-hazirlanmasi")) {
-            $("#services-page .category-names a.is-checked").removeClass("is-checked")
-            $("#services-page .category-names li").first().find("a").addClass("is-checked")
-            $("#services-page .category-content.active").removeClass("active")
-            $("#services-page .category-content").first().addClass("active")
+    if ($("#portfolio-page").length != 0) {
+        $.each($("#portfolio-page .category-names li"), function (index, element) {
+            if (document.URL.includes($(element).find("a").attr("data-route-name"))) {
+                var filterValue = $(element).find("a").attr('data-filter');
+                // use filterFn if matches value
+                filterValue = filterFns[filterValue] || filterValue;
+                $grid.isotope({ filter: filterValue });
+                $('#portfolio-page .category-names a.is-checked').removeClass('is-checked');
+                $(element).find("a").addClass('is-checked');
+            }
+        });
+    }
 
-        }
-        else if (document.URL.includes("mobil-tetbiqlerin-hazirlanmasi")) {
-            $("#services-page .category-names a.is-checked").removeClass("is-checked")
-            $("#services-page .category-names ul li:nth-child(2)").find("a").addClass("is-checked")
-            $("#services-page .category-content.active").removeClass("active")
-            $("#services-page .category-content:nth-child(3)").addClass("active")
-        }
-        else if (document.URL.includes("metbee")) {
-            $("#services-page .category-names a.is-checked").removeClass("is-checked")
-            $("#services-page .category-names ul li:nth-child(3)").find("a").addClass("is-checked")
-            $("#services-page .category-content.active").removeClass("active")
-            $("#services-page .category-content:nth-child(4)").addClass("active")
-        }
+    if ($("#services-page").length != 0) {
+        $.each($("#services-page .category-names li"), function (index, element) {
+            if (document.URL.includes($(element).find("a").attr("data-route-name"))) {
+                $("#services-page .category-names a.is-checked").removeClass("is-checked")
+                $("#services-page .category-content.active").removeClass("active")
+                $(element).find("a").addClass("is-checked")
+                $(`#services-page .category-content[data-route-name="${$(element).find("a").attr("data-route-name")}"]`).addClass("active")
+            }
+        });
     }
 
     let image_height = $("#services-page .active .gallery-item img").outerHeight()
@@ -300,13 +306,8 @@ $(document).ready(function () {
     $("#services-page .category-names a").click(function (e) {
         e.preventDefault();
         let data_id = parseInt($(this).attr("data-id"))
-        let url = "veb-saytlarin-hazirlanmasi"
-        if (data_id == 1) {
-            url = "mobil-tetbiqlerin-hazirlanmasi"
-        }
-        if (data_id == 2) {
-            url = "metbee"
-        }
+        let url = $(this).attr("data-route-name")
+
         history.replaceState("", "Egmedia - Xidmətlər", `/xidmetler/${url}`);
 
         $("#services-page .category-names a.is-checked").removeClass("is-checked")

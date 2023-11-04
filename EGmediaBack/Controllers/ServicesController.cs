@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using EGmediaBack.DAL;
 using EGmediaBack.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.EntityFrameworkCore;
 
 namespace EGmediaBack.Controllers
@@ -18,14 +19,14 @@ namespace EGmediaBack.Controllers
             _context = context;
         }
 
-        [Route("veb-saytlarin-hazirlanmasi", Order = 1)]
-        [Route("mobil-tetbiqlerin-hazirlanmasi", Order = 2)]
-        [Route("metbee", Order = 3)]
-        [Route("", Order = 4)]
+        [Route("{*route}")]
         public IActionResult Index()
         {
             if (Request.Path.Value.Equals("/xidmetler", StringComparison.OrdinalIgnoreCase))
-                return Redirect("/xidmetler/veb-saytlarin-hazirlanmasi");
+            {
+                string route = _context.services.FirstOrDefault().RouteName;
+                return Redirect($"/xidmetler/{route}");
+            }
 
             ViewData["imageUrl"] = _context.banners.Where(b => b.WhatFor == "Xidmətlər").FirstOrDefault().ImageUrl;
             ViewData["name"] = "Xidmətlər";
