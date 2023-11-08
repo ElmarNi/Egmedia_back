@@ -12,7 +12,7 @@
             <ul>
                 @for (int i = 0; i < Model.Count(); i++)
                 {
-                    <li><a href="#" class="@((i==0)?"is-checked":null)" data-id="@i" data-route-name="@Model.ElementAt(i).RouteName">@Model.ElementAt(i).CategoryName</a></li>
+                    <li><a asp-controller="xidmetler" asp-action="@Model.ElementAt(i).RouteName" class="@((i==0)?"is-checked":null)" data-id="@i" data-route-name="@Model.ElementAt(i).RouteName">@Model.ElementAt(i).CategoryName</a></li>
                 }
             </ul>
         </div>
@@ -28,7 +28,7 @@
                             @for (int z = 0; z < Model.ElementAt(i).Images.Count(); z++)
                             {
                                 <div class="gallery-item @((z==1)?"active":null)" data-id="@z">
-                                    <img src="img/@Model.ElementAt(i).Images.ElementAt(z).ImageUrl" alt="image">
+                                    <img src="~/img/@Model.ElementAt(i).Images.ElementAt(z).ImageUrl" alt="image">
                                 </div>
                             }
 
@@ -42,7 +42,7 @@
                     <div class="main-image">
                         @for (int j = 0; j < Model.ElementAt(i).Images.Count(); j++)
                         {
-                            <img src="img/@Model.ElementAt(i).Images.ElementAt(j).ImageUrl" class="@((j==1)?"active":null)" alt="image">
+                            <img src="~/img/@Model.ElementAt(i).Images.ElementAt(j).ImageUrl" class="@((j==1)?"active":null)" alt="image">
                         }
                     </div>
                 </div>

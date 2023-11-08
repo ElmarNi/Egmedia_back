@@ -21,12 +21,6 @@ namespace EGmediaBack.Controllers
         [Route("{*route}")]
         public IActionResult Index()
         {
-            //if (Request.Path.Value.Equals("/portfolio", StringComparison.OrdinalIgnoreCase))
-            //{
-            //    string route = _context.projectCategories.FirstOrDefault().RouteName;
-            //    return Redirect($"/portfolio/{route}");
-            //}
-
             PortfolioVM portfolioVM = new PortfolioVM
             {
                 projectCategories = _context.projectCategories.Where(c => c.Status).ToList(),

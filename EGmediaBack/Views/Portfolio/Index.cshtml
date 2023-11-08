@@ -10,10 +10,10 @@
     <div class="container">
         <div class="row category-names">
             <ul>
-                <li><a href="#" class="is-checked" data-filter="*" data-route-name="">All</a></li>
+                <li><a href="#" class="is-checked" data-filter="*" data-route-name="">Hamısı</a></li>
                 @foreach (var category in Model.projectCategories)
                 {
-                    <li><a href="#" data-filter=".category-@category.Id" data-route-name="@category.RouteName">@category.Name</a></li>
+                    <li><a asp-controller="portfolio" asp-action="@category.RouteName" data-filter=".category-@category.Id" data-route-name="@category.RouteName">@category.Name</a></li>
                 }
             </ul>
         </div>
@@ -22,9 +22,9 @@
             {
                 <div class="col-sm-6 col-lg-4 filter-item category-@project.ProjectCategoryId" data-category="category-@project.ProjectCategoryId" data-route-name="@project.ProjectCategory.RouteName">
                     <div class="item">
-                        <a target="_blank" @(project.ProjectCategory.IsImage ? $"href=img/{project.ImageUrl} data-fancybox=portfolioPagePortfolioGallery data-caption={project.Name}" : $"href={project.Url}")>
+                        <a target="_blank" @(project.ProjectCategory.IsImage ? $"href=/img/{project.ImageUrl} data-fancybox=portfolioPagePortfolioGallery data-caption={project.Name}" : $"href={project.Url}")>
                             <div class="image-wrapper">
-                                <img src="img/@project.ImageUrl" alt="@project.Name">
+                                <img src="~/img/@project.ImageUrl" alt="@project.Name">
                             </div>
                             <div class="content">
                                 <div class="text-wrapper">
