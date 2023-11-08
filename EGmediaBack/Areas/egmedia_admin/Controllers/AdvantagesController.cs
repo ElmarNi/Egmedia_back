@@ -24,30 +24,21 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.advantages.ToList());
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public async Task<IActionResult> Update(int? id)
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id == null || await _context.advantages.FindAsync(id) == null)
-                {
+                if (id != null || _context.advantages.Any(c => c.Id == id))
+                    return View(await _context.advantages.FindAsync(id));
+                else
                     return NotFound();
-                    _context.about.Select(b => b.Content == "a");
-                    //form.For(c => c.index)
-                }
-                return View(await _context.advantages.FindAsync(id));
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
 
         [HttpPost, ValidateAntiForgeryToken]
@@ -56,9 +47,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
                 if (advantage == null)
-                {
                     return NotFound();
-                }
                 if (advantage.Content == string.Empty || advantage.Content == "")
                 {
                     ModelState.AddModelError("Content", "Qısa məlumat boş olmamalıdır");
@@ -87,9 +76,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

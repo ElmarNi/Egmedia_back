@@ -27,35 +27,23 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View();
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public IActionResult Categories()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.projectCategories);
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public IActionResult CategoryCreate()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View();
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> CategoryCreate(ProjectCategory category)
@@ -72,24 +60,19 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 return RedirectToAction(nameof(Categories));
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public async Task<IActionResult> CategoryUpdate(int? id)
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id == null || await _context.projectCategories.FindAsync(id) == null)
-                {
+                if(id != null || _context.projectCategories.Any(c => c.Id == id))
+                    return View(await _context.projectCategories.FindAsync(id));
+                else
                     return NotFound();
-                }
-                return View(await _context.projectCategories.FindAsync(id));
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> CategoryUpdate(ProjectCategory category)
@@ -97,9 +80,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
                 if (!ModelState.IsValid)
-                {
                     return NotFound();
-                }
                 if (category.Name == string.Empty || category.Name == "" )
                 {
                     ModelState.AddModelError("Name", "Ad boş olmamalıdır");
@@ -113,20 +94,14 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 return RedirectToAction(nameof(Categories));
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public IActionResult Projects()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.projects.Include(p => p.ProjectCategory).OrderByDescending(p => p.Date));
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public IActionResult ProjectCreate()
         {
@@ -136,9 +111,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 return View();
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> ProjectCreate(Project project)
@@ -148,9 +121,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 try
                 {
                     if (!ModelState.IsValid)
-                    {
                         return NotFound();
-                    }
                     if (project.Name == string.Empty || project.Name == "")
                     {
                         ModelState.AddModelError("Name", "Ad boş olmamalıdır");
@@ -209,9 +180,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                         project.Home_ImageUrl = await project.Home_Image.SavePhotoAsync(_env.WebRootPath, "projects");
                     }
                     else
-                    {
                         project.Home_ImageUrl = "no_image.jpg";
-                    }
                     project.Date = DateTime.Now;
                     await _context.projects.AddAsync(project);
                     await _context.SaveChangesAsync();
@@ -231,10 +200,8 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id == null || await _context.projects.FindAsync(id) == null)
-                {
+                if (id == null || !_context.projects.Any(c => c.Id == id))
                     return NotFound();
-                }
                 ViewBag.Categories = _context.projectCategories;
                 return View(await _context.projects.FindAsync(id));
             }
@@ -251,9 +218,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 try
                 {
                     if (!ModelState.IsValid)
-                    {
                         return NotFound();
-                    }
                     if (project.Name == string.Empty || project.Name == "")
                     {
                         ModelState.AddModelError("Name", "Ad boş olmamalıdır");
@@ -281,9 +246,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     }
 
                     if (project_db == null)
-                    {
                         return NotFound();
-                    }
                     if (project.Image != null)
                     {
                         if (!project.Image.ContentType.Contains("image/"))
@@ -322,9 +285,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

@@ -13,13 +13,9 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View();
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

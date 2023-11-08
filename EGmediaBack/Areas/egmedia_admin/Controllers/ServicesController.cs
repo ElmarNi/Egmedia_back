@@ -25,25 +25,17 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.services);
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
 
         public IActionResult Create()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View();
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
 
         [HttpPost, ValidateAntiForgeryToken]
@@ -54,9 +46,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 try
                 {
                     if (!ModelState.IsValid)
-                    {
                         return NotFound();
-                    }
                     if (string.IsNullOrEmpty(service.Heading))
                     {
                         ModelState.AddModelError("Heading", "Başlıq boş olmamalıdır");
@@ -65,6 +55,11 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     if (string.IsNullOrEmpty(service.CategoryName))
                     {
                         ModelState.AddModelError("CategoryName", "Kateqoriya boş olmamalıdır");
+                        return View(service);
+                    }
+                    if (string.IsNullOrEmpty(service.RouteName))
+                    {
+                        ModelState.AddModelError("RouteName", "Kateqoriya url boş olmamalıdır");
                         return View(service);
                     }
                     if (service.CategoryIcon == null)
@@ -126,28 +121,20 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
 
         public async Task<IActionResult> Update(int? id)
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id != null || await _context.services.FindAsync(id) != null)
-                {
+                if (id != null || _context.services.Any(c => c.Id == id))
                     return View(await _context.services.FindAsync(id));
-                }
                 else
-                {
                     return NotFound();
-                }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(Service service)
@@ -157,9 +144,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 try
                 {
                     if (!ModelState.IsValid)
-                    {
                         return NotFound();
-                    }
                     if (string.IsNullOrEmpty(service.Heading))
                     {
                         ModelState.AddModelError("Heading", "Başlıq boş olmamalıdır");
@@ -168,6 +153,11 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     if (string.IsNullOrEmpty(service.CategoryName))
                     {
                         ModelState.AddModelError("CategoryName", "Kateqoriya boş olmamalıdır");
+                        return View(service);
+                    }
+                    if (string.IsNullOrEmpty(service.RouteName))
+                    {
+                        ModelState.AddModelError("RouteName", "Kateqoriya url boş olmamalıdır");
                         return View(service);
                     }
                     Service service_from_db = await _context.services.FindAsync(service.Id);
@@ -226,8 +216,9 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                     service_from_db.Heading = service.Heading;
                     service_from_db.Content = service.Content;
                     service_from_db.Status = service.Status;
+                    service_from_db.RouteName = service.RouteName;
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+                    return Redirect("/egmedia_admin/Services");
                 }
                 catch(Exception ex)
                 {
@@ -235,9 +226,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

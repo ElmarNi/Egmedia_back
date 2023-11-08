@@ -19,13 +19,9 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.about.FirstOrDefault());
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(About about)
@@ -38,9 +34,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 return View(_context.about.FirstOrDefault());
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

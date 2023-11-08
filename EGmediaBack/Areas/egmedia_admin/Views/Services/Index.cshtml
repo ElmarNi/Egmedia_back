@@ -13,6 +13,7 @@
                                 <th scope="col">Kateqoriya adı</th>
                                 <th scope="col">Kateqoriya ikonu</th>
                                 <th scope="col">Kateqoriya şəkli</th>
+                                <th scope="col">Kateqoriya url</th>
                                 <th scope="col">Status</th>
                             </tr>
                         </thead>
@@ -25,6 +26,7 @@
                                     <td>@service.CategoryName</td>
                                     <td class="text-center"><img src="~/img/@service.CategoryIconUrl" alt="image" /></td>
                                     <td class="text-center"><img src="~/img/@service.CategoryImageUrl" width="150" alt="image" /></td>
+                                    <td>@service.RouteName</td>
                                     <td>@(@service.Status ? "Aktiv" : "Deaktiv")</td>
                                     <td class="text-right"><a class="btn bg-warning btn-warning text-white" asp-action="Update" asp-route-id="@service.Id">Redaktə et</a></td>
                                 </tr>

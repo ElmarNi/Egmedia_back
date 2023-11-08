@@ -35,6 +35,7 @@ namespace EGmediaBack.Controllers
             _configuration = configuration;
             _hash = hash;
         }
+
         public async Task<IActionResult> Index()
         {
             if (Request.Path.Value.Equals("/veb-saytlarin-hazirlanmasi", StringComparison.OrdinalIgnoreCase))

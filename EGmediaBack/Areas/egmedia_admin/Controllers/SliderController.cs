@@ -24,28 +24,21 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.sliders.OrderByDescending(s => s.Date));
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         public async Task<IActionResult> Update(int? id)
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id == null || !_context.sliders.Any(s => s.Id == id))
-                {
+                if (id != null || _context.sliders.Any(c => c.Id == id))
+                    return View(await _context.sliders.FindAsync(id));
+                else
                     return NotFound();
-                }
-                return View(await _context.sliders.FindAsync(id));
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(Slider slider)
@@ -55,9 +48,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 try
                 {
                     if (!ModelState.IsValid)
-                    {
                         return NotFound();
-                    }
                     if (slider.Header_First_Word == "")
                     {
                         ModelState.AddModelError("Header_First_Word", "Başlığın birinci sözü boş olmamalıdır");
@@ -112,9 +103,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

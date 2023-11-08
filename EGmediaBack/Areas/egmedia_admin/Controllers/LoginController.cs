@@ -29,9 +29,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public async Task<IActionResult> Index(AdminLogin login)
         {
             if (!ModelState.IsValid)
-            {
                 return NotFound();
-            }
             IdentityUser logedUser = await _userManager.FindByNameAsync(login.Username);
             if (logedUser == null)
             {
@@ -45,9 +43,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 return View();
             }
             if (await _userManager.IsInRoleAsync(logedUser, "admin"))
-            {
                 return Redirect("/egmedia_admin/dashboard");
-            }
 
             return View(login);
         }

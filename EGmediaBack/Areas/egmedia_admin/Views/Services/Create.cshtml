@@ -3,7 +3,7 @@
     <div class="container mt-5">
         <div class="row mb-3">
             <div class="col-12">
-                <a class="btn d-block bg-secondary text-white" asp-action="index">Xidmətlərə qayıt</a>
+                <a class="btn d-block bg-secondary text-white" asp-area="egmedia_admin" asp-controller="services" asp-action="index">Xidmətlərə qayıt</a>
             </div>
         </div>
         <form method="post" class="row" enctype="multipart/form-data">
@@ -19,12 +19,16 @@
                 <input asp-for="Heading" class="w-100" />
                 <span asp-validation-for="Heading" class="validation-span"></span>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <label>Kateqoriyası</label>
                 <input asp-for="CategoryName" class="w-100" />
                 <span asp-validation-for="CategoryName" class="validation-span"></span>
             </div>
-            <div class="col-4">
+            <div class="col-3">
+                <label>Kateqoriya url</label>
+                <input asp-for="RouteName" class="w-100" />
+            </div>
+            <div class="col-2">
                 <label>Status</label>
                 <input asp-for="Status" class="w-100" />
             </div>

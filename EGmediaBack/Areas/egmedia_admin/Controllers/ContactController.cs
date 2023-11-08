@@ -18,13 +18,9 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.contactMessages.OrderByDescending(m => m.Date).ToList());
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }

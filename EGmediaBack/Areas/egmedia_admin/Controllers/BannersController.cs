@@ -24,29 +24,22 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
         public IActionResult Index()
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
                 return View(_context.banners);
-            }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
 
         public async Task<IActionResult> Update(int? id)
         {
             if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
             {
-                if (id == null || !_context.banners.Any(b => b.Id == id))
-                {
+                if (id != null || _context.banners.Any(c => c.Id == id))
+                    return View(await _context.banners.FindAsync(id));
+                else
                     return NotFound();
-                }
-                return View(await _context.banners.FindAsync(id));
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
 
         [HttpPost, ValidateAntiForgeryToken]
@@ -76,9 +69,7 @@ namespace EGmediaBack.Areas.egmedia_admin.Controllers
                 }
             }
             else
-            {
                 return Redirect("/egmedia_admin/login");
-            }
         }
     }
 }
